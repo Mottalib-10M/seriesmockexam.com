@@ -1,0 +1,25 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { displayDate } from '../../lib/format';
+const lang = 'en';
+---
+<PageLayout title={`Contact ${SITE_NAMES[lang]}: a fee, a question, the widget`} description="Write to US FINRA Exams when an exam fee or rule looks out of date, when a practice question seems wrong, or to embed the free SIE practice quiz on a school or club site." lang={lang} noindex={true} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Contact</h1>
+    <p>Email: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. A person reads every message.</p>
+    <h2>A fee or a rule looks out of date</h2>
+    <p>Tell us the rule and, if you have it, the FINRA or NASAA page that says otherwise. We read the official source again, correct the parameter file and date the change.</p>
+    <h2>A practice question seems wrong</h2>
+    <p>Give us the first words of the question. Each one names the outline point it was written from; if the answer is wrong or out of date, we rewrite or remove it.</p>
+    <h2>What we cannot do</h2>
+    <p>We are not FINRA, NASAA or a firm. We cannot enroll you, move an appointment, read a score report or advise on a registration. Please do not send your CRD number, Social Security number or score report.</p>
+    <h2>Using a quiz on your own site</h2>
+    <p>Universities, student finance clubs and career services can show the SIE practice quiz in an iframe at no cost: see the <a href={route('widget', lang)}>embed page</a>.</p>
+    <h2>Publisher</h2>
+    <LegalIdentity lang={lang} />
+    <p>Updated on <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'en-US')}</time>.</p>
+  </div>
+</PageLayout>

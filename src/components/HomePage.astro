@@ -1,0 +1,91 @@
+---
+/**
+ * Home (hub of the six exams). The practice quiz first, exam picker included; then the six formats
+ * side by side, the license finder, the usual order of the exams, and every page by group. Every
+ * figure is read from params-2026.json or the bank.
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import Tool from './Tool.astro';
+import Clamp from './Clamp.astro';
+import Sources from './Sources.astro';
+import { route } from '../i18n/routes';
+import { PAGES } from '../lib/guides';
+import { GROUPS_ORDER, groupLabel } from '../i18n/nav';
+import { helpers } from '../lib/helpers';
+import { LAST_UPDATED, AUTHOR_NAME } from '../data/site-config';
+import { displayDate } from '../lib/format';
+import { EXAM_IDS } from '../lib/engine/exam';
+import { faqSchema, webApplicationSchema, websiteSchema, organizationSchema } from '../lib/seo';
+const lang = 'en';
+const h = helpers(lang, true);
+const { X } = h;
+const S = X('sie'), S7 = X('s7'), S6 = X('s6'), S63 = X('s63'), S65 = X('s65'), S66 = X('s66');
+const cards = (g: (typeof GROUPS_ORDER)[number]) => PAGES.filter((p) => p.group === g).map((p) => ({ href: route(p.id, lang), name: p.en.nav, text: p.en.card }));
+const examPage: Record<string, string> = { sie: 'sie-exam', s7: 'series-7-exam', s6: 'series-6-exam', s63: 'series-63-exam', s65: 'series-65-exam', s66: 'series-66-exam' };
+
+const title = 'FINRA Exam Practice 2026: SIE and Series 7, 6, 63, 65, 66';
+const description = 'Free practice for the SIE and Series 6, 7, 63, 65 and 66: questions by outline section, timed mocks in the official format, error review, fees and retake dates.';
+const faqs = [
+  { q: 'Which securities exam should I take first?', a: `Most people start with the SIE, the ${S.name} exam: it needs no sponsoring firm, anyone aged ${S.minAge} or over can sit it, and it is the corequisite of the Series 7 and Series 6. The Series 65 is the exception: an investment adviser representative can take it alone, without the SIE or a sponsor. The license finder on this page turns a job into the exams it needs.` },
+  { q: 'Are these the questions of the real FINRA exams?', a: `No. FINRA and NASAA do not publish their item banks, and no honest site can promise the real questions. Every one of our ${h.num(h.count)} questions was written by ${AUTHOR_NAME} from a topic of the public content outline, with an explanation and the outline point it trains. They prepare you for the same knowledge and the same format, not for memorised answers.` },
+  { q: 'How is a mock exam on this site marked?', a: `A mock has the official number of scored questions in each outline section and the official time. The Series 63, 65 and 66 are marked exactly, because NASAA sets the pass as a number of correct answers. The SIE, Series 6 and Series 7 report a scaled score after equating, so our mock compares your share of correct answers to the same figure and says it is an approximation.` },
+  { q: 'Where is my progress saved?', a: 'Only in this browser, in its local storage: the questions you answered, whether the last answer was right, and your last mock scores. Nothing is sent to us or to anyone, there is no account, and another browser or a private window starts from zero. The progress page shows the saved data and has a button that erases it at once.' },
+  { q: 'How much do the FINRA exams cost in 2026?', a: `Under the fee schedule in force since ${h.date(h.P.feeIncrease.effective)}, the SIE costs ${h.usd(S.fee)}, the Series 7 ${h.usd(S7.fee)} and the Series 6 ${h.usd(S6.fee)}. The NASAA exams, administered by FINRA, cost ${h.usd(S63.fee)} for the Series 63, ${h.usd(S65.fee)} for the Series 65 and ${h.usd(S66.fee)} for the Series 66. A sponsoring firm often pays for the exams it requires.` },
+  { q: 'How long is a passed exam valid?', a: `An SIE pass is valid for ${S.validYears} years if no firm registers you. Representative exams such as the Series 7 stay valid while you are registered; once the registration ends, they lapse after ${h.P.lapseYears} years, or after ${h.P.mqp.maxYears} years if you join the Maintaining Qualifications Program and keep up with continuing education every year.` },
+  { q: 'What happens if I fail an exam?', a: `You wait before trying again: ${h.P.retake.finra.firstAndSecondDays} days after a first or second failure and ${h.P.retake.finra.thirdDays} days after a third within two years for FINRA exams. From ${h.date(h.P.retake.finraFrom.date)} those waits become ${h.P.retake.finraFrom.firstAndSecondDays} and ${h.P.retake.finraFrom.thirdDays} days. The Series 63, 65 and 66 keep NASAA's own periods, and each attempt is paid in full.` },
+];
+const jsonLd = [websiteSchema(lang), organizationSchema(lang), webApplicationSchema({ name: 'SIE and Series exam practice', description, path: route('home', lang), lang }), faqSchema(faqs, lang)];
+const resume = `The SIE and the Series 6, 7, 63, 65 and 66 are the qualification exams that people working in the US securities industry must pass before they can sell securities or give investment advice. FINRA writes and runs the SIE, the Series 7 and the Series 6; NASAA writes the Series 63, 65 and 66, which FINRA administers at test centers. Each exam follows a public content outline that fixes the topics, the number of questions per section, the time and the passing score: ${S.scored} scored questions in ${h.hours('sie')} for the SIE, ${S7.scored} in ${h.hours('s7')} for the Series 7, ${S65.scored} in ${h.hours('s65')} for the Series 65. The quiz above draws from our bank of ${h.num(h.count)} questions written by ${AUTHOR_NAME} from those outlines, one exam and one section at a time, and shows the explanation and the outline point after each answer. Enrollment, scheduling and results happen only through FINRA and the sponsoring firm; this site is independent of FINRA, NASAA and Prometric.`;
+const rows = EXAM_IDS.map((e) => { const x = X(e); return [`<a href="${route(examPage[e], lang)}">${h.label(e)}</a>`, x.owner, `${x.scored} + ${x.unscored}`, `${x.minutes} min`, x.passKind === 'count' ? `${x.passCorrect} of ${x.scored}` : `${x.passScore} scaled`, h.usd(x.fee), x.sponsorship ? 'Yes' : 'No']; });
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={jsonLd} faqs={faqs} breadcrumbs={[]}>
+  <header class="mb-3">
+    <p class="kicker">SIE · Series 7 · 6 · 63 · 65 · 66</p>
+    <h1 class="mt-0 text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">FINRA and NASAA exam practice, section by section</h1>
+    <p class="mt-2 text-base text-navy-700 sm:text-lg">Pick an exam and an outline section: ten questions, each corrected and explained at once. No account, no email, nothing to pay.</p>
+  </header>
+  <div data-outil class="mb-4"><Tool tool={{ kind: 'quiz', props: { exam: 'sie', mode: 'practice', pick: true, n: 10 } }} primary={true} seedKey="home" /></div>
+  <Clamp text={resume} id="clamp-home" lang={lang} class="mb-3" />
+  <p class="mb-8 text-sm text-navy-600">Formats and fees checked on <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'en-US')}</time> · {AUTHOR_NAME} · <a href={route('method', lang)} class="underline hover:text-navy-900">How questions and mocks are built</a> · <a href={route('about', lang)} class="underline hover:text-navy-900">About this site</a></p>
+
+  <section class="mb-10">
+    <h2 class="mb-3 font-serif text-2xl font-bold text-navy-900">Six exams at a glance</h2>
+    <Fragment set:html={h.table(['Exam', 'Written by', 'Questions (scored + unscored)', 'Time', 'Pass', 'Fee 2026', 'Sponsor needed'], rows, `Read on finra.org and in the NASAA study guides on ${h.date(h.P.retrieved_at)}. Unscored pretest questions are mixed in and do not count.`, ['l', 'l', 'r', 'r', 'r', 'r', 'l'])} />
+  </section>
+
+  <div class="grid gap-8 lg:grid-cols-2">
+    <section>
+      <h2 class="mb-3 font-serif text-2xl font-bold text-navy-900">Which exams does your job need?</h2>
+      <p class="text-navy-700">FINRA ties each registration category to its exams in Rule 1220, and the states add the Series 63, 65 or 66 for agents and advisers. Pick the job you are aiming at: the finder lists the exams in order, their 2026 fees and whether a firm must sponsor you. The <a class="underline" href={route('which-license', lang)}>full guide</a> covers the other categories.</p>
+    </section>
+    <div><Tool tool={{ kind: 'mini:license' }} idPrefix="h1" /></div>
+  </div>
+
+  <div class="prose prose-slate mt-10 max-w-none">
+    <h2>The usual path, in four steps</h2>
+    <ol>
+      <li><strong>SIE first, on your own.</strong> Enroll on FINRA's site, pay {h.usd(S.fee)}, schedule within the {h.P.windowDays}-day window. A pass stays good for {S.validYears} years while you look for a firm.</li>
+      <li><strong>The representative exam, sponsored.</strong> The firm that hires you files the enrollment for the Series 7 ({S7.scored} questions) or the Series 6 ({S6.scored}); the SIE must also be passed before the registration is approved.</li>
+      <li><strong>The state exam.</strong> The Series 63 for a securities agent, the Series 65 for an investment adviser representative, or the Series 66 to cover both, on top of the Series 7.</li>
+      <li><strong>Stay qualified.</strong> The Regulatory Element of continuing education every year by December 31; out of the industry, exams lapse after {h.P.lapseYears} years unless you join the Maintaining Qualifications Program.</li>
+    </ol>
+    <p>Failing is common enough to plan for. FINRA makes you wait {h.P.retake.finra.firstAndSecondDays} days after a first or second failure and {h.P.retake.finra.thirdDays} days after a third within two years; from {h.date(h.P.retake.finraFrom.date)}, Regulatory Notice {h.P.retake.finraFrom.notice} cuts those waits to {h.P.retake.finraFrom.firstAndSecondDays} and {h.P.retake.finraFrom.thirdDays} days for FINRA exams. Our <a href={route('retake-rules', lang)}>retake calculator</a> applies the right rule to your date.</p>
+  </div>
+  <div class="mb-8"><Tool tool={{ kind: 'mini:readiness' }} idPrefix="h2" /></div>
+
+  <div class="prose prose-slate max-w-none">
+    <h2>Three ways to practice</h2>
+    <p><strong>By section</strong>, with the correction after each answer: the fastest way to find a weak area, because each outline section has its own page and its own pool. <strong>Full mocks</strong>, timed, with the official number of questions in each section and the corrections at the end, as on the day. <strong>Review</strong> of the questions you missed: the site remembers, in this browser only, which answers were wrong and serves them again until they are right. The <a href={route('review-mistakes', lang)}>progress page</a> shows how far you are in each section.</p>
+    <h2>Every page of the site</h2>
+  </div>
+  <div class="not-prose mt-4 grid gap-6 sm:grid-cols-2 lg:grid-cols-3" data-sommaire>
+    {GROUPS_ORDER.map((g) => (
+      <section><h3 class="mb-2 text-lg font-semibold text-navy-900">{groupLabel(g)}</h3><ul class="space-y-2 text-sm">{cards(g).map((c) => <li><a href={c.href} class="font-medium text-accent-700 underline">{c.name}</a><span class="block text-navy-700">{c.text}</span></li>)}</ul></section>
+    ))}
+  </div>
+  <div class="prose prose-slate mt-8 max-w-none">
+    <h2>Independent, and what that means</h2>
+    <p>{AUTHOR_NAME} publishes this site on its own. It is not FINRA, NASAA, Prometric, a state regulator or a training company; it sells no course and links to none. The outlines and study guides it works from are public, but their text is not reproduced: each question is our own wording on one of their topics. When FINRA or NASAA change a format, a fee or a rule, the parameter file changes and every page follows; the <a href={route('method', lang)}>method page</a> explains how mocks are drawn and marked.</p>
+    <Sources lang={lang} keys={['finra_sie', 'finra_s7', 'finra_s6', 'finra_s63', 'finra_s65', 'finra_s66', 'finra_fees', 'finra_26_18']} />
+  </div>
+</PageLayout>

@@ -1,0 +1,4 @@
+# FINRA : autorité d'autoréglementation qui écrit et administre les examens SIE, Series 6 et 7, fixe leurs frais et les règles 1210, 1220, 1240
+finra.org
+# NASAA : association des régulateurs des États, auteur des examens Series 63, 65 et 66 et de leurs guides officiels
+nasaa.org

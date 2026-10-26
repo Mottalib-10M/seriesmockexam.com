@@ -1,0 +1,21 @@
+{
+ "name": "US FINRA Exams",
+ "short_name": "US FINRA Exams",
+ "description": "Free SIE, Series 6, 7, 63, 65 and 66 practice: questions mapped to each official outline section, timed mock exams in the real format, error review, fees and retake rules.",
+ "start_url": "/en/",
+ "display": "standalone",
+ "background_color": "#ffffff",
+ "theme_color": "#1D4E89",
+ "icons": [
+  {
+   "src": "/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+---
+/**
+ * Renders one tool with its page defaults: `quiz` (practice by outline section, timed mock in the
+ * official format, or review of mistakes), `bank` (questions with answers), `progress` (saved
+ * progress) or `mini:<spec>`. The questions a quiz shows first are drawn here, at build time, with a
+ * seed from the page id (§17.5).
+ */
+import ExamQuiz from './calc/ExamQuiz';
+import QuestionBank from './calc/QuestionBank';
+import ProgressBoard from './calc/ProgressBoard';
+import MiniSim from './calc/MiniSim';
+import { route, hasRoute, type Locale } from '../i18n/routes';
+import { getSpec } from '../lib/mini-specs';
+import { BANK } from '../lib/banks-build';
+import { buildMock, buildPractice, pool, seedOf, type ExamId } from '../lib/engine/exam';
+import type { ToolDef } from '../lib/guide-types';
+interface Props { tool: ToolDef; lang?: Locale; primary?: boolean; idPrefix?: string; seedKey?: string }
+const { tool, lang = 'en', primary = false, idPrefix, seedKey = 'home' } = Astro.props;
+const props = (tool.props ?? {}) as Record<string, any>;
+const kind = tool.kind;
+const exam = (props.exam ?? 'sie') as ExamId;
+const mode = (props.mode ?? 'practice') as 'practice' | 'exam' | 'review';
+const section: string | null = props.section != null ? String(props.section) : null;
+const n = Number(props.n ?? (primary ? 10 : 5));
+const seed = seedOf(`${seedKey}-${kind}-${exam}-${section ?? ''}-${mode}`);
+const initial = kind === 'quiz' ? (mode === 'exam' ? buildMock(BANK, exam, seed) : mode === 'review' ? [] : buildPractice(BANK, exam, section, seed, n)) : [];
+const bankSection = section ?? '1';
+const bankInitial = kind === 'bank' ? pool(BANK, exam, bankSection) : [];
+const mini = kind.startsWith('mini:') ? kind.slice(5) : null;
+const spec = mini ? getSpec(mini) : null;
+const href = spec?.ctaPage && hasRoute(spec.ctaPage, lang) ? route(spec.ctaPage, lang) : undefined;
+const numDefaults: Record<string, number> = {};
+for (const [k, v] of Object.entries(props)) if (typeof v === 'number') numDefaults[k] = v;
+const reviewHref = hasRoute('review-mistakes', lang) ? route('review-mistakes', lang) : undefined;
+---
+{kind === 'quiz' && <ExamQuiz client:load exam={exam} mode={mode} section={section} n={n} pick={!!props.pick} timed={!!props.timed} initial={initial} seed={seed} idPrefix={idPrefix ?? 'q'} secondary={!primary} />}
+{kind === 'bank' && <QuestionBank client:load exam={exam} section={bankSection} initial={bankInitial} total={pool(BANK, exam).length} idPrefix={idPrefix ?? 'b'} />}
+{kind === 'progress' && <ProgressBoard client:load exam={exam} reviewHref={reviewHref} idPrefix={idPrefix ?? 'pg'} secondary={!primary} />}
+{mini && <MiniSim client:load kind={mini} href={href} defaults={numDefaults} primary={primary} idPrefix={idPrefix ?? (primary ? 'p' : 'm')} />}

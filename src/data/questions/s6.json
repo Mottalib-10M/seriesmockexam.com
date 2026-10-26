@@ -1,0 +1,613 @@
+{
+ "questions": [
+  {
+   "id": "s6-F1-001",
+   "exam": "s6",
+   "section": "F1",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F1"
+    }
+   ],
+   "ref": "1.1",
+   "q": "A mutual fund advertisement in a magazine includes performance figures. Under SEC Rule 482, which is required?",
+   "options": [
+    "Only returns from the fund's best year",
+    "Projected returns for the next five years",
+    "Standardized total returns for 1-, 5- and 10-year periods (or since inception), with a statement that past performance does not guarantee future results",
+    "No performance may be shown in any advertisement"
+   ],
+   "answer": 2,
+   "explain": "Rule 482 lets funds advertise performance outside the prospectus, but only with standardized average annual total returns for set periods, current to the most recent practicable date, and a legend that past performance does not guarantee future results and that returns may be lower or higher. Projections and cherry-picked periods are not allowed.",
+   "rule": "SEC Rule 482"
+  },
+  {
+   "id": "s6-F1-002",
+   "exam": "s6",
+   "section": "F1",
+   "ref": "1.1",
+   "q": "A fund company runs an ad that explains the general benefits of investing in mutual funds and offers more information, without naming any specific fund. Under which SEC rule is this generic advertising permitted?",
+   "options": [
+    "Rule 135a",
+    "Rule 482",
+    "Rule 144",
+    "Rule 147"
+   ],
+   "answer": 0,
+   "explain": "Rule 135a covers generic advertising that promotes investment companies in general or a type of fund, without naming a specific fund, and that is not deemed a prospectus. Rule 482 covers ads about specific funds, which carry stricter content requirements. Rules 144 and 147 concern resales and intrastate offerings.",
+   "rule": "SEC Rule 135a"
+  },
+  {
+   "id": "s6-F1-003",
+   "exam": "s6",
+   "section": "F1",
+   "ref": "1.1",
+   "q": "A retail communication about a variable annuity states that it is a mutual fund with a guarantee. Under FINRA Rule 2211, why is this improper?",
+   "options": [
+    "Variable annuities may not be advertised",
+    "The communication must not imply that the product is a mutual fund, and guarantees must be described accurately, including that they depend on the insurer's claims-paying ability",
+    "Only fixed annuities can be compared with mutual funds",
+    "The word guarantee must always be used"
+   ],
+   "answer": 1,
+   "explain": "Rule 2211 requires variable product communications to identify the product as a variable annuity or variable life policy, not to suggest it is a mutual fund, and to describe guarantees accurately, making clear that they come from the insurer and do not apply to subaccount investment performance.",
+   "rule": "FINRA Rule 2211"
+  },
+  {
+   "id": "s6-F1-004",
+   "exam": "s6",
+   "section": "F1",
+   "ref": "1.1",
+   "q": "A bond fund wants to include a volatility rating in its retail communications. Under FINRA Rule 2213, which is required?",
+   "options": [
+    "The rating may be shown without explanation",
+    "The rating must come from the fund's own adviser",
+    "Volatility ratings are prohibited",
+    "The rating must meet the rule's conditions, including disclosure explaining what it measures and that it is not a guarantee"
+   ],
+   "answer": 3,
+   "explain": "Rule 2213 allows bond mutual fund volatility ratings in communications only if conditions are met, such as using the most recent rating, basing it on the fund's whole portfolio, and including disclosures about what the rating measures, the criteria used and that it is not indicative of future results.",
+   "rule": "FINRA Rule 2213"
+  },
+  {
+   "id": "s6-F1-005",
+   "exam": "s6",
+   "section": "F1",
+   "ref": "1.1",
+   "q": "Under SEC Rule 156 and Investment Company Act Rule 34b-1, fund sales literature is considered misleading if it:",
+   "options": [
+    "states the fund's investment objective",
+    "includes the fund's standardized performance",
+    "implies that a stable past performance will continue, or omits material facts that make a statement misleading",
+    "shows a fund's expense ratio"
+   ],
+   "answer": 2,
+   "explain": "Rule 156 explains when investment company sales literature is materially misleading, for example through representations about past performance that suggest it will be repeated, or omission of facts such as the risks of the strategy. Rule 34b-1 requires that sales literature showing performance include standardized figures.",
+   "rule": "SEC Rule 156; Rule 34b-1"
+  },
+  {
+   "id": "s6-F1-006",
+   "exam": "s6",
+   "section": "F1",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F1"
+    }
+   ],
+   "ref": "1.2",
+   "q": "Which statement about a preliminary prospectus (red herring) for a new fund or stock offering is accurate?",
+   "options": [
+    "It includes the final offering price and must be signed by the buyer",
+    "It may be used to solicit indications of interest but does not include the final offering price and states that the registration is not yet effective",
+    "It can be used to accept orders",
+    "It replaces the need for a final prospectus"
+   ],
+   "answer": 1,
+   "explain": "The red herring, named for its legend printed in red, is used during the cooling-off period. It contains most of the information in the registration statement but not the final price, and it warns that the securities may not be sold until registration is effective. A final prospectus must still be delivered.",
+   "rule": "Securities Act of 1933, Section 10"
+  },
+  {
+   "id": "s6-F1-007",
+   "exam": "s6",
+   "section": "F1",
+   "ref": "1.2",
+   "q": "A broker-dealer operates under a networking arrangement inside a bank branch. Under FINRA Rule 3160, which is required?",
+   "options": [
+    "Brokerage activity must be clearly separated from the bank's deposit-taking area where possible, and customers must be told that products are not FDIC insured",
+    "Bank tellers may accept brokerage orders",
+    "The broker-dealer may use the bank's name without disclosure",
+    "Securities sold there are FDIC insured"
+   ],
+   "answer": 0,
+   "explain": "Networking arrangements must distinguish brokerage services from bank deposit activities, generally by conducting them in a separate area, and must disclose that securities are not FDIC insured, are not bank deposits and may lose value. Unregistered bank employees may not take securities orders.",
+   "rule": "FINRA Rule 3160"
+  },
+  {
+   "id": "s6-F1-008",
+   "exam": "s6",
+   "section": "F1",
+   "ref": "1.2",
+   "q": "A purchaser in a registered offering later finds that the prospectus contained a material misstatement. Under Section 12 of the Securities Act of 1933, what remedy is generally available?",
+   "options": [
+    "None, once the SEC declared the registration effective",
+    "Only a FINRA fine against the firm",
+    "The right to sue to recover the consideration paid (rescission) or damages if the security was sold",
+    "Automatic SIPC coverage"
+   ],
+   "answer": 2,
+   "explain": "Section 12 gives purchasers a civil right of action against those who sold securities by means of a prospectus or oral communication containing a material misstatement or omission, allowing recovery of the amount paid plus interest, or damages if the buyer has sold. SEC effectiveness is not an approval and provides no defense.",
+   "rule": "Securities Act of 1933, Section 12"
+  },
+  {
+   "id": "s6-F1-009",
+   "exam": "s6",
+   "section": "F1",
+   "ref": "1.1",
+   "q": "A firm offers customers an online investment analysis tool that simulates possible outcomes of investment strategies. Under FINRA Rule 2214, which is required?",
+   "options": [
+    "The tool must guarantee its projections",
+    "The firm must describe the tool's methodology, assumptions and limitations, and state that results are hypothetical and not guarantees",
+    "Such tools are prohibited",
+    "The tool may show only the firm's proprietary funds without disclosure"
+   ],
+   "answer": 1,
+   "explain": "Rule 2214 is an exception to the general ban on projections: firms may offer investment analysis tools if they disclose the criteria, methodology, key assumptions and limitations, and state that results are hypothetical, do not reflect actual results and are not guarantees. Any preference for certain products must be disclosed.",
+   "rule": "FINRA Rule 2214"
+  },
+  {
+   "id": "s6-F2-001",
+   "exam": "s6",
+   "section": "F2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    }
+   ],
+   "ref": "2.1",
+   "q": "An employee of a state government participates in a governmental 457(b) deferred compensation plan. Which feature is distinctive?",
+   "options": [
+    "Contributions are made only by the employer",
+    "Distributions after separation from service are generally not subject to the 10% additional tax, even before age 59½",
+    "The plan is covered by ERISA's Title I in all cases",
+    "The plan may invest only in municipal bonds"
+   ],
+   "answer": 1,
+   "explain": "Distributions from a governmental 457(b) plan are not subject to the 10% early distribution tax, although they are taxed as ordinary income; this differs from 401(k) and 403(b) plans. Governmental plans are generally exempt from ERISA's Title I. Employees make elective deferrals into 457 plans.",
+   "rule": "Internal Revenue Code Section 457"
+  },
+  {
+   "id": "s6-F2-002",
+   "exam": "s6",
+   "section": "F2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    }
+   ],
+   "ref": "2.1",
+   "q": "Which retirement plan promises employees a specific benefit at retirement, usually based on salary and years of service, with the employer bearing the investment risk?",
+   "options": [
+    "A profit-sharing plan",
+    "A 401(k) plan",
+    "A defined benefit pension plan",
+    "A SEP IRA"
+   ],
+   "answer": 2,
+   "explain": "Defined benefit plans promise a formula-based benefit, so the employer must fund enough to pay it and bears the investment risk; actuaries determine the contributions. Profit-sharing, 401(k) and SEP plans are defined contribution arrangements, where the benefit depends on contributions and investment results and employees bear the risk.",
+   "rule": "Employee Retirement Income Security Act of 1974"
+  },
+  {
+   "id": "s6-F2-003",
+   "exam": "s6",
+   "section": "F2",
+   "ref": "2.1",
+   "q": "Two unrelated investors open a joint account as tenants in common, contributing 70% and 30%. If the 70% owner dies, what happens to that share?",
+   "options": [
+    "It passes to the deceased owner's estate",
+    "It passes to the surviving owner",
+    "It is split equally between the estate and the survivor",
+    "It is forfeited to the firm"
+   ],
+   "answer": 0,
+   "explain": "In a tenants in common account, each owner holds a fractional interest that can be unequal, and at death that interest passes to the owner's estate rather than to the surviving owner. Passing to the survivor describes joint tenants with right of survivorship."
+  },
+  {
+   "id": "s6-F2-004",
+   "exam": "s6",
+   "section": "F2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    }
+   ],
+   "ref": "2.2",
+   "q": "A customer wants her adult son to be able to place trades in her account. What document is needed?",
+   "options": [
+    "A verbal instruction to the representative",
+    "A Form U4 for the son",
+    "A trusted contact designation",
+    "A written trading authorization, such as a limited power of attorney, kept on file"
+   ],
+   "answer": 3,
+   "explain": "A third party may trade in another person's account only with written authorization, commonly a limited (trading) power of attorney; a full power of attorney would also allow withdrawals. A trusted contact person has no authority to trade, which is the main trap. Verbal permission is not enough.",
+   "rule": "FINRA Rule 4512"
+  },
+  {
+   "id": "s6-F2-005",
+   "exam": "s6",
+   "section": "F2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    }
+   ],
+   "ref": "2.4",
+   "q": "Which situation would most likely justify a firm restricting or closing a customer's account?",
+   "options": [
+    "The customer asks for a copy of the fund prospectus",
+    "The customer refuses to provide information needed to verify identity under the firm's customer identification program",
+    "The customer chooses Class A shares",
+    "The customer has a trusted contact on file"
+   ],
+   "answer": 1,
+   "explain": "If a firm cannot form a reasonable belief about a customer's identity under its CIP, its procedures should address when to refuse to open, restrict or close the account and whether to file a SAR. The other choices are normal account activity that gives no reason to restrict the account.",
+   "rule": "USA PATRIOT Act, Section 326"
+  },
+  {
+   "id": "s6-F3-001",
+   "exam": "s6",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A customer invests $300 each month in a fund, buying at $10, $15 and $20 per share. What are the average cost per share and the average price?",
+   "options": [
+    "Average cost $13.85; average price $15.00",
+    "Average cost $15.00; average price $13.85",
+    "Both $15.00",
+    "Average cost $12.00; average price $15.00"
+   ],
+   "answer": 0,
+   "explain": "The customer buys 30, 20 and 15 shares, 65 shares for $900, so average cost = $900 / 65 = $13.85. Average price = ($10 + $15 + $20) / 3 = $15.00. With dollar-cost averaging, average cost is lower than average price because more shares are bought when prices are low. It does not guarantee a profit."
+  },
+  {
+   "id": "s6-F3-002",
+   "exam": "s6",
+   "section": "F3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.2",
+   "q": "A Class B share investor redeems $10,000 in the second year, when the contingent deferred sales charge (CDSC) is 4%. Assuming the charge applies to the full redemption amount, what does she receive?",
+   "options": [
+    "$10,000",
+    "$9,000",
+    "$9,600",
+    "$9,400"
+   ],
+   "answer": 2,
+   "explain": "A CDSC is deducted at redemption: $10,000 x 4% = $400, leaving $9,600. The charge typically declines each year and eventually disappears; many funds apply it to the lesser of the original cost or current value, so the prospectus controls. Class B shares often convert to Class A shares after a set period."
+  },
+  {
+   "id": "s6-F3-003",
+   "exam": "s6",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "Under Section 13(a) of the Investment Company Act of 1940, which change requires approval by a majority of a fund's outstanding voting shares?",
+   "options": [
+    "A change in the fund's portfolio managers",
+    "A change to a fundamental investment policy, such as changing the fund's classification from diversified to non-diversified",
+    "Payment of a regular dividend",
+    "A change in the fund's custodian bank"
+   ],
+   "answer": 1,
+   "explain": "Section 13(a) bars a registered fund from taking certain actions, including deviating from a fundamental policy or changing its subclassification, without a vote of a majority of outstanding voting securities. Day-to-day matters such as naming portfolio managers or paying dividends are handled by the board and adviser.",
+   "rule": "Investment Company Act of 1940, Section 13(a)"
+  },
+  {
+   "id": "s6-F3-004",
+   "exam": "s6",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "Who elects a mutual fund's board of directors?",
+   "options": [
+    "The fund's investment adviser",
+    "The SEC",
+    "The fund's shareholders",
+    "The principal underwriter"
+   ],
+   "answer": 2,
+   "explain": "Section 16(a) of the Investment Company Act requires directors to be elected by shareholders, with limited exceptions for filling vacancies. The board oversees the fund and approves contracts with the investment adviser and underwriter, so the adviser cannot pick its own overseers.",
+   "rule": "Investment Company Act of 1940, Section 16(a)"
+  },
+  {
+   "id": "s6-F3-005",
+   "exam": "s6",
+   "section": "F3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.2",
+   "q": "Under the Investment Company Act of 1940, within how many days after a shareholder tenders shares for redemption must an open-end fund generally pay?",
+   "options": [
+    "Seven days",
+    "Three business days",
+    "30 days",
+    "One business day"
+   ],
+   "answer": 0,
+   "explain": "Section 22(e) prohibits a registered fund from postponing payment on redemption for more than seven days after tender, except in limited circumstances such as when the NYSE is closed or the SEC permits suspension. Many funds pay faster, but seven days is the legal outer limit.",
+   "rule": "Investment Company Act of 1940, Section 22(e)"
+  },
+  {
+   "id": "s6-F3-006",
+   "exam": "s6",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A fund pays a dividend that comes partly from a source other than net investment income. Under Section 19(a) and Rule 19a-1, what must accompany the payment?",
+   "options": [
+    "Nothing",
+    "A new prospectus",
+    "A Form 1099 only at year end",
+    "A written statement identifying the source of the payment, such as income, capital gains or return of capital"
+   ],
+   "answer": 3,
+   "explain": "Rule 19a-1 requires a written statement with any dividend paid from a source other than net investment income, so shareholders know that part may be a capital gain or a return of their own capital rather than earnings. This prevents funds from making distributions look like income.",
+   "rule": "Investment Company Act of 1940, Section 19(a); Rule 19a-1"
+  },
+  {
+   "id": "s6-F3-007",
+   "exam": "s6",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A retiree sets up a systematic withdrawal plan from her mutual fund, receiving a fixed $1,000 each month. What is the key risk to explain?",
+   "options": [
+    "Withdrawals are not taxable",
+    "The fund guarantees the payments for life",
+    "If withdrawals exceed the fund's returns, principal will be depleted and the account could run out",
+    "Withdrawal plans are prohibited for retirees"
+   ],
+   "answer": 2,
+   "explain": "Fixed-dollar withdrawal plans redeem shares as needed to make each payment, so if returns are lower than the withdrawals, the account shrinks and may be exhausted. Unlike an annuity, the fund does not guarantee lifetime income, and each redemption can produce a taxable gain or loss."
+  },
+  {
+   "id": "s6-F3-008",
+   "exam": "s6",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "In a variable life insurance policy, which element typically has a minimum guarantee?",
+   "options": [
+    "The cash value",
+    "The subaccount returns",
+    "The death benefit, which cannot fall below the face amount stated in a scheduled premium policy",
+    "The policy loan interest"
+   ],
+   "answer": 2,
+   "explain": "Scheduled premium variable life generally guarantees a minimum death benefit, while the death benefit above it and the cash value fluctuate with the separate account. Cash value is not guaranteed, so it is the trap. Subaccount returns are never guaranteed."
+  },
+  {
+   "id": "s6-F3-009",
+   "exam": "s6",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A variable life policyholder takes a policy loan and dies before repaying it. What happens?",
+   "options": [
+    "The loan is forgiven and the full death benefit is paid",
+    "The outstanding loan and accrued interest are deducted from the death benefit paid to the beneficiary",
+    "The beneficiary must repay the loan from personal funds",
+    "The policy is void"
+   ],
+   "answer": 1,
+   "explain": "Policy loans are secured by the cash value; any unpaid loan plus interest at death reduces the death benefit paid to beneficiaries. Policy loans are generally not taxable while the policy stays in force. The loan is not forgiven, and the beneficiary is not personally liable."
+  },
+  {
+   "id": "s6-F3-010",
+   "exam": "s6",
+   "section": "F3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.3",
+   "q": "The mortality and expense (M&E) risk charge in a variable annuity compensates the insurer for:",
+   "options": [
+    "managing the subaccounts' investments",
+    "the 12b-1 marketing plan",
+    "guarantees such as lifetime annuity payments and the death benefit, and the risk that expenses exceed what is charged",
+    "the investor's state premium tax only"
+   ],
+   "answer": 2,
+   "explain": "The M&E charge pays the insurer for its insurance guarantees, such as lifetime payout rates regardless of how long the annuitant lives, the death benefit, and the promise that administrative charges will not increase beyond stated limits. Investment management fees are charged separately by the subaccounts."
+  },
+  {
+   "id": "s6-F3-011",
+   "exam": "s6",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A deferred variable annuity is held inside a traditional IRA. What is the main suitability concern?",
+   "options": [
+    "Annuities cannot be held in IRAs",
+    "The IRA already provides tax deferral, so the customer pays for the annuity's tax deferral without additional tax benefit; other features must justify the cost",
+    "The IRA would become taxable",
+    "The annuity loses its death benefit"
+   ],
+   "answer": 1,
+   "explain": "Placing a variable annuity in a qualified account adds no extra tax deferral, so the recommendation must be justified by other features such as death benefits or lifetime income guarantees, weighed against the M&E and other costs. FINRA Rule 2330 and Reg BI require that analysis.",
+   "rule": "FINRA Rule 2330"
+  },
+  {
+   "id": "s6-F3-012",
+   "exam": "s6",
+   "section": "F3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.2",
+   "q": "A 529 plan account owner changes the beneficiary from one child to the child's sibling. What are the federal tax consequences?",
+   "options": [
+    "None, because a sibling is a member of the beneficiary's family",
+    "The earnings become taxable immediately",
+    "A 10% additional tax applies",
+    "The account must be closed and reopened"
+   ],
+   "answer": 0,
+   "explain": "Changing the designated beneficiary to a member of the current beneficiary's family, which includes siblings, is not treated as a distribution, so there is no tax or additional tax. Changing to someone outside the family could be a taxable non-qualified distribution.",
+   "rule": "Internal Revenue Code Section 529(c)(3)"
+  },
+  {
+   "id": "s6-F3-013",
+   "exam": "s6",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "What is a key difference between a retail money market fund and an institutional money market fund under SEC rules?",
+   "options": [
+    "Retail funds may be owned only by natural persons, while institutional funds are open to institutions and generally must use a floating NAV if they invest in non-government securities",
+    "Institutional funds are FDIC insured",
+    "Retail funds may invest in stocks",
+    "There is no difference"
+   ],
+   "answer": 0,
+   "explain": "Retail money market funds limit beneficial ownership to natural persons and may seek a stable $1.00 share price, while institutional prime and tax-exempt funds must price shares with a floating NAV. Neither type is FDIC insured, and money market funds invest only in short-term high-quality debt.",
+   "rule": "SEC Rule 2a-7"
+  },
+  {
+   "id": "s6-F3-014",
+   "exam": "s6",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A summary prospectus for an open-end fund under Rule 498 must:",
+   "options": [
+    "replace the statutory prospectus entirely",
+    "be delivered only after purchase",
+    "include key information in a standard order, such as objectives, fees, risks and performance, with the full prospectus available online and on request",
+    "omit the fee table"
+   ],
+   "answer": 2,
+   "explain": "Rule 498 permits a short summary prospectus with key facts in a prescribed order, including the fee table and principal risks, provided the statutory prospectus and other documents are available online and free on request. It can satisfy prospectus delivery but does not eliminate the full prospectus.",
+   "rule": "SEC Rule 498"
+  },
+  {
+   "id": "s6-F3-015",
+   "exam": "s6",
+   "section": "F3",
+   "ref": "3.3",
+   "q": "A grandmother gives her grandson mutual fund shares worth more than the annual gift tax exclusion. Under the unified federal gift and estate tax system, which is generally accurate?",
+   "options": [
+    "The grandson owes income tax on the value of the gift",
+    "The grandmother files a gift tax return, and the amount above the annual exclusion reduces her lifetime exemption; tax is usually owed only after that exemption is used up",
+    "The gift is never reportable because it is to a family member",
+    "The grandson must pay gift tax immediately"
+   ],
+   "answer": 1,
+   "explain": "Gift tax is the donor's responsibility. Gifts above the annual exclusion must be reported, and the excess is applied against the donor's unified lifetime exemption, which is shared with the estate tax, so tax is usually due only after it is exhausted. Gifts are not income to the recipient, who takes the donor's carryover basis.",
+   "rule": "Internal Revenue Code Sections 2501 and 2505"
+  },
+  {
+   "id": "s6-F3-016",
+   "exam": "s6",
+   "section": "F3",
+   "ref": "3.4",
+   "q": "A customer moves to a new address and calls the firm to update it. What must the firm generally do under FINRA Rule 4512 and SEC Rule 17a-3?",
+   "options": [
+    "Nothing until the next annual review",
+    "Ask the customer to open a new account",
+    "Update the account record and send notification of the change to the customer, including to the old address or the customer's last known address as required",
+    "Notify FINRA"
+   ],
+   "answer": 2,
+   "explain": "Firms must keep customer account records current and, under SEC Rule 17a-3, send a notification of an address change to the old address (or by other means) within the required time, which helps detect identity theft. Opening a new account is unnecessary, and FINRA does not need to be told.",
+   "rule": "SEC Rule 17a-3; FINRA Rule 4512"
+  },
+  {
+   "id": "s6-F4-001",
+   "exam": "s6",
+   "section": "F4",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F4"
+    }
+   ],
+   "ref": "4.2",
+   "q": "Which item must appear on an order ticket under books and records rules?",
+   "options": [
+    "The customer's annual income",
+    "The account number, the security, the terms and conditions of the order, and the time the order was received",
+    "The customer's investment objective",
+    "The representative's commission rate"
+   ],
+   "answer": 1,
+   "explain": "SEC Rule 17a-3 requires a memorandum of each order showing the terms and conditions, any instructions and modifications, the account for which it was entered, and the time of entry and execution, among other items. Income and objectives belong in the customer account record, not on each ticket.",
+   "rule": "SEC Rule 17a-3"
+  },
+  {
+   "id": "s6-F4-002",
+   "exam": "s6",
+   "section": "F4",
+   "ref": "4.3",
+   "q": "A customer sends an email complaining that her representative made trades without permission. What should the representative do?",
+   "options": [
+    "Resolve it privately by reimbursing the customer",
+    "Delete the email to protect the customer's privacy",
+    "Ask the customer to withdraw the complaint",
+    "Forward it promptly to a supervisor or compliance so it can be recorded and handled under the firm's procedures"
+   ],
+   "answer": 3,
+   "explain": "A written complaint, including email, must be reported to the firm, recorded under FINRA Rule 4513 and investigated, and it may require a Form U4 update and a Rule 4530 report. Settling privately with a customer without the firm's knowledge is a serious violation.",
+   "rule": "FINRA Rule 4513"
+  },
+  {
+   "id": "s6-F4-003",
+   "exam": "s6",
+   "section": "F4",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F4"
+    }
+   ],
+   "ref": "4.2",
+   "q": "A customer redeems Class A shares of an open-end fund that have no deferred sales charge. At what price is the redemption processed?",
+   "options": [
+    "The public offering price calculated at the previous close",
+    "The NAV next computed after the fund receives the redemption request",
+    "The highest NAV of the past week",
+    "The market price on the exchange"
+   ],
+   "answer": 1,
+   "explain": "Redemptions, like purchases, are forward priced: the shareholder receives the next NAV calculated after the request is received in good order, less any applicable redemption fee or CDSC. The offering price includes the sales load and applies only to purchases, and open-end shares do not trade on an exchange.",
+   "rule": "SEC Rule 22c-1"
+  },
+  {
+   "id": "s6-F4-004",
+   "exam": "s6",
+   "section": "F4",
+   "ref": "4.1",
+   "q": "A broker-dealer receives a customer order for an exchange-traded fund. What is the firm's best execution duty?",
+   "options": [
+    "None, because ETFs are funds",
+    "To use reasonable diligence to obtain the most favorable terms reasonably available for the customer under prevailing market conditions",
+    "To execute at NAV",
+    "To route the order only to the fund sponsor"
+   ],
+   "answer": 1,
+   "explain": "ETF shares trade on exchanges like stocks, so FINRA Rule 5310 best execution applies to customer orders. They trade at market prices, not NAV, so promising execution at NAV confuses ETFs with open-end mutual funds bought from the issuer.",
+   "rule": "FINRA Rule 5310"
+  }
+ ]
+}

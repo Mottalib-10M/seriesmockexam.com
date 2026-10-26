@@ -1,0 +1,499 @@
+{
+  "_lisezmoi": "Every exam format, fee, waiting period and validity rule of the site lives here, never typed in a page (RECETTE §4). Each value was read on the official source named in `sources` on `retrieved_at`. Outlines: FINRA content outlines (SIE and Series 7 dated 2025-10, Series 6 2020) and NASAA study guides of 1 September 2023 (Series 63, 65, 66), effective June 2023.",
+  "year": 2026,
+  "retrieved_at": "2026-10-26",
+  "valid_from": "2026-01-01",
+  "valid_to": "2026-12-31",
+  "exams": {
+    "sie": {
+      "code": "SIE",
+      "name": "Securities Industry Essentials",
+      "owner": "FINRA",
+      "scored": 75,
+      "unscored": 5,
+      "minutes": 105,
+      "passScore": 70,
+      "passKind": "scaled",
+      "fee": 100,
+      "feePrev": 80,
+      "sponsorship": false,
+      "minAge": 18,
+      "coreq": [],
+      "validYears": 4,
+      "outline": "finra_sie_outline",
+      "page": "finra_sie",
+      "sections": [
+        {
+          "code": "1",
+          "name": "Knowledge of Capital Markets",
+          "items": 12
+        },
+        {
+          "code": "2",
+          "name": "Understanding Products and Their Risks",
+          "items": 33
+        },
+        {
+          "code": "3",
+          "name": "Understanding Trading, Customer Accounts and Prohibited Activities",
+          "items": 23
+        },
+        {
+          "code": "4",
+          "name": "Overview of the Regulatory Framework",
+          "items": 7
+        }
+      ]
+    },
+    "s7": {
+      "code": "Series 7",
+      "name": "General Securities Representative",
+      "owner": "FINRA",
+      "scored": 125,
+      "unscored": 5,
+      "minutes": 225,
+      "passScore": 72,
+      "passKind": "scaled",
+      "fee": 395,
+      "feePrev": 300,
+      "sponsorship": true,
+      "coreq": [
+        "sie"
+      ],
+      "outline": "finra_s7_outline",
+      "page": "finra_s7",
+      "sections": [
+        {
+          "code": "F1",
+          "name": "Seeks business for the broker-dealer from customers and potential customers",
+          "items": 9
+        },
+        {
+          "code": "F2",
+          "name": "Opens accounts after obtaining and evaluating customers' financial profile and investment objectives",
+          "items": 11
+        },
+        {
+          "code": "F3",
+          "name": "Provides information about investments, makes recommendations, transfers assets and maintains records",
+          "items": 91
+        },
+        {
+          "code": "F4",
+          "name": "Obtains and verifies purchase and sales instructions; processes, completes and confirms transactions",
+          "items": 14
+        }
+      ]
+    },
+    "s6": {
+      "code": "Series 6",
+      "name": "Investment Company and Variable Contracts Products Representative",
+      "owner": "FINRA",
+      "scored": 50,
+      "unscored": 5,
+      "minutes": 90,
+      "passScore": 70,
+      "passKind": "scaled",
+      "fee": 100,
+      "feePrev": 75,
+      "sponsorship": true,
+      "coreq": [
+        "sie"
+      ],
+      "outline": "finra_s6_outline",
+      "page": "finra_s6",
+      "sections": [
+        {
+          "code": "F1",
+          "name": "Seeks business for the broker-dealer from customers and potential customers",
+          "items": 12
+        },
+        {
+          "code": "F2",
+          "name": "Opens accounts after obtaining and evaluating customers' financial profile and investment objectives",
+          "items": 8
+        },
+        {
+          "code": "F3",
+          "name": "Provides information about investments, makes recommendations, transfers assets and maintains records",
+          "items": 25
+        },
+        {
+          "code": "F4",
+          "name": "Obtains and verifies purchase and sales instructions; processes, completes and confirms transactions",
+          "items": 5
+        }
+      ]
+    },
+    "s63": {
+      "code": "Series 63",
+      "name": "Uniform Securities Agent State Law Examination",
+      "owner": "NASAA",
+      "scored": 60,
+      "unscored": 5,
+      "minutes": 75,
+      "passCorrect": 43,
+      "passKind": "count",
+      "fee": 147,
+      "sponsorship": false,
+      "coreq": [],
+      "outline": "nasaa_s63_guide",
+      "page": "finra_s63",
+      "sections": [
+        {
+          "code": "1",
+          "name": "Regulation of broker-dealers",
+          "items": 7
+        },
+        {
+          "code": "2",
+          "name": "Regulation of broker-dealer agents",
+          "items": 8
+        },
+        {
+          "code": "3",
+          "name": "Ethical practices and obligations",
+          "items": 15
+        },
+        {
+          "code": "4",
+          "name": "Communication with customers and prospects",
+          "items": 12
+        },
+        {
+          "code": "5",
+          "name": "Regulation of securities and issuers",
+          "items": 5
+        },
+        {
+          "code": "6",
+          "name": "Regulation of investment advisers",
+          "items": 3
+        },
+        {
+          "code": "7",
+          "name": "Regulation of investment adviser representatives",
+          "items": 3
+        },
+        {
+          "code": "8",
+          "name": "Remedies and administrative provisions",
+          "items": 7
+        }
+      ]
+    },
+    "s65": {
+      "code": "Series 65",
+      "name": "Uniform Investment Adviser Law Examination",
+      "owner": "NASAA",
+      "scored": 130,
+      "unscored": 10,
+      "minutes": 180,
+      "passCorrect": 92,
+      "passKind": "count",
+      "fee": 187,
+      "sponsorship": false,
+      "coreq": [],
+      "outline": "nasaa_s65_guide",
+      "page": "finra_s65",
+      "sections": [
+        {
+          "code": "1",
+          "name": "Economic factors and business information",
+          "items": 20
+        },
+        {
+          "code": "2",
+          "name": "Investment vehicle characteristics",
+          "items": 32
+        },
+        {
+          "code": "3",
+          "name": "Client investment recommendations and strategies",
+          "items": 39
+        },
+        {
+          "code": "4",
+          "name": "Laws, regulations and guidelines, including unethical business practices",
+          "items": 39
+        }
+      ]
+    },
+    "s66": {
+      "code": "Series 66",
+      "name": "Uniform Combined State Law Examination",
+      "owner": "NASAA",
+      "scored": 100,
+      "unscored": 10,
+      "minutes": 150,
+      "passCorrect": 73,
+      "passKind": "count",
+      "fee": 177,
+      "sponsorship": false,
+      "coreq": [
+        "s7"
+      ],
+      "outline": "nasaa_s66_guide",
+      "page": "finra_s66",
+      "sections": [
+        {
+          "code": "1",
+          "name": "Economic factors and business information",
+          "items": 8
+        },
+        {
+          "code": "2",
+          "name": "Investment vehicle characteristics",
+          "items": 17
+        },
+        {
+          "code": "3",
+          "name": "Client and customer investment recommendations and strategies",
+          "items": 30
+        },
+        {
+          "code": "4",
+          "name": "Laws, regulations and guidelines, including unethical business practices",
+          "items": 45
+        }
+      ]
+    }
+  },
+  "otherFees2026": {
+    "s9": 175,
+    "s10": 235,
+    "s22": 100,
+    "s24": 235,
+    "s26": 200,
+    "s27": 235,
+    "s57": 105,
+    "s79": 395,
+    "s82": 100,
+    "s86": 295,
+    "s87": 195,
+    "s99": 100,
+    "regElement": 25,
+    "regElementPrev": 18
+  },
+  "feeIncrease": {
+    "effective": "2026-01-01",
+    "filing": "SR-FINRA-2024-019"
+  },
+  "retake": {
+    "finra": {
+      "firstAndSecondDays": 30,
+      "thirdDays": 180,
+      "lookbackYears": 2
+    },
+    "finraFrom": {
+      "date": "2027-01-19",
+      "firstAndSecondDays": 15,
+      "thirdDays": 60,
+      "notice": "26-18",
+      "noticeDate": "2026-10-14"
+    },
+    "nasaa": {
+      "firstAndSecondDays": 30,
+      "thirdDays": 180
+    }
+  },
+  "windowDays": 120,
+  "lapseYears": 2,
+  "mqp": {
+    "maxYears": 5,
+    "electWithinYears": 2,
+    "minRegisteredYears": 1,
+    "annualFee": 100
+  },
+  "evep": {
+    "maxYears": 5
+  },
+  "ce": {
+    "deadlineMonthDay": "12-31",
+    "firstYearRule": "by December 31 of the year after the year of registration"
+  },
+  "reschedule": {
+    "fullChargeWithinBusinessDays": 2,
+    "halfChargeFromBusinessDays": 3,
+    "halfChargeToBusinessDays": 10,
+    "foreignCenterCharge": 15
+  },
+  "margin": {
+    "regT": 0.5,
+    "maintLong": 0.25,
+    "maintShort": 0.3,
+    "minEquity": 2000
+  },
+  "settlement": {
+    "regularWayDays": 1,
+    "since": "2024-05-28"
+  },
+  "sources": {
+    "finra_sie": {
+      "url": "https://www.finra.org/registration-exams-ce/qualification-exams/securities-industry-essentials-exam",
+      "label": {
+        "en": "FINRA, Securities Industry Essentials (SIE) exam page"
+      }
+    },
+    "finra_s7": {
+      "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series7",
+      "label": {
+        "en": "FINRA, Series 7 exam page (General Securities Representative)"
+      }
+    },
+    "finra_s6": {
+      "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series6",
+      "label": {
+        "en": "FINRA, Series 6 exam page (Investment Company and Variable Contracts Products)"
+      }
+    },
+    "finra_s63": {
+      "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series63",
+      "label": {
+        "en": "FINRA, Series 63 exam page (NASAA exam administered by FINRA)"
+      }
+    },
+    "finra_s65": {
+      "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series65",
+      "label": {
+        "en": "FINRA, Series 65 exam page (NASAA exam administered by FINRA)"
+      }
+    },
+    "finra_s66": {
+      "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series66",
+      "label": {
+        "en": "FINRA, Series 66 exam page (NASAA exam administered by FINRA)"
+      }
+    },
+    "finra_sie_outline": {
+      "url": "https://www.finra.org/sites/default/files/2025-10/SIE_Content_Outline.pdf",
+      "label": {
+        "en": "FINRA, SIE exam content outline (October 2025 edition)"
+      }
+    },
+    "finra_s7_outline": {
+      "url": "https://www.finra.org/sites/default/files/2025-10/Series_7_Content_Outline.pdf",
+      "label": {
+        "en": "FINRA, Series 7 exam content outline (October 2025 edition)"
+      }
+    },
+    "finra_s6_outline": {
+      "url": "https://www.finra.org/sites/default/files/Series_6_Content_Outline.pdf",
+      "label": {
+        "en": "FINRA, Series 6 exam content outline"
+      }
+    },
+    "nasaa_s63_guide": {
+      "url": "https://www.nasaa.org/wp-content/uploads/2023/09/NASAA-Series-63-Exam-Study-Guide.pdf",
+      "label": {
+        "en": "NASAA, Series 63 examination overview and test specifications (1 September 2023)"
+      }
+    },
+    "nasaa_s65_guide": {
+      "url": "https://www.nasaa.org/wp-content/uploads/2023/09/NASAA-Series-65-Exam-Study-Guide.pdf",
+      "label": {
+        "en": "NASAA, Series 65 examination overview and test specifications (1 September 2023)"
+      }
+    },
+    "nasaa_s66_guide": {
+      "url": "https://www.nasaa.org/wp-content/uploads/2023/09/NASAA-Series-66-Exam-Study-Guide.pdf",
+      "label": {
+        "en": "NASAA, Series 66 examination overview and test specifications (1 September 2023)"
+      }
+    },
+    "finra_1210": {
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/1210",
+      "label": {
+        "en": "FINRA Rule 1210, Registration Requirements (retake waiting periods, SIE and lapse rules)"
+      }
+    },
+    "finra_1220": {
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/1220",
+      "label": {
+        "en": "FINRA Rule 1220, Registration Categories"
+      }
+    },
+    "finra_1240": {
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/1240",
+      "label": {
+        "en": "FINRA Rule 1240, Continuing Education Requirements"
+      }
+    },
+    "finra_26_18": {
+      "url": "https://www.finra.org/rules-guidance/notices/26-18",
+      "label": {
+        "en": "FINRA Regulatory Notice 26-18 (shorter retake waiting periods from 19 January 2027)"
+      }
+    },
+    "finra_fees": {
+      "url": "https://www.finra.org/rules-guidance/rule-filings/sr-finra-2024-019/fee-adjustment-schedule",
+      "label": {
+        "en": "FINRA, fee adjustment schedule of SR-FINRA-2024-019 (exam fees from 2026)"
+      }
+    },
+    "finra_section4": {
+      "url": "https://www.finra.org/rules-guidance/rulebooks/corporate-organization/section-4-fees",
+      "label": {
+        "en": "Schedule A to the FINRA By-Laws, Section 4 (examination fees and service charges)"
+      }
+    },
+    "finra_schedule": {
+      "url": "https://www.finra.org/registration-exams-ce/qualification-exams/schedule-exam",
+      "label": {
+        "en": "FINRA, Schedule an exam (120-day window, online delivery)"
+      }
+    },
+    "finra_mqp": {
+      "url": "https://www.finra.org/registration-exams-ce/qualification-exams/mqp",
+      "label": {
+        "en": "FINRA, Maintaining Qualifications Program (MQP)"
+      }
+    },
+    "finra_4210": {
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/4210",
+      "label": {
+        "en": "FINRA Rule 4210, Margin Requirements"
+      }
+    },
+    "reg_t": {
+      "url": "https://www.ecfr.gov/current/title-12/chapter-II/subchapter-A/part-220/section-220.12",
+      "label": {
+        "en": "Regulation T, 12 CFR 220.12 (initial margin of 50%)"
+      }
+    },
+    "sec_t1": {
+      "url": "https://www.sec.gov/newsroom/press-releases/2023-29",
+      "label": {
+        "en": "SEC, adoption of the T+1 settlement cycle (in force 28 May 2024)"
+      }
+    },
+    "finra_2341": {
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/2341",
+      "label": {
+        "en": "FINRA Rule 2341, Investment Company Securities (sales charge limits)"
+      }
+    },
+    "finra_testcenter": {
+      "url": "https://www.finra.org/registration-exams-ce/qualification-exam/testcenter",
+      "label": {
+        "en": "FINRA, Prepare for your local test center appointment (ID, breaks, materials, results)"
+      }
+    }
+  },
+  "online": {
+    "sie": "open to any candidate with an open enrollment window",
+    "others": "only with an approved accommodation (for example immunocompromised, or living more than 150 miles from a test center)",
+    "milesFromCenter": 150
+  },
+  "funds": {
+    "maxSalesCharge": 8.5,
+    "maxNoRoA": 8.0,
+    "maxNoBreakpointsWithRoA": 7.75,
+    "maxNoBreakpoints": 7.25,
+    "maxWithServiceFee": 7.25
+  },
+  "examDay": {
+    "arriveMinutesBefore": 30,
+    "lateLimitMinutes": 30
+  }
+}

@@ -1,0 +1,3638 @@
+{
+ "questions": [
+  {
+   "id": "sie-1-001",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.1.1",
+   "q": "Which federal law created the Securities and Exchange Commission?",
+   "options": [
+    "The Securities Act of 1933",
+    "The Investment Company Act of 1940",
+    "The Securities Exchange Act of 1934",
+    "The Trust Indenture Act of 1939"
+   ],
+   "answer": 2,
+   "explain": "The SEC was established by the Securities Exchange Act of 1934, which also governs secondary-market trading, broker-dealer registration and SROs. The 1933 Act is the tempting choice because it came first, but until 1934 it was administered by the Federal Trade Commission; it deals with the registration of new issues, not the creation of the SEC.",
+   "rule": "Securities Exchange Act of 1934, Section 4"
+  },
+  {
+   "id": "sie-1-002",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.1.1",
+   "q": "A company's registration statement for a new stock offering has been declared effective by the SEC. Which statement about that effectiveness is accurate?",
+   "options": [
+    "The SEC has not approved the offering or judged its merits; it only required full and fair disclosure",
+    "The SEC has confirmed that the stock is a suitable investment for retail investors",
+    "The SEC guarantees the accuracy of the financial statements in the prospectus",
+    "The SEC has set the public offering price at a fair level"
+   ],
+   "answer": 0,
+   "explain": "Federal securities regulation is disclosure based: effectiveness means the filing meets disclosure requirements, not that the SEC approves the security or vouches for its accuracy. Saying otherwise to a customer is an unlawful representation. The suitability answer is tempting, but suitability is a duty of the recommending firm, never a finding of the SEC.",
+   "rule": "Securities Act of 1933, Section 23"
+  },
+  {
+   "id": "sie-1-003",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.1.2",
+   "q": "Which organization writes the rules for firms that deal in municipal securities but does not itself examine or discipline broker-dealers for violating them?",
+   "options": [
+    "FINRA",
+    "The SEC",
+    "The Federal Reserve",
+    "The Municipal Securities Rulemaking Board (MSRB)"
+   ],
+   "answer": 3,
+   "explain": "The MSRB is a self-regulatory organization that writes rules for municipal securities dealers and municipal advisors, but it has no enforcement staff for them. FINRA (for broker-dealers), the SEC and the bank regulators (for bank dealers) examine for and enforce MSRB rules. FINRA is the trap: it enforces the rules but does not write them.",
+   "rule": "Securities Exchange Act of 1934, Section 15B"
+  },
+  {
+   "id": "sie-1-004",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.1.2",
+   "q": "Which of the following is a self-regulatory organization (SRO)?",
+   "options": [
+    "The Securities and Exchange Commission",
+    "FINRA",
+    "The Federal Deposit Insurance Corporation",
+    "The Securities Investor Protection Corporation"
+   ],
+   "answer": 1,
+   "explain": "An SRO is a nongovernmental body that writes and enforces rules for its own members under SEC oversight. FINRA, the MSRB and the exchanges such as Cboe are SROs. The SEC is the trap: it supervises the SROs but is a federal government agency, not a self-regulatory body. SIPC and the FDIC are protection funds, not rule-writing SROs.",
+   "rule": "Securities Exchange Act of 1934, Section 15A"
+  },
+  {
+   "id": "sie-1-005",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.1.3",
+   "q": "Which body sets the initial margin requirement for purchases of stock on credit under Regulation T?",
+   "options": [
+    "FINRA",
+    "The SEC",
+    "The Board of Governors of the Federal Reserve System",
+    "The Department of the Treasury"
+   ],
+   "answer": 2,
+   "explain": "Regulation T is a Federal Reserve Board regulation, adopted under authority given by the Securities Exchange Act of 1934, and it sets the initial margin that broker-dealers must collect. FINRA is tempting because FINRA Rule 4210 sets maintenance requirements and firm minimums, but the initial Reg T percentage comes from the Fed.",
+   "rule": "Regulation T (12 CFR 220)"
+  },
+  {
+   "id": "sie-1-006",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.1.3",
+   "q": "A customer of a failed SIPC-member broker-dealer had $400,000 of securities and a $300,000 cash balance in one account in the same capacity. Assuming nothing is recovered from the firm's estate first, what is the most SIPC would protect?",
+   "options": [
+    "$400,000",
+    "$500,000",
+    "$650,000",
+    "$700,000"
+   ],
+   "answer": 1,
+   "explain": "SIPC protects up to $500,000 per customer per separate capacity, of which no more than $250,000 may be cash. Here the securities ($400,000) plus the capped cash ($250,000) would total $650,000, which is above the overall $500,000 limit, so protection stops at $500,000. The $650,000 trap applies the cash cap but forgets the overall ceiling.",
+   "rule": "Securities Investor Protection Act of 1970"
+  },
+  {
+   "id": "sie-1-007",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.1.3",
+   "q": "Which loss is NOT covered by SIPC?",
+   "options": [
+    "Customer securities missing when a member firm is liquidated",
+    "Customer cash missing when a member firm is liquidated",
+    "Securities a member firm failed to return because it became insolvent",
+    "A decline in the market value of stock held at a solvent member firm"
+   ],
+   "answer": 3,
+   "explain": "SIPC restores missing customer cash and securities when a member firm fails; it never protects against market losses, bad advice or a falling share price. The other choices all describe the custody failure that SIPC was created for, which is why they are covered within the dollar limits.",
+   "rule": "Securities Investor Protection Act of 1970"
+  },
+  {
+   "id": "sie-1-008",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.1.3",
+   "q": "A customer buys shares of a money market mutual fund through a broker-dealer located inside a bank branch. Which statement is accurate?",
+   "options": [
+    "The fund shares are not FDIC insured, even though they were bought at a bank location",
+    "The fund shares are FDIC insured because they were sold on bank premises",
+    "The fund shares are FDIC insured up to the SIPC limit",
+    "The fund guarantees a stable share price, so no insurance is needed"
+   ],
+   "answer": 0,
+   "explain": "FDIC insurance covers bank deposits such as checking accounts and bank CDs. Mutual fund shares, including money market funds, are securities and are not deposits, so they are not FDIC insured wherever they are sold. The location trap is common: buying at a bank branch does not turn a security into a deposit.",
+   "rule": "Federal Deposit Insurance Act"
+  },
+  {
+   "id": "sie-1-009",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.1.3",
+   "q": "State securities laws that require registration of securities, broker-dealers and agents in the state are commonly known as:",
+   "options": [
+    "Sunshine laws",
+    "Prudent investor laws",
+    "Blue-sky laws",
+    "Fair dealing laws"
+   ],
+   "answer": 2,
+   "explain": "Blue-sky laws are the state securities statutes, administered by each state's securities administrator; many are based on the Uniform Securities Act, and the administrators coordinate through NASAA. Sunshine laws concern open government meetings, and the prudent investor rule concerns fiduciaries investing trust assets, so neither regulates securities registration.",
+   "rule": "Uniform Securities Act"
+  },
+  {
+   "id": "sie-1-010",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.1.4",
+   "q": "An introducing broker-dealer typically:",
+   "options": [
+    "holds customer cash and securities and settles every trade itself",
+    "takes customer orders but relies on a clearing firm to hold assets and settle trades",
+    "acts only as a market maker and never deals with retail customers",
+    "lends securities to hedge funds as a prime broker"
+   ],
+   "answer": 1,
+   "explain": "An introducing firm deals with customers and accepts their orders, then passes execution, clearance, settlement and custody to a clearing (carrying) firm under a clearing agreement. Holding assets and settling trades is exactly what the clearing firm does, which is why the first choice describes the wrong type of firm. Prime brokerage is a separate service for large active clients.",
+   "rule": "FINRA Rule 4311"
+  },
+  {
+   "id": "sie-1-011",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.1.4",
+   "q": "Which market participant keeps the official record of a corporation's registered shareholders and handles the issuance and cancellation of its shares?",
+   "options": [
+    "The registrar",
+    "The underwriter",
+    "The custodian bank",
+    "The transfer agent"
+   ],
+   "answer": 3,
+   "explain": "The transfer agent maintains the list of registered owners, records transfers, issues and cancels shares and often distributes dividends. The registrar is the tempting answer: it works alongside the transfer agent but its job is to audit that the issuer has not issued more shares than it authorized, not to keep the owner records.",
+   "rule": "Securities Exchange Act of 1934, Section 17A"
+  },
+  {
+   "id": "sie-1-012",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.1.4",
+   "q": "The Depository Trust Company (DTC), part of DTCC, mainly serves the market by:",
+   "options": [
+    "holding securities for its participants and moving ownership by book entry",
+    "guaranteeing the performance of every listed option contract",
+    "insuring customer accounts if a broker-dealer fails",
+    "writing rules for exchange-listed companies"
+   ],
+   "answer": 0,
+   "explain": "DTC is a central securities depository: it immobilizes securities and records changes in ownership electronically between participant accounts, so certificates do not have to move. Guaranteeing listed options is the role of the Options Clearing Corporation, and insuring against firm failure is SIPC, so those choices name other entities.",
+   "rule": "Securities Exchange Act of 1934, Section 17A"
+  },
+  {
+   "id": "sie-1-013",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.1.4",
+   "q": "A market maker in a stock is best described as a firm that:",
+   "options": [
+    "executes orders only as an agent for a commission",
+    "guarantees that the stock price will not fall below its bid",
+    "stands ready to buy and sell the stock for its own account at quoted prices",
+    "matches buyers and sellers without ever taking a position"
+   ],
+   "answer": 2,
+   "explain": "A market maker acts as a dealer: it publishes a bid and an offer and trades from its own inventory, earning the spread and taking inventory risk. Acting only as an agent, or only matching orders, describes a broker or an electronic network, not a dealer. A market maker never guarantees a price level.",
+   "rule": "Securities Exchange Act of 1934, Section 3(a)(38)"
+  },
+  {
+   "id": "sie-1-014",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.1.4",
+   "q": "A firm advises a city on the structure, timing and terms of its upcoming bond issue but does not underwrite the bonds. This firm is acting as a:",
+   "options": [
+    "municipal securities principal",
+    "municipal advisor",
+    "transfer agent",
+    "bond counsel"
+   ],
+   "answer": 1,
+   "explain": "Advice to a municipal entity on the issuance of municipal securities is municipal advisory activity, which requires registration with the SEC and the MSRB. Bond counsel is the trap: it gives the legal opinion on validity and tax status, not financial advice on structure and timing. A principal is a supervisory registration, not a business role.",
+   "rule": "Securities Exchange Act of 1934, Section 15B"
+  },
+  {
+   "id": "sie-1-015",
+   "exam": "sie",
+   "section": "1",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    }
+   ],
+   "ref": "1.1.4",
+   "q": "Which individual meets the income or net worth test for an accredited investor under Regulation D?",
+   "options": [
+    "A single person who earned $150,000 in each of the last two years",
+    "A couple whose $1.2 million net worth includes $600,000 of equity in their home",
+    "A married couple with joint income of $320,000 in each of the last two years who expect the same this year",
+    "A retiree with $900,000 of net worth excluding the primary residence"
+   ],
+   "answer": 2,
+   "explain": "A natural person qualifies with income over $200,000 (or joint income with a spouse over $300,000) in each of the two most recent years and a reasonable expectation of the same, or net worth over $1 million excluding the primary residence. The couple at $320,000 joint income passes. The $1.2 million couple fails because excluding the home leaves only $600,000.",
+   "rule": "SEC Rule 501(a), Regulation D"
+  },
+  {
+   "id": "sie-1-016",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.2.1",
+   "q": "An investor buys 200 shares of a listed company on a stock exchange from another investor. In which market did this trade take place?",
+   "options": [
+    "The primary market",
+    "The third market",
+    "The fourth market",
+    "The secondary market"
+   ],
+   "answer": 3,
+   "explain": "Trades between investors in already-issued securities take place in the secondary market, and the issuer receives nothing from them. The primary market is where the issuer sells new securities and receives the proceeds, as in an IPO. The third and fourth markets are specific segments of over-the-counter trading."
+  },
+  {
+   "id": "sie-1-017",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.2.1",
+   "q": "Trading of exchange-listed stocks in the over-the-counter market between a broker-dealer and an investor is called the:",
+   "options": [
+    "third market",
+    "fourth market",
+    "primary market",
+    "auction market"
+   ],
+   "answer": 0,
+   "explain": "The third market is OTC trading in securities that are listed on an exchange, with a broker-dealer on at least one side. The fourth market is the tempting confusion: it describes institutions trading directly with each other, typically through electronic networks, without a broker-dealer acting as intermediary."
+  },
+  {
+   "id": "sie-1-018",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.2.1",
+   "q": "Two pension funds trade a large block of stock directly with each other through an electronic system, without using a broker-dealer. This is an example of the:",
+   "options": [
+    "primary market",
+    "fourth market",
+    "third market",
+    "specialist market"
+   ],
+   "answer": 1,
+   "explain": "The fourth market refers to direct institution-to-institution trading, often on electronic networks, with no broker-dealer standing in the middle. The third market is the trap: it also happens away from an exchange, but it involves a broker-dealer trading listed securities with a customer."
+  },
+  {
+   "id": "sie-1-019",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.3.1",
+   "q": "When the Federal Reserve buys Treasury securities in the open market, the most likely short-term effect is:",
+   "options": [
+    "bank reserves fall and interest rates tend to rise",
+    "the federal budget deficit shrinks",
+    "bank reserves rise and short-term interest rates tend to fall",
+    "the reserve requirement for banks increases"
+   ],
+   "answer": 2,
+   "explain": "Open market purchases pay dealers with new reserves, increasing the money supply and putting downward pressure on short-term rates; this is an easing action. Selling securities does the opposite, which is the first choice. The budget deficit is a matter of fiscal policy set by Congress and the President, not Fed open market activity."
+  },
+  {
+   "id": "sie-1-020",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.3.1",
+   "q": "The federal funds rate is the interest rate:",
+   "options": [
+    "the Federal Reserve charges banks that borrow at its discount window",
+    "banks charge their most creditworthy corporate customers",
+    "paid on 10-year Treasury notes",
+    "banks charge one another for overnight loans of reserves"
+   ],
+   "answer": 3,
+   "explain": "The federal funds rate is set in the market for overnight lending of reserves between banks; the Fed targets it through monetary policy. The discount rate is the tempting answer, but that is the rate charged by the Federal Reserve itself when it lends directly to banks. The rate for top corporate borrowers is the prime rate."
+  },
+  {
+   "id": "sie-1-021",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.3.1",
+   "q": "Which action is an example of fiscal policy rather than monetary policy?",
+   "options": [
+    "Congress passes a tax cut and increases infrastructure spending",
+    "The Federal Reserve raises its target for the federal funds rate",
+    "The Federal Reserve sells Treasury bills in the open market",
+    "The Federal Reserve raises the discount rate"
+   ],
+   "answer": 0,
+   "explain": "Fiscal policy is government taxing and spending, decided by Congress and the President. All of the other choices are tools of monetary policy, which the Federal Reserve conducts by influencing interest rates and the money supply. A Fed action is never fiscal policy, however large its economic effect."
+  },
+  {
+   "id": "sie-1-022",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.3.2",
+   "q": "Which of the following is generally considered a leading economic indicator?",
+   "options": [
+    "Average duration of unemployment",
+    "Building permits for new private housing",
+    "Personal income",
+    "Industrial production"
+   ],
+   "answer": 1,
+   "explain": "Leading indicators tend to change before the overall economy turns; building permits signal future construction activity. Personal income and industrial production move with the economy, so they are coincident indicators. The duration of unemployment is a lagging indicator because it changes only after the economy has already turned."
+  },
+  {
+   "id": "sie-1-023",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.3.2",
+   "q": "During an economic contraction, which type of stock is most likely to hold its earnings relatively steady?",
+   "options": [
+    "A cyclical automaker",
+    "A luxury travel company",
+    "A consumer staples company selling food and household products",
+    "An early-stage technology company with no profits"
+   ],
+   "answer": 2,
+   "explain": "Defensive companies, such as those selling food, household goods or utilities, sell products people buy in any economy, so their earnings tend to be stable in recessions. Cyclical companies like automakers and luxury travel depend on discretionary spending and suffer most when the economy contracts. Speculative growth stocks are not defensive."
+  },
+  {
+   "id": "sie-1-024",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.3.2",
+   "q": "Which economic school holds that the money supply is the main driver of economic activity and inflation?",
+   "options": [
+    "Keynesian economics",
+    "Supply-side economics",
+    "Classical gold standard theory",
+    "Monetarist economics"
+   ],
+   "answer": 3,
+   "explain": "Monetarists, most associated with Milton Friedman, argue that controlling growth in the money supply is the key to stable prices and growth. Keynesians are the tempting confusion: they emphasize aggregate demand and an active role for government spending and taxation (fiscal policy) to smooth the business cycle."
+  },
+  {
+   "id": "sie-1-025",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.3.2",
+   "q": "Which financial statement shows a company's assets, liabilities and shareholders' equity at a single point in time?",
+   "options": [
+    "The balance sheet",
+    "The income statement",
+    "The statement of cash flows",
+    "The proxy statement"
+   ],
+   "answer": 0,
+   "explain": "The balance sheet is a snapshot: assets equal liabilities plus shareholders' equity on a given date. The income statement is the tempting choice, but it covers a period of time and reports revenues, expenses and net income. The proxy statement is a voting document, not a financial statement."
+  },
+  {
+   "id": "sie-1-026",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.3.3",
+   "q": "If the U.S. dollar weakens against other major currencies, which group is most likely to benefit?",
+   "options": [
+    "U.S. tourists traveling abroad",
+    "U.S. companies that export goods",
+    "U.S. importers of foreign goods",
+    "Foreign companies selling goods into the United States"
+   ],
+   "answer": 1,
+   "explain": "A weaker dollar makes U.S. goods cheaper for foreign buyers, so U.S. exporters tend to gain sales and their foreign revenue converts into more dollars. Importers, U.S. travelers and foreign sellers into the U.S. are hurt because foreign goods and services now cost more dollars."
+  },
+  {
+   "id": "sie-1-027",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.3.3",
+   "q": "Gross domestic product (GDP) measures the value of final goods and services produced:",
+   "options": [
+    "by U.S. citizens and companies anywhere in the world",
+    "only by publicly traded U.S. corporations",
+    "within the country's borders, regardless of who owns the producers",
+    "by the government sector only"
+   ],
+   "answer": 2,
+   "explain": "GDP is a geographic measure: it counts output produced inside the country, whether the factory is owned by a domestic or a foreign company. Counting output of a nation's residents and companies wherever they produce is the definition of GNP, which is the trap."
+  },
+  {
+   "id": "sie-1-028",
+   "exam": "sie",
+   "section": "1",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F1"
+    },
+    {
+     "exam": "s6",
+     "section": "F1"
+    }
+   ],
+   "ref": "1.4",
+   "q": "In a firm commitment underwriting, the risk of unsold shares is borne by:",
+   "options": [
+    "the issuer",
+    "the selling group members only",
+    "investors who placed indications of interest",
+    "the underwriting syndicate"
+   ],
+   "answer": 3,
+   "explain": "In a firm commitment, the underwriters buy the entire issue from the issuer and resell it, so any shares that cannot be sold at the offering price stay with the syndicate. Under a best efforts arrangement, the underwriter acts only as agent and the issuer keeps the unsold securities, which is why the issuer is the tempting answer."
+  },
+  {
+   "id": "sie-1-029",
+   "exam": "sie",
+   "section": "1",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F1"
+    }
+   ],
+   "ref": "1.4",
+   "q": "What is the main purpose of a shelf registration?",
+   "options": [
+    "To let an eligible issuer register securities now and sell them in portions over time as market conditions allow",
+    "To exempt a small offering from SEC registration",
+    "To allow an issuer to sell securities only to residents of its home state",
+    "To register securities that will be resold only to qualified institutional buyers"
+   ],
+   "answer": 0,
+   "explain": "Under SEC Rule 415, a qualified issuer can file one registration statement and take securities off the shelf in separate tranches when it needs capital, without a new filing each time. The other choices describe exemptions from registration (small offerings, intrastate offerings, Rule 144A resales), not a form of registration.",
+   "rule": "SEC Rule 415"
+  },
+  {
+   "id": "sie-1-030",
+   "exam": "sie",
+   "section": "1",
+   "ref": "1.4",
+   "q": "In a secondary distribution (secondary offering) of a company's common stock, who receives the proceeds?",
+   "options": [
+    "The issuing company",
+    "The selling shareholders",
+    "The underwriters, as their spread",
+    "The company's employee stock plan"
+   ],
+   "answer": 1,
+   "explain": "A secondary distribution is a sale of already-outstanding shares by existing holders, such as founders or private equity funds, so the proceeds go to those sellers. The issuer receives money only when it sells new shares, as in an IPO or a primary follow-on offering. Underwriters keep only their spread."
+  },
+  {
+   "id": "sie-1-031",
+   "exam": "sie",
+   "section": "1",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F1"
+    },
+    {
+     "exam": "s6",
+     "section": "F1"
+    }
+   ],
+   "ref": "1.4",
+   "q": "The principal disclosure document for a new issue of municipal bonds is called the:",
+   "options": [
+    "prospectus",
+    "program disclosure document",
+    "official statement",
+    "registration statement"
+   ],
+   "answer": 2,
+   "explain": "Municipal securities are exempt from SEC registration, so there is no registration statement or prospectus; issuers disclose through the official statement, and MSRB Rule G-32 requires dealers to deliver it to new-issue buyers. The program disclosure document is the trap: it is the offering document for municipal fund securities such as 529 plans.",
+   "rule": "MSRB Rule G-32"
+  },
+  {
+   "id": "sie-1-032",
+   "exam": "sie",
+   "section": "1",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F1"
+    }
+   ],
+   "ref": "1.4",
+   "q": "A 529 college savings plan is offered to investors through which disclosure document?",
+   "options": [
+    "An official statement for general obligation bonds",
+    "A Form CRS only",
+    "A statement of additional information only",
+    "A program disclosure document (offering statement)"
+   ],
+   "answer": 3,
+   "explain": "A 529 plan is a municipal fund security, and it is offered through a program disclosure document (also called an offering statement) describing investment options, fees and tax rules. The official statement is the trap: it is used for municipal bonds, not for municipal fund securities. Form CRS describes a firm's services, not a product.",
+   "rule": "MSRB Rule G-32"
+  },
+  {
+   "id": "sie-1-033",
+   "exam": "sie",
+   "section": "1",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F1"
+    },
+    {
+     "exam": "s6",
+     "section": "F1"
+    }
+   ],
+   "ref": "1.4",
+   "q": "During the cooling-off period after a registration statement is filed but before it becomes effective, a registered representative may:",
+   "options": [
+    "give out the preliminary prospectus and take nonbinding indications of interest",
+    "accept orders and payment for delivery once the issue is effective",
+    "send a research report predicting the first-day trading price",
+    "promise a customer an allocation in exchange for a later aftermarket purchase"
+   ],
+   "answer": 0,
+   "explain": "Before effectiveness, no sales may be made, but the preliminary prospectus (red herring) may be distributed and indications of interest gathered; these do not bind either side. Taking orders or money is the trap: no sale can occur until the registration is effective. Tying allocations to aftermarket buying is a manipulative practice.",
+   "rule": "Securities Act of 1933, Section 5"
+  },
+  {
+   "id": "sie-1-034",
+   "exam": "sie",
+   "section": "1",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F1"
+    }
+   ],
+   "ref": "1.4",
+   "q": "An offering made only to residents of the issuer's home state under Rule 147 is exempt from SEC registration. What registration, if any, is generally still required?",
+   "options": [
+    "None at any level",
+    "Registration with the securities regulator of that state",
+    "Registration with the MSRB",
+    "Registration with FINRA as an SRO offering"
+   ],
+   "answer": 1,
+   "explain": "An intrastate offering escapes federal registration under Section 3(a)(11) and Rule 147, but it remains subject to the blue-sky law of the state where it is sold, which normally means state registration. Answering none ignores state law, the usual trap. The MSRB covers municipal securities only.",
+   "rule": "Securities Act of 1933, Section 3(a)(11); SEC Rule 147"
+  },
+  {
+   "id": "sie-1-035",
+   "exam": "sie",
+   "section": "1",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F1"
+    },
+    {
+     "exam": "s6",
+     "section": "F1"
+    }
+   ],
+   "ref": "1.4",
+   "q": "In a private placement under Rule 506(b) of Regulation D, the issuer may sell to:",
+   "options": [
+    "an unlimited number of non-accredited investors if each receives a prospectus",
+    "no more than 35 accredited investors",
+    "an unlimited number of accredited investors and no more than 35 non-accredited purchasers",
+    "any investor found through general solicitation, provided all are verified as accredited"
+   ],
+   "answer": 2,
+   "explain": "Rule 506(b) allows unlimited accredited investors plus no more than 35 non-accredited purchasers (who must be sophisticated) in any 90-day period, and it forbids general solicitation. The 35 limit counts non-accredited buyers only, which is why the second choice is wrong. General solicitation with verified accredited buyers describes Rule 506(c).",
+   "rule": "SEC Rule 506(b), Regulation D"
+  },
+  {
+   "id": "sie-1-036",
+   "exam": "sie",
+   "section": "1",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F1"
+    }
+   ],
+   "ref": "1.4",
+   "q": "Rule 144A permits restricted securities to be resold without registration to:",
+   "options": [
+    "qualified institutional buyers",
+    "any accredited investor",
+    "the general public after 90 days",
+    "residents of the issuer's home state"
+   ],
+   "answer": 0,
+   "explain": "Rule 144A provides a safe harbor for resales of restricted securities to qualified institutional buyers (QIBs), generally institutions owning and investing at least $100 million in securities of unaffiliated issuers. Accredited investors are the trap: many individual accredited investors are not QIBs, and Rule 144A is limited to QIBs.",
+   "rule": "SEC Rule 144A"
+  },
+  {
+   "id": "sie-2-001",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.1",
+   "q": "Which right is generally held by common stockholders?",
+   "options": [
+    "A guaranteed quarterly dividend",
+    "Repayment of par value before bondholders in liquidation",
+    "The right to vote on the election of the board of directors",
+    "A fixed maturity date when the company buys back the shares"
+   ],
+   "answer": 2,
+   "explain": "Common shareholders elect the board and vote on major corporate matters such as mergers. Dividends are paid only if the board declares them, so they are never guaranteed. In liquidation, common stock has the last claim, behind creditors, bondholders and preferred stock, and common shares have no maturity date."
+  },
+  {
+   "id": "sie-2-002",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.1.1",
+   "q": "A corporation is liquidated. Which of the following holders is paid last?",
+   "options": [
+    "Holders of secured bonds",
+    "Holders of debentures",
+    "Holders of preferred stock",
+    "Holders of common stock"
+   ],
+   "answer": 3,
+   "explain": "In liquidation, creditors come first (secured creditors, then unsecured creditors such as debenture holders), followed by preferred stockholders, and common stockholders receive only what remains. Preferred stock is the tempting answer because it is equity too, but it has priority over common stock for both dividends and liquidation proceeds."
+  },
+  {
+   "id": "sie-2-003",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.1.1",
+   "q": "An investor buys 500 shares of a corporation for $10,000. The corporation later goes bankrupt with large unpaid debts. What is the most the investor can lose?",
+   "options": [
+    "$10,000",
+    "$10,000 plus a share of the unpaid debts",
+    "The par value of the shares only",
+    "Nothing, because SIPC reimburses stockholders"
+   ],
+   "answer": 0,
+   "explain": "Stockholders enjoy limited liability: they cannot be held personally responsible for the corporation's debts, so the most they can lose is the amount invested. Par value is an accounting figure, not a cap on loss. SIPC protects customers of failed broker-dealers, not shareholders of failed companies."
+  },
+  {
+   "id": "sie-2-004",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.1",
+   "q": "A company has 6% cumulative preferred stock with a $100 par value. It paid no preferred dividends last year or the year before. How much per preferred share must it pay this year before paying any common dividend?",
+   "options": [
+    "$6",
+    "$12",
+    "$18",
+    "$24"
+   ],
+   "answer": 2,
+   "explain": "Cumulative preferred carries forward missed dividends. Each year's dividend is 6% of $100, or $6. Two missed years ($12 in arrears) plus the current year ($6) gives $18 per share before common stockholders can receive anything. The $12 trap forgets the current year's dividend."
+  },
+  {
+   "id": "sie-2-005",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.1.1",
+   "q": "Which statement best describes a stock right issued in a rights offering?",
+   "options": [
+    "A long-term option to buy stock at a price above the market, often attached to bonds",
+    "A short-term privilege letting existing shareholders buy new shares, usually below the market price",
+    "A certificate representing shares of a foreign company",
+    "A promise by the company to buy back shares at a set price"
+   ],
+   "answer": 1,
+   "explain": "Rights come from the preemptive right: existing holders may buy new shares in proportion to their holdings, usually at a subscription price below market, and the rights expire within weeks. The first choice describes a warrant, which is long term and typically priced above the market when issued."
+  },
+  {
+   "id": "sie-2-006",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.1.1",
+   "q": "A corporation issues bonds with warrants attached. The warrants most likely:",
+   "options": [
+    "give the holder a long-term right to buy common stock at a set price, typically above the market price when issued",
+    "guarantee the interest payments on the bonds",
+    "convert the bonds into preferred stock automatically at maturity",
+    "must be exercised within a few weeks or they expire"
+   ],
+   "answer": 0,
+   "explain": "Warrants are sweeteners that make a bond issue more attractive: they are long-term rights to buy common stock at a fixed exercise price, usually set above the market at issuance. A short life of a few weeks describes rights in a rights offering, not warrants. Warrants do not guarantee interest."
+  },
+  {
+   "id": "sie-2-007",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.1",
+   "q": "Which risk remains for a U.S. investor who holds an American Depositary Receipt (ADR) even though it trades in U.S. dollars?",
+   "options": [
+    "Settlement risk, because ADRs settle in the foreign market",
+    "Currency risk, because the value of the underlying foreign shares depends on exchange rates",
+    "No additional risk, because the depositary bank guarantees the share price",
+    "Interest rate risk only, because ADRs pay fixed coupons"
+   ],
+   "answer": 1,
+   "explain": "An ADR is a receipt for foreign shares held by a U.S. depositary bank. The dollar price follows the foreign share price converted at the exchange rate, so currency moves affect the investor's value and dividends. Trading in dollars is the trap: it changes the quote currency, not the underlying currency exposure."
+  },
+  {
+   "id": "sie-2-008",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F1"
+    }
+   ],
+   "ref": "2.1.1",
+   "q": "An officer (an affiliate) of a reporting company wants to sell control stock under Rule 144. The company has 30,000,000 shares outstanding and weekly trading volume averaged 250,000 shares over the last four calendar weeks. What is the most the officer may sell in a three-month period?",
+   "options": [
+    "250,000 shares",
+    "300,000 shares",
+    "1,000,000 shares",
+    "There is no limit for control stock"
+   ],
+   "answer": 1,
+   "explain": "For affiliates, Rule 144 limits sales in any three months to the greater of 1% of shares outstanding or the average weekly trading volume over the preceding four calendar weeks. One percent of 30,000,000 is 300,000, which is greater than 250,000, so 300,000 shares is the limit. The 250,000 trap picks the smaller test.",
+   "rule": "SEC Rule 144(e)"
+  },
+  {
+   "id": "sie-2-009",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.1.1",
+   "q": "An investor bought restricted stock in a private placement from a company that has been an SEC reporting company for several years. Under Rule 144, how long must the stock generally be held before public resale?",
+   "options": [
+    "30 days",
+    "90 days",
+    "Six months",
+    "Three years"
+   ],
+   "answer": 2,
+   "explain": "For restricted securities of an issuer that has been subject to Exchange Act reporting for at least 90 days, Rule 144 requires a six-month holding period from full payment. If the issuer is not a reporting company, the period is one year. The 90-day choice confuses the reporting-history condition with the holding period.",
+   "rule": "SEC Rule 144(d)"
+  },
+  {
+   "id": "sie-2-010",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.1",
+   "q": "A stockholder owns 200 shares. Three directors are to be elected. Under cumulative voting, the stockholder may:",
+   "options": [
+    "cast 200 votes for each director only",
+    "cast 200 votes in total, split among the three seats",
+    "cast only one vote per director",
+    "cast 600 votes in any combination, including all 600 for one candidate"
+   ],
+   "answer": 3,
+   "explain": "Cumulative voting multiplies shares by the number of seats (200 x 3 = 600 votes) and lets the holder concentrate them, which helps minority holders elect a director. Casting 200 votes per seat with no concentration is statutory voting, the tempting confusion."
+  },
+  {
+   "id": "sie-2-011",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.1.2",
+   "q": "Market interest rates rise sharply after an investor buys a fixed-rate bond. What happens to the market price of the bond?",
+   "options": [
+    "It falls",
+    "It rises",
+    "It stays at par until maturity",
+    "It rises only if the bond is callable"
+   ],
+   "answer": 0,
+   "explain": "Bond prices move inversely to interest rates. When new bonds offer higher coupons, an existing bond with a lower fixed coupon is worth less, so its price drops until its yield matches the market. Staying at par is the trap: a bond is repaid at par only at maturity, and its price floats in between."
+  },
+  {
+   "id": "sie-2-012",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.2",
+   "q": "A bond with a 5% coupon and $1,000 par value trades at 80 ($800). What is its current yield?",
+   "options": [
+    "4.00%",
+    "5.00%",
+    "6.25%",
+    "8.00%"
+   ],
+   "answer": 2,
+   "explain": "Current yield is annual interest divided by current market price. The coupon pays 5% of $1,000, or $50 a year; $50 divided by $800 is 6.25%. The 5.00% trap is the nominal (coupon) yield, which is based on par and does not change with price."
+  },
+  {
+   "id": "sie-2-013",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.2",
+   "q": "For a bond trading at a discount to par, how do its yields rank from lowest to highest?",
+   "options": [
+    "Yield to maturity, current yield, nominal yield",
+    "Nominal yield, current yield, yield to maturity",
+    "Current yield, nominal yield, yield to maturity",
+    "They are all equal"
+   ],
+   "answer": 1,
+   "explain": "At a discount, the fixed coupon divided by a lower price makes current yield higher than nominal yield, and yield to maturity is higher still because it also counts the gain from the discount price up to par at maturity. At a premium the order reverses, which is what the first choice describes."
+  },
+  {
+   "id": "sie-2-014",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.2",
+   "q": "Which statement about U.S. Treasury bills is accurate?",
+   "options": [
+    "They pay interest every six months",
+    "They are issued with maturities of 2 to 10 years",
+    "They are backed only by the revenue of a federal agency",
+    "They are sold at a discount and pay face value at maturity, with terms of one year or less"
+   ],
+   "answer": 3,
+   "explain": "T-bills are short-term Treasury obligations with terms from a few weeks up to 52 weeks. They pay no coupon; the investor buys below face value and receives face value at maturity. Semiannual interest and 2 to 10 year terms describe Treasury notes, the most common confusion."
+  },
+  {
+   "id": "sie-2-015",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.2",
+   "q": "Treasury STRIPS are best described as:",
+   "options": [
+    "zero-coupon securities created from the separate interest and principal payments of Treasury notes and bonds",
+    "Treasury bonds whose principal adjusts for inflation",
+    "floating-rate notes reset weekly",
+    "savings bonds sold only to individuals"
+   ],
+   "answer": 0,
+   "explain": "STRIPS separate each coupon and the principal of a Treasury note or bond into individual zero-coupon securities, each bought at a discount and paying face value at one date. They have no reinvestment risk but are very sensitive to interest rates. Inflation-adjusted principal describes TIPS."
+  },
+  {
+   "id": "sie-2-016",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.2",
+   "q": "How does the inflation protection of Treasury Inflation-Protected Securities (TIPS) work?",
+   "options": [
+    "The coupon rate is reset monthly to the inflation rate",
+    "The principal value is adjusted for changes in the Consumer Price Index, and the fixed coupon rate is applied to the adjusted principal",
+    "The Treasury pays a bonus at maturity if inflation exceeded the coupon",
+    "TIPS are exempt from all federal taxes"
+   ],
+   "answer": 1,
+   "explain": "With TIPS, the principal is indexed to the CPI; the coupon rate stays fixed but is paid on the adjusted principal, so interest payments rise with inflation. The coupon rate itself does not reset, which is the trap in the first choice. Interest and inflation adjustments are subject to federal income tax."
+  },
+  {
+   "id": "sie-2-017",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.2",
+   "q": "Which mortgage-backed securities carry the full faith and credit guarantee of the U.S. government?",
+   "options": [
+    "Fannie Mae securities",
+    "Freddie Mac securities",
+    "Ginnie Mae securities",
+    "Private-label CMOs"
+   ],
+   "answer": 2,
+   "explain": "Ginnie Mae is a government corporation within the Department of Housing and Urban Development, and its guarantee is backed by the full faith and credit of the United States. Fannie Mae and Freddie Mac are government-sponsored enterprises: their securities carry their own guarantee, not an explicit U.S. government guarantee."
+  },
+  {
+   "id": "sie-2-018",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.2",
+   "q": "When mortgage interest rates fall sharply, holders of mortgage-backed pass-through securities face which main risk?",
+   "options": [
+    "Extension risk",
+    "Prepayment risk",
+    "Currency risk",
+    "Political risk"
+   ],
+   "answer": 1,
+   "explain": "Falling rates lead homeowners to refinance, so principal comes back early and must be reinvested at the new lower rates; this is prepayment risk. Extension risk is the opposite case: when rates rise, prepayments slow and the security's expected life lengthens."
+  },
+  {
+   "id": "sie-2-019",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.2",
+   "q": "A general obligation (GO) municipal bond is backed primarily by:",
+   "options": [
+    "the full faith, credit and taxing power of the issuing government",
+    "revenue from a specific facility such as a toll road",
+    "the U.S. Treasury",
+    "a letter of credit from a commercial bank"
+   ],
+   "answer": 0,
+   "explain": "GO bonds are secured by the issuer's general taxing power (for example property taxes for local governments) and often need voter approval. A specific facility's user fees back a revenue bond, which is the main confusion. Bank letters of credit are a credit enhancement some issues add, not the basic security of a GO bond."
+  },
+  {
+   "id": "sie-2-020",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.2",
+   "q": "Bonds issued to build an airport terminal, repaid from landing fees and terminal rents, are:",
+   "options": [
+    "general obligation bonds",
+    "special assessment bonds",
+    "moral obligation bonds",
+    "revenue bonds"
+   ],
+   "answer": 3,
+   "explain": "Revenue bonds are repaid from the income of the financed project, here landing fees and rents, rather than taxes. A special assessment bond is repaid from a levy on the specific properties that benefit from an improvement, such as sidewalks, which is the closest distractor."
+  },
+  {
+   "id": "sie-2-021",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.2",
+   "q": "A resident of State A buys a general obligation bond issued by a city in State B. How is the interest generally taxed?",
+   "options": [
+    "Exempt from federal income tax and from State A income tax",
+    "Exempt from federal income tax but possibly taxable by State A",
+    "Taxable at the federal level but exempt in State A",
+    "Taxable at both levels"
+   ],
+   "answer": 1,
+   "explain": "Interest on most municipal bonds is excluded from federal gross income. States, however, usually exempt only interest on their own bonds, so a resident of State A buying State B bonds generally owes State A tax on the interest. Assuming double exemption for an out-of-state bond is the trap.",
+   "rule": "Internal Revenue Code Section 103"
+  },
+  {
+   "id": "sie-2-022",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.1.2",
+   "q": "Commercial paper is best described as:",
+   "options": [
+    "a long-term secured bond of a corporation",
+    "a deposit at a bank insured by the FDIC",
+    "an unsecured short-term promissory note issued by a corporation",
+    "a time draft used to finance international trade"
+   ],
+   "answer": 2,
+   "explain": "Commercial paper is a short-term unsecured note issued at a discount by corporations with strong credit, used for working capital. A time draft guaranteed by a bank to finance imports and exports is a banker's acceptance, the closest distractor. Commercial paper is not a deposit and is not FDIC insured."
+  },
+  {
+   "id": "sie-2-023",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.1.2",
+   "q": "A banker's acceptance is most commonly used to:",
+   "options": [
+    "finance international trade",
+    "fund a state's general budget",
+    "provide long-term financing for real estate",
+    "pay dividends to preferred stockholders"
+   ],
+   "answer": 0,
+   "explain": "A banker's acceptance is a time draft that a bank has accepted, guaranteeing payment; it lets importers and exporters trade with confidence. It is a short-term money market instrument. Long-term real estate financing and government budgets are financed with other debt instruments."
+  },
+  {
+   "id": "sie-2-024",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.1.2",
+   "q": "Which bond rating is the lowest considered investment grade by Standard & Poor's?",
+   "options": [
+    "A",
+    "BB",
+    "B",
+    "BBB"
+   ],
+   "answer": 3,
+   "explain": "On the S&P scale, AAA through BBB (including BBB minus) are investment grade; BB and below are speculative, often called high yield or junk. BB is the trap because it sits directly below the cutoff. Moody's equivalent lowest investment-grade category is Baa."
+  },
+  {
+   "id": "sie-2-025",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.2",
+   "q": "Why would an issuer be most likely to call its bonds?",
+   "options": [
+    "Interest rates have risen since the bonds were issued",
+    "Interest rates have fallen, so it can refinance at a lower cost",
+    "The bonds are trading at a deep discount",
+    "Its credit rating has been downgraded"
+   ],
+   "answer": 1,
+   "explain": "Issuers call bonds when rates drop, replacing expensive debt with cheaper debt. For the investor this creates call risk and reinvestment risk, since the money comes back when rates are low. When rates rise and bonds trade at a discount, an issuer would rather buy them back cheaply in the market than pay the call price."
+  },
+  {
+   "id": "sie-2-026",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.2",
+   "q": "Compared with a nonconvertible bond of the same issuer and maturity, a convertible bond usually offers:",
+   "options": [
+    "a higher coupon, because conversion is a risk to the investor",
+    "the same coupon and a higher credit rating",
+    "a lower coupon, because the conversion feature has value to the investor",
+    "no coupon at all"
+   ],
+   "answer": 2,
+   "explain": "Investors accept a lower interest rate in exchange for the right to convert into common stock and share in its upside. The conversion feature costs the issuer less in interest, not more, so the higher-coupon choice reverses the trade-off. Conversion does not change the credit rating."
+  },
+  {
+   "id": "sie-2-027",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F1"
+    }
+   ],
+   "ref": "2.1.2",
+   "q": "In a competitive municipal bond sale, how is the underwriter selected?",
+   "options": [
+    "Syndicates submit sealed bids and the issuer awards the bonds to the bid with the lowest interest cost",
+    "The issuer chooses an underwriter and negotiates the terms privately",
+    "The bonds are sold directly to investors through the Treasury",
+    "The MSRB assigns an underwriter based on rotation"
+   ],
+   "answer": 0,
+   "explain": "In a competitive sale, the issuer publishes a notice of sale and syndicates submit bids; the award goes to the bid producing the lowest interest cost to the issuer. GO bonds are often sold this way. Choosing an underwriter and negotiating terms directly is a negotiated sale, common for revenue bonds."
+  },
+  {
+   "id": "sie-2-028",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.1.2",
+   "q": "In a Treasury auction, a noncompetitive bidder:",
+   "options": [
+    "specifies the lowest yield it will accept",
+    "is guaranteed to receive securities at the yield set by the auction",
+    "can buy only Treasury bonds",
+    "pays a higher price than competitive bidders"
+   ],
+   "answer": 1,
+   "explain": "Noncompetitive bidders agree to accept whatever yield the auction determines and, within limits, are assured of receiving the securities. Specifying a yield is what competitive bidders do, and they risk not being filled if their bid yield is too low. All accepted bidders receive the same yield."
+  },
+  {
+   "id": "sie-2-029",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.2",
+   "q": "Two bonds have the same coupon and credit quality. One matures in 3 years and the other in 25 years. If market rates rise by 1%, which is true?",
+   "options": [
+    "Both prices fall by the same amount",
+    "The 3-year bond falls more",
+    "Neither price changes until maturity",
+    "The 25-year bond falls more"
+   ],
+   "answer": 3,
+   "explain": "Longer-maturity bonds are more sensitive to interest rate changes because the below-market coupon is locked in for more years, so the price must drop further to compensate. Short-term bonds return principal sooner, limiting price changes. This is why long bonds carry more interest rate risk."
+  },
+  {
+   "id": "sie-2-030",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.1.3",
+   "q": "An investor who expects a stock to rise sharply but wants to limit the maximum loss to a known amount would most likely:",
+   "options": [
+    "buy a call",
+    "sell a call",
+    "buy a put",
+    "sell a put uncovered"
+   ],
+   "answer": 0,
+   "explain": "Buying a call is bullish and the most the buyer can lose is the premium paid. Selling a put is also bullish, which makes it tempting, but the writer's risk runs to the strike price minus the premium if the stock collapses, so the loss is not limited to a small known amount."
+  },
+  {
+   "id": "sie-2-031",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.3",
+   "q": "XYZ stock trades at $47. Which option is in the money?",
+   "options": [
+    "XYZ 50 call",
+    "XYZ 45 put",
+    "XYZ 50 put",
+    "XYZ 47.50 call"
+   ],
+   "answer": 2,
+   "explain": "A put is in the money when the stock price is below the strike; with XYZ at $47, the 50 put has $3 of intrinsic value. A call is in the money only when the stock is above the strike, so the 50 and 47.50 calls are out of the money, and the 45 put is out of the money because the stock is above $45."
+  },
+  {
+   "id": "sie-2-032",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.3",
+   "q": "ABC stock trades at $62. An ABC 60 call trades at a premium of $5. How much of the premium is time value?",
+   "options": [
+    "$2",
+    "$5",
+    "$1",
+    "$3"
+   ],
+   "answer": 3,
+   "explain": "Intrinsic value of a call is the stock price minus the strike when positive: $62 minus $60 equals $2. Time value is the rest of the premium: $5 minus $2 equals $3. The $2 trap is the intrinsic value, not the time value."
+  },
+  {
+   "id": "sie-2-033",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.1.3",
+   "q": "What distinguishes an American-style option from a European-style option?",
+   "options": [
+    "American-style options trade only in the United States",
+    "An American-style option can be exercised at any time up to expiration; a European-style option only at expiration",
+    "European-style options are always cash settled and American-style never are",
+    "American-style options have no expiration date"
+   ],
+   "answer": 1,
+   "explain": "The labels describe exercise rights, not where the option trades: American style allows exercise on any business day before expiration, European style only at expiration. Many index options are European style and many are cash settled, but settlement method is a separate feature from exercise style, which is the trap in the third choice."
+  },
+  {
+   "id": "sie-2-034",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.3",
+   "q": "An investor who owns 100 shares of a stock writes one call on that stock. This position is:",
+   "options": [
+    "a covered call, which earns premium income but caps the upside",
+    "an uncovered call with unlimited risk",
+    "a protective put",
+    "a long straddle"
+   ],
+   "answer": 0,
+   "explain": "Writing a call against stock already owned is covered: if assigned, the investor delivers the shares held, so there is no unlimited risk. The trade-off is that gains above the strike are given up in exchange for the premium. An uncovered call is written without owning the stock and does carry unlimited risk."
+  },
+  {
+   "id": "sie-2-035",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.1.3",
+   "q": "Which option position has theoretically unlimited risk?",
+   "options": [
+    "Long call",
+    "Long put",
+    "Short put",
+    "Short uncovered call"
+   ],
+   "answer": 3,
+   "explain": "The writer of an uncovered call must deliver stock at the strike if assigned, and there is no ceiling on how high the stock can rise, so the potential loss is unlimited. A short put is risky but the loss is capped because a stock cannot fall below zero. Option buyers can lose only the premium."
+  },
+  {
+   "id": "sie-2-036",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F1"
+    }
+   ],
+   "ref": "2.1.3",
+   "q": "When must a customer receive the Options Disclosure Document (ODD)?",
+   "options": [
+    "Within 15 days after the first options trade",
+    "Only if the customer asks for it",
+    "At or before the time the account is approved for options trading",
+    "With the first monthly account statement"
+   ],
+   "answer": 2,
+   "explain": "FINRA Rule 2360 requires the firm to deliver the current ODD, Characteristics and Risks of Standardized Options, no later than the time the account is approved for options trading. The 15-day period is the trap: it relates to the customer's signed options agreement, which can follow approval, not to delivery of the ODD.",
+   "rule": "FINRA Rule 2360(b)(11)"
+  },
+  {
+   "id": "sie-2-037",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.1.3",
+   "q": "What is the role of the Options Clearing Corporation (OCC) for listed options?",
+   "options": [
+    "It sets the premium of each option",
+    "It acts as issuer and guarantor of listed options, standing between buyers and writers",
+    "It approves customer accounts for options trading",
+    "It insures option buyers against losses"
+   ],
+   "answer": 1,
+   "explain": "The OCC is the issuer of listed options and guarantees performance: it becomes the buyer to every seller and the seller to every buyer, and assigns exercise notices to member firms. Premiums are set by market trading, and account approval is the job of the broker-dealer's options principal."
+  },
+  {
+   "id": "sie-2-038",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.1.3",
+   "q": "How are broad-based index options typically settled when exercised?",
+   "options": [
+    "In cash, based on the difference between the index value and the strike price",
+    "By delivering every stock in the index",
+    "By delivering shares of an index mutual fund",
+    "They cannot be exercised, only closed"
+   ],
+   "answer": 0,
+   "explain": "An index cannot be delivered, so index options settle in cash: the assigned writer pays the in-the-money amount times the contract multiplier. Delivering every stock in the index would be impractical, and exercise of index options is permitted, so the last choice is wrong."
+  },
+  {
+   "id": "sie-2-039",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.3",
+   "q": "An investor holds a large stock position with big gains and fears a short-term decline but does not want to sell. Which strategy hedges the downside?",
+   "options": [
+    "Selling an uncovered put",
+    "Buying a call",
+    "Buying a put on the stock",
+    "Selling the stock short against the box"
+   ],
+   "answer": 2,
+   "explain": "A protective put gives the right to sell at the strike, so it sets a floor on the position's value for the cost of the premium while keeping the upside. Selling a put adds downside exposure instead of hedging it, and buying a call adds bullish exposure. Shorting against the box is a different technique with its own tax rules."
+  },
+  {
+   "id": "sie-2-040",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    },
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.4",
+   "q": "Which feature distinguishes an open-end fund from a closed-end fund?",
+   "options": [
+    "Open-end shares trade on exchanges at market prices",
+    "Closed-end funds continuously issue and redeem shares at NAV",
+    "Open-end funds issue a fixed number of shares in a single IPO",
+    "Open-end funds continuously issue new shares and redeem them at NAV"
+   ],
+   "answer": 3,
+   "explain": "Open-end (mutual) funds sell new shares and redeem shares on demand at net asset value, so the share count changes daily. Closed-end funds issue a fixed number of shares in an offering, after which shares trade on an exchange at prices that may be above or below NAV. The other choices swap the two structures.",
+   "rule": "Investment Company Act of 1940, Section 5"
+  },
+  {
+   "id": "sie-2-041",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    },
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.4",
+   "q": "A mutual fund has total assets of $52 million, liabilities of $2 million and 4 million shares outstanding. What is its NAV per share?",
+   "options": [
+    "$12.00",
+    "$12.50",
+    "$13.00",
+    "$13.50"
+   ],
+   "answer": 1,
+   "explain": "Net asset value equals total assets minus liabilities, divided by shares outstanding: ($52 million minus $2 million) divided by 4 million equals $12.50. The $13.00 trap divides total assets by the share count without subtracting liabilities."
+  },
+  {
+   "id": "sie-2-042",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    },
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.4",
+   "q": "A fund's NAV is $9.40 and its public offering price is $10.00. What is the sales charge as a percentage of the offering price?",
+   "options": [
+    "6.0%",
+    "6.4%",
+    "5.6%",
+    "4.0%"
+   ],
+   "answer": 0,
+   "explain": "Sales charge percentage is computed on the offering price: ($10.00 minus $9.40) divided by $10.00 equals 6.0%. The 6.4% trap divides the $0.60 load by the NAV instead of the POP, which is not how mutual fund sales charges are expressed.",
+   "rule": "FINRA Rule 2341"
+  },
+  {
+   "id": "sie-2-043",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    },
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.4",
+   "q": "An investor will invest a large amount in a fund family and plans to hold for many years. Which share class is usually most cost effective?",
+   "options": [
+    "Class C shares, because they have no front-end load",
+    "Class B shares, because the deferred charge eventually disappears",
+    "Class A shares, because breakpoints reduce the front-end load and ongoing 12b-1 fees are lower",
+    "Any class, because total costs are identical"
+   ],
+   "answer": 2,
+   "explain": "Class A shares charge a front-end load that falls at breakpoints for larger purchases and usually carry lower ongoing 12b-1 fees, so they often cost least for large, long-term investors. Class C shares avoid the upfront load but charge higher annual fees every year, which add up over a long holding period."
+  },
+  {
+   "id": "sie-2-044",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.4",
+   "q": "A representative recommends that a customer invest $48,000 in a fund whose sales charge drops at $50,000, without mentioning the breakpoint, to earn a higher commission. This practice is called:",
+   "options": [
+    "a breakpoint sale, which is prohibited",
+    "dollar-cost averaging",
+    "a letter of intent",
+    "rights of accumulation"
+   ],
+   "answer": 0,
+   "explain": "Steering purchases just below a breakpoint so the customer pays a higher sales charge is a prohibited breakpoint sale under FINRA Rule 2342. The representative should tell the customer about the breakpoint and about a letter of intent, which could let a later purchase reach the reduced charge. ROA and LOI are tools that help customers reach breakpoints.",
+   "rule": "FINRA Rule 2342"
+  },
+  {
+   "id": "sie-2-045",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    },
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.4",
+   "q": "A customer already holds $40,000 of a fund family's Class A shares. She now buys $15,000 more, and the family's breakpoint is $50,000. Which feature lets her pay the reduced sales charge on the new purchase?",
+   "options": [
+    "Letter of intent",
+    "Rights of accumulation",
+    "Exchange privilege",
+    "Conversion privilege"
+   ],
+   "answer": 1,
+   "explain": "Rights of accumulation let the value of existing holdings (here $40,000) count toward the breakpoint for a new purchase, so the $15,000 purchase brings her to $55,000 and qualifies for the lower charge. A letter of intent is a commitment about future purchases over a set period, typically 13 months, not credit for shares already held.",
+   "rule": "FINRA Rule 2341"
+  },
+  {
+   "id": "sie-2-046",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.4",
+   "q": "A customer signs a letter of intent to invest enough to reach a breakpoint but does not complete the purchases within the period. What usually happens?",
+   "options": [
+    "The customer is fined by FINRA",
+    "The fund cancels all prior purchases",
+    "Nothing, because the letter is not binding on price",
+    "The fund applies the higher sales charge that matches the amount actually bought, often using escrowed shares"
+   ],
+   "answer": 3,
+   "explain": "A letter of intent is not binding on the customer to keep buying, but the reduced charge depends on reaching the stated amount. If the customer falls short, the fund recalculates and collects the higher sales charge, typically by redeeming shares held in escrow. Purchases are not cancelled and FINRA does not fine customers."
+  },
+  {
+   "id": "sie-2-047",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    },
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.4",
+   "q": "Under FINRA rules, a fund that charges an annual 12b-1 fee of 0.50% of net assets and no front-end or deferred load:",
+   "options": [
+    "may still be described as no-load",
+    "must be called a closed-end fund",
+    "may not be described as no-load",
+    "is prohibited from charging the fee"
+   ],
+   "answer": 2,
+   "explain": "A fund may be called no-load only if it has no front-end or deferred sales charge and its asset-based sales and service charges do not exceed 0.25% of average net assets per year. At 0.50%, the fund fails the test. The fee itself is allowed; it just limits how the fund can be marketed.",
+   "rule": "FINRA Rule 2341(d)"
+  },
+  {
+   "id": "sie-2-048",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.4",
+   "q": "Which statement about a unit investment trust (UIT) is accurate?",
+   "options": [
+    "It holds a fixed portfolio and has no board of directors or ongoing active management",
+    "It is actively managed by an investment adviser who trades daily",
+    "It is a type of closed-end fund that must trade on an exchange",
+    "It is a separate account of an insurance company"
+   ],
+   "answer": 0,
+   "explain": "A UIT is organized under a trust indenture, buys a set portfolio that is generally held until the trust terminates, and has no board or investment adviser managing it. Its units are redeemable. Active management describes a management company, and an insurance separate account is the vehicle behind variable contracts.",
+   "rule": "Investment Company Act of 1940, Section 4"
+  },
+  {
+   "id": "sie-2-049",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.4",
+   "q": "In a deferred variable annuity, who bears the investment risk of the subaccounts?",
+   "options": [
+    "The insurance company",
+    "The contract owner",
+    "The broker-dealer that sold it",
+    "The state guaranty association"
+   ],
+   "answer": 1,
+   "explain": "The premiums of a variable annuity go into a separate account invested in subaccounts chosen by the contract owner, so the owner gains or loses with the investments. That investment risk is why variable annuities are securities. In a fixed annuity, the insurer bears the investment risk, which is the trap."
+  },
+  {
+   "id": "sie-2-050",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    },
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.4",
+   "q": "A 50-year-old owner of a nonqualified deferred variable annuity withdraws part of the contract value, which includes gains. How is the withdrawal generally taxed?",
+   "options": [
+    "Tax free, because premiums were paid with after-tax money",
+    "As return of premium first, with no tax until all premiums are recovered",
+    "As long-term capital gain",
+    "Earnings come out first as ordinary income, plus a 10% additional tax because the owner is under 59½"
+   ],
+   "answer": 3,
+   "explain": "Partial withdrawals from a nonqualified annuity are treated as coming from earnings first, taxed as ordinary income, and before age 59½ an additional 10% tax generally applies to the taxable part. Only after earnings are exhausted does the after-tax cost basis come out tax free. Annuity gains are never capital gains.",
+   "rule": "Internal Revenue Code Section 72"
+  },
+  {
+   "id": "sie-2-051",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.4",
+   "q": "What is the purpose of a surrender charge in a variable annuity?",
+   "options": [
+    "To pay the mortality and expense guarantees each year",
+    "To fund the 12b-1 plan of the subaccounts",
+    "To let the insurer recover sales costs if the owner cancels the contract during the early years",
+    "To penalize withdrawals after age 59½"
+   ],
+   "answer": 2,
+   "explain": "Surrender charges are contingent deferred charges that apply when money is withdrawn during a surrender period, typically declining each year; they recover distribution costs the insurer paid up front. Mortality and expense charges are separate ongoing fees. The 10% additional tax before 59½ is an IRS rule, not an insurer charge.",
+   "rule": "FINRA Rule 2330"
+  },
+  {
+   "id": "sie-2-052",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    },
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.5",
+   "q": "In a 529 college savings plan, who controls the account, including investment choices and the ability to change the beneficiary?",
+   "options": [
+    "The beneficiary, once the beneficiary turns 18",
+    "The account owner",
+    "The state treasurer",
+    "The college the beneficiary attends"
+   ],
+   "answer": 1,
+   "explain": "The account owner, often a parent or grandparent, keeps control of a 529 account: choosing investments, timing withdrawals and naming or changing the beneficiary. Unlike an UTMA custodial account, the assets do not pass to the beneficiary at the age of majority, which is the trap in the first choice."
+  },
+  {
+   "id": "sie-2-053",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    },
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.5",
+   "q": "An owner withdraws money from a 529 savings plan and uses it for a vacation. How is the withdrawal generally treated for federal tax purposes?",
+   "options": [
+    "The earnings portion is taxable income and generally subject to a 10% additional tax",
+    "The entire withdrawal, including contributions, is taxed and penalized",
+    "The withdrawal is tax free because contributions were after tax",
+    "Only a state penalty applies"
+   ],
+   "answer": 0,
+   "explain": "In a nonqualified 529 withdrawal, contributions come back tax free because they were made with after-tax money, but the earnings portion is included in income and generally hit with a 10% additional tax. Taxing the whole amount is the trap: contributions are never taxed a second time.",
+   "rule": "Internal Revenue Code Section 529"
+  },
+  {
+   "id": "sie-2-054",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.5",
+   "q": "How does a 529 prepaid tuition plan differ from a 529 savings plan?",
+   "options": [
+    "A prepaid plan invests in mutual funds chosen by the owner",
+    "A prepaid plan can be used for any expense with no restriction",
+    "A prepaid plan locks in future tuition at participating schools at today's prices, while a savings plan's value depends on investment performance",
+    "A prepaid plan is a federal program, while savings plans are state programs"
+   ],
+   "answer": 2,
+   "explain": "Prepaid tuition plans let families buy tuition credits now for later use at eligible schools, protecting against tuition inflation. Savings plans are investment accounts whose value rises or falls with the chosen portfolios. Both are state-sponsored programs, so the federal-versus-state choice is wrong."
+  },
+  {
+   "id": "sie-2-055",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.5",
+   "q": "Local government investment pools (LGIPs) are designed for investment by:",
+   "options": [
+    "retail investors saving for retirement",
+    "parents saving for college",
+    "foreign central banks",
+    "state and local government entities managing their short-term cash"
+   ],
+   "answer": 3,
+   "explain": "LGIPs are municipal fund securities through which states, cities and other public entities pool their cash for short-term investment, usually in money-market-like portfolios. They are not open to individual retail investors. Parents saving for college would use a 529 plan, the other main municipal fund security.",
+   "rule": "MSRB Rule D-12"
+  },
+  {
+   "id": "sie-2-056",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.5",
+   "q": "An ABLE account is a tax-advantaged savings account intended for:",
+   "options": [
+    "individuals with disabilities, to pay qualified disability expenses",
+    "small business owners, to fund employee pensions",
+    "first-time homebuyers",
+    "any child under 18"
+   ],
+   "answer": 0,
+   "explain": "ABLE accounts, authorized under Section 529A, let eligible individuals with disabilities save for qualified disability expenses with tax-free growth, generally without losing eligibility for certain means-tested benefits. They are municipal fund securities, like 529 plans, which is why they sit under MSRB rules.",
+   "rule": "Internal Revenue Code Section 529A"
+  },
+  {
+   "id": "sie-2-057",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.5",
+   "q": "Compared with a direct-sold 529 plan, an adviser-sold 529 plan typically:",
+   "options": [
+    "has no investment options",
+    "includes sales charges or higher fees to compensate the selling broker-dealer",
+    "is not a municipal fund security",
+    "is available only to state residents"
+   ],
+   "answer": 1,
+   "explain": "Adviser-sold 529 plans are distributed through broker-dealers and usually have share classes with sales charges and 12b-1-type fees, similar to mutual funds. Direct-sold plans are bought straight from the plan and usually cost less. Both types are municipal fund securities, and many plans of either type accept out-of-state investors."
+  },
+  {
+   "id": "sie-2-058",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.6",
+   "q": "What is meant by pass-through (flow-through) tax treatment in a direct participation program?",
+   "options": [
+    "The program pays corporate income tax and then distributes dividends",
+    "Taxes are paid by the general partner only",
+    "Income, gains, losses and deductions flow directly to the partners, who report them on their own returns",
+    "Distributions are always tax free"
+   ],
+   "answer": 2,
+   "explain": "A limited partnership is not taxed at the entity level; each partner reports a share of the income, losses and deductions, avoiding double taxation. Paying corporate tax and then distributing dividends describes a C corporation, the opposite structure. Distributions can be taxable depending on the partner's basis."
+  },
+  {
+   "id": "sie-2-059",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.6",
+   "q": "In a limited partnership, which statement about the general partner is accurate?",
+   "options": [
+    "The general partner has limited liability and no management role",
+    "The general partner manages the business and has unlimited liability for its debts",
+    "The general partner may never invest in the partnership",
+    "The general partner's role is to provide capital only"
+   ],
+   "answer": 1,
+   "explain": "The general partner runs the partnership and carries unlimited liability. Limited partners provide capital, have liability limited to their investment, and lose that protection if they take part in management. The first and last choices describe the limited partner's position, which is the usual mix-up."
+  },
+  {
+   "id": "sie-2-060",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.1.6",
+   "q": "Which risk is most characteristic of direct participation programs?",
+   "options": [
+    "Liquidity risk, because there is usually no active secondary market for the units",
+    "Currency risk, because DPPs invest only abroad",
+    "Call risk, because units are redeemed when rates fall",
+    "Prepayment risk"
+   ],
+   "answer": 0,
+   "explain": "DPP interests are generally unlisted, and transfers often need general partner consent, so investors may be unable to sell before the program ends. That makes liquidity the defining risk. Call and prepayment risk relate to debt securities, and DPPs are not limited to foreign assets.",
+   "rule": "FINRA Rule 2310"
+  },
+  {
+   "id": "sie-2-061",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.1.6",
+   "q": "In a tenants in common (TIC) real estate program, each investor owns:",
+   "options": [
+    "shares of a corporation that owns the property",
+    "a debt claim secured by the property",
+    "units of a publicly traded REIT",
+    "an undivided fractional interest in the property itself"
+   ],
+   "answer": 3,
+   "explain": "In a TIC program, each investor holds an undivided fractional ownership interest directly in the real property, often used in like-kind exchanges. Holding shares of an entity that owns the property, such as a REIT or corporation, is indirect ownership, which is the distinction this question tests."
+  },
+  {
+   "id": "sie-2-062",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.7",
+   "q": "A REIT that meets the Internal Revenue Code tests and distributes at least 90% of its taxable income to shareholders generally:",
+   "options": [
+    "passes its losses through to shareholders",
+    "pays corporate tax on all income before distributions",
+    "avoids corporate-level tax on the income it distributes",
+    "must invest only in mortgages"
+   ],
+   "answer": 2,
+   "explain": "A qualifying REIT deducts the dividends it pays, so income distributed to shareholders is not taxed at the corporate level; shareholders pay tax on the dividends. A REIT is not a partnership, so losses do not pass through to investors, which is the trap in the first choice.",
+   "rule": "Internal Revenue Code Section 857"
+  },
+  {
+   "id": "sie-2-063",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.1.7",
+   "q": "Which statement best describes the main risk difference between a listed REIT and a registered non-listed REIT?",
+   "options": [
+    "Non-listed REITs are not registered with the SEC",
+    "Non-listed REIT shares do not trade on an exchange, so investors may have limited ways to sell",
+    "Listed REITs are not required to distribute income",
+    "Non-listed REITs are guaranteed by the sponsor"
+   ],
+   "answer": 1,
+   "explain": "A registered non-listed REIT files with the SEC but its shares are not exchange traded; investors depend on limited share repurchase programs or a future listing to get out. Listed REIT shares can be sold daily on an exchange. Registration status is the trap in the first choice, since private REITs are the unregistered kind.",
+   "rule": "FINRA Rule 2310"
+  },
+  {
+   "id": "sie-2-064",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.7",
+   "q": "A REIT that earns most of its income from interest on loans secured by real estate is a(n):",
+   "options": [
+    "mortgage REIT",
+    "equity REIT",
+    "hybrid REIT",
+    "real estate limited partnership"
+   ],
+   "answer": 0,
+   "explain": "Mortgage REITs hold real estate debt and earn interest, so they are sensitive to interest rates and credit. Equity REITs own properties and earn rents, and hybrid REITs combine both. A limited partnership is a different structure with pass-through of losses."
+  },
+  {
+   "id": "sie-2-065",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.8",
+   "q": "Which statement about typical private hedge funds is accurate?",
+   "options": [
+    "They are registered investment companies sold to any retail investor",
+    "They must keep their portfolios fully liquid",
+    "They are prohibited from using leverage or short selling",
+    "They are usually limited to accredited or other qualified investors and often impose lock-up periods"
+   ],
+   "answer": 3,
+   "explain": "Private hedge funds are usually offered through private placements to accredited or other qualified investors, often set high minimum investments, are commonly organized as limited partnerships, and may lock up capital. They frequently use leverage, short selling and derivatives, so the prohibition in the third choice is wrong."
+  },
+  {
+   "id": "sie-2-066",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    },
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.9",
+   "q": "How is the price of an exchange-traded fund (ETF) determined during the trading day, compared with a mutual fund?",
+   "options": [
+    "Both are priced once a day at NAV",
+    "ETF shares trade continuously at market prices, while mutual fund orders are filled at the next computed NAV",
+    "ETFs are priced weekly",
+    "Mutual funds trade at market prices that may differ from NAV"
+   ],
+   "answer": 1,
+   "explain": "ETFs trade on exchanges throughout the day like stocks, at market prices that are usually close to but may differ from NAV. Open-end mutual fund orders receive forward pricing at the next NAV calculated, typically after the close. The last choice confuses mutual funds with closed-end funds or ETFs.",
+   "rule": "SEC Rule 22c-1"
+  },
+  {
+   "id": "sie-2-067",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.9",
+   "q": "Which risk is specific to an exchange-traded note (ETN) and not to an ETF holding the same index stocks?",
+   "options": [
+    "Market risk",
+    "Liquidity risk",
+    "Credit risk of the issuing institution",
+    "Inflation risk"
+   ],
+   "answer": 2,
+   "explain": "An ETN is an unsecured debt obligation of its issuer, usually a bank, promising a return linked to an index; if the issuer defaults, holders may lose money even if the index rises. An ETF owns the underlying securities, so it does not carry that issuer credit exposure. Market risk applies to both."
+  },
+  {
+   "id": "sie-2-068",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.1.9",
+   "q": "Why do passively managed index ETFs generally have lower expense ratios than actively managed funds?",
+   "options": [
+    "They track an index and trade less, so research and trading costs are lower",
+    "They are exempt from management fees by law",
+    "They pay no brokerage commissions",
+    "They are guaranteed by the exchange"
+   ],
+   "answer": 0,
+   "explain": "Passive funds simply replicate an index, which needs little research staff and produces low portfolio turnover, keeping costs down. No law exempts them from fees, and investors usually still face trading costs such as commissions or the bid-ask spread when buying or selling ETF shares."
+  },
+  {
+   "id": "sie-2-069",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.2",
+   "q": "Which type of risk can be reduced by diversifying across many companies and industries?",
+   "options": [
+    "Systematic (market) risk",
+    "Interest rate risk",
+    "Purchasing power risk",
+    "Non-systematic (company-specific) risk"
+   ],
+   "answer": 3,
+   "explain": "Non-systematic risk comes from events specific to one company or industry, such as a failed product, and diversification spreads it away. Systematic risk affects the whole market, so holding more stocks does not remove it; it is managed with hedging or asset allocation instead."
+  },
+  {
+   "id": "sie-2-070",
+   "exam": "sie",
+   "section": "2",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "2.2",
+   "q": "An investor buys a zero-coupon bond and holds it to maturity. Which risk is eliminated?",
+   "options": [
+    "Credit risk",
+    "Inflation risk",
+    "Reinvestment risk",
+    "Liquidity risk"
+   ],
+   "answer": 2,
+   "explain": "A zero-coupon bond pays no periodic interest, so there are no coupons to reinvest at uncertain future rates; the return is locked in if held to maturity. Credit and liquidity risk remain, and a fixed nominal payment far in the future is fully exposed to inflation risk."
+  },
+  {
+   "id": "sie-2-071",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.2",
+   "q": "A retiree holds only long-term fixed-rate bonds for income. Over 20 years, which risk is she most exposed to?",
+   "options": [
+    "Purchasing power (inflation) risk",
+    "Currency risk",
+    "Call risk only",
+    "Political risk"
+   ],
+   "answer": 0,
+   "explain": "Fixed payments buy less as prices rise, so over long periods inflation steadily erodes the real value of the income and principal. Call risk may exist for some bonds, but the dominant long-term danger for an all-fixed-income portfolio is loss of purchasing power. Currency and political risk apply mainly to foreign investments."
+  },
+  {
+   "id": "sie-2-072",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.2",
+   "q": "A U.S. investor buys bonds of a foreign government that pay interest in euros. Besides credit risk, which risk does the investor take on?",
+   "options": [
+    "Prepayment risk",
+    "Currency (exchange rate) risk",
+    "Call risk",
+    "None, because government bonds are risk free"
+   ],
+   "answer": 1,
+   "explain": "Payments in euros must be converted to dollars, so a rising dollar reduces the investor's return even if the bond pays as promised. Foreign government debt also carries political and credit risk; it is not risk free. Prepayment risk is typical of mortgage-backed securities."
+  },
+  {
+   "id": "sie-2-073",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.2",
+   "q": "An investor's target mix is 60% stocks and 40% bonds. After a strong stock market, the portfolio is 75% stocks. Selling stocks and buying bonds to return to 60/40 is called:",
+   "options": [
+    "hedging",
+    "dollar-cost averaging",
+    "market timing",
+    "portfolio rebalancing"
+   ],
+   "answer": 3,
+   "explain": "Rebalancing restores the intended asset allocation, which keeps the portfolio's risk level consistent with the investor's plan. Hedging uses an offsetting position such as an option to protect against loss, and dollar-cost averaging means investing a fixed amount at regular intervals."
+  },
+  {
+   "id": "sie-2-074",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.2",
+   "q": "Which investment exposes the buyer to the greatest risk of losing the entire amount invested in a short time (capital risk)?",
+   "options": [
+    "A Treasury bill",
+    "An insured bank CD",
+    "A short-term out-of-the-money call option",
+    "A money market fund"
+   ],
+   "answer": 2,
+   "explain": "An out-of-the-money option that is still out of the money at expiration expires worthless, so the buyer can lose the whole premium within weeks. Treasury bills, insured CDs and money market funds are designed for capital preservation and carry very low risk of total loss."
+  },
+  {
+   "id": "sie-2-075",
+   "exam": "sie",
+   "section": "2",
+   "ref": "2.2",
+   "q": "A bond portfolio manager is worried that the issuer of a bond she holds may fail to make its interest and principal payments. Which risk is she concerned about?",
+   "options": [
+    "Credit (default) risk",
+    "Reinvestment risk",
+    "Liquidity risk",
+    "Market risk"
+   ],
+   "answer": 0,
+   "explain": "Credit risk is the risk that the issuer cannot pay interest or repay principal, measured in part by credit ratings. Liquidity risk is about being able to sell quickly at a fair price, and reinvestment risk concerns the rate at which cash flows can be reinvested; neither is about the issuer failing to pay."
+  },
+  {
+   "id": "sie-3-001",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F4"
+    }
+   ],
+   "ref": "3.1.1",
+   "q": "A customer owns stock bought at $30 that now trades at $50. She wants to protect most of her gain if the price starts to fall, without selling now. Which order fits best?",
+   "options": [
+    "Buy stop order at $52",
+    "Sell limit order at $55",
+    "Buy limit order at $45",
+    "Sell stop order at $45"
+   ],
+   "answer": 3,
+   "explain": "A sell stop is placed below the current market; if the stock trades at or below $45, it becomes a market order to sell, locking in most of the gain. A sell limit at $55 is placed above the market and would sell only on a rise, so it does not protect against a decline."
+  },
+  {
+   "id": "sie-3-002",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F4"
+    }
+   ],
+   "ref": "3.1.1",
+   "q": "A customer wants to buy a stock now trading at $40, but only if she can pay $38 or less. Which order should she enter?",
+   "options": [
+    "Buy stop at $38",
+    "Buy limit at $38",
+    "Sell limit at $38",
+    "Market order"
+   ],
+   "answer": 1,
+   "explain": "A buy limit order sets the maximum price the buyer will pay; it can execute only at $38 or lower. A buy stop is placed above the market and is triggered by a rise, which is the opposite of what she wants. A market order would fill right away near $40."
+  },
+  {
+   "id": "sie-3-003",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F4"
+    }
+   ],
+   "ref": "3.1.1",
+   "q": "An investor sold a stock short at $60. Which order would limit the loss if the stock rises?",
+   "options": [
+    "Buy stop order above $60",
+    "Sell stop order below $60",
+    "Buy limit order below $60",
+    "Sell limit order above $60"
+   ],
+   "answer": 0,
+   "explain": "A short seller loses when the price rises, so protection is a buy stop placed above the short sale price: if the stock trades up to the stop, a market order to buy covers the short. A buy limit below the market would only cover on a decline, which protects nothing."
+  },
+  {
+   "id": "sie-3-004",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.1.1",
+   "q": "A stock is quoted at a bid of $25.10 and an offer (ask) of $25.15. A customer who places a market order to buy can expect to pay about:",
+   "options": [
+    "$25.10",
+    "$25.125",
+    "$25.15",
+    "$25.00"
+   ],
+   "answer": 2,
+   "explain": "Buyers pay the offer, the lowest price at which someone is willing to sell, and sellers receive the bid. A market buy order should therefore fill near $25.15. The bid, $25.10, is what a market sell order would receive, which is the common mix-up."
+  },
+  {
+   "id": "sie-3-005",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.1.1",
+   "q": "A broker-dealer sells a customer a bond from its own inventory and includes a markup in the price. In what capacity did the firm act?",
+   "options": [
+    "As agent, for a commission",
+    "As a principal (dealer)",
+    "As a broker matching two customers",
+    "As transfer agent"
+   ],
+   "answer": 1,
+   "explain": "When a firm buys or sells for its own account, it acts as principal (dealer) and is paid through a markup or markdown included in the price. Acting as agent means arranging a trade between the customer and another party for a commission. A firm cannot be both principal and agent on the same transaction.",
+   "rule": "FINRA Rule 2121"
+  },
+  {
+   "id": "sie-3-006",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.1.1",
+   "q": "A representative calls a customer and recommends buying shares of a company, and the customer agrees. This order should be marked:",
+   "options": [
+    "unsolicited",
+    "discretionary",
+    "solicited",
+    "not held"
+   ],
+   "answer": 2,
+   "explain": "An order that results from the representative's recommendation is solicited, and suitability and best interest obligations apply. Unsolicited orders originate with the customer. The order is not discretionary, because the customer chose the security and quantity by agreeing to it."
+  },
+  {
+   "id": "sie-3-007",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.1.1",
+   "q": "Which investor is bearish?",
+   "options": [
+    "One who buys a call",
+    "One who buys stock",
+    "One who writes a put",
+    "One who sells stock short"
+   ],
+   "answer": 3,
+   "explain": "A short seller profits if the price falls, so short selling is a bearish position. Buying calls, buying stock and writing puts all gain when the stock price rises or holds, so they are bullish. Writing a put is the tempting trap, since it is a sale, but it is a bullish position."
+  },
+  {
+   "id": "sie-3-008",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.1.2",
+   "q": "An investor buys a stock at $40, receives $2 of dividends during the year, and sells it at $44. What is her total return?",
+   "options": [
+    "10%",
+    "15%",
+    "5%",
+    "20%"
+   ],
+   "answer": 1,
+   "explain": "Total return includes both income and price change: ($44 minus $40 plus $2) divided by $40 equals $6 divided by $40, or 15%. The 10% trap counts only the price gain and ignores the dividend income, and 5% counts only the dividend yield."
+  },
+  {
+   "id": "sie-3-009",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F4"
+    }
+   ],
+   "ref": "3.1.2",
+   "q": "With regular-way settlement on T+1, a company sets a record date of Thursday for a cash dividend. When is the ex-dividend date?",
+   "options": [
+    "Wednesday, one business day before the record date",
+    "Tuesday, two business days before the record date",
+    "Thursday, the record date itself",
+    "Friday, one business day after the record date"
+   ],
+   "answer": 2,
+   "explain": "Since the move to T+1 settlement in May 2024, the ex-dividend date for regular-way trades is the same business day as the record date. A buyer on the ex-date settles after the record date and does not receive the dividend. The one-day-earlier answer reflects the old T+2 cycle.",
+   "rule": "SEC Rule 15c6-1"
+  },
+  {
+   "id": "sie-3-010",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.1.2",
+   "q": "Which date determines who is entitled to receive a declared dividend, based on the issuer's records of shareholders?",
+   "options": [
+    "The record date",
+    "The declaration date",
+    "The payable date",
+    "The trade date"
+   ],
+   "answer": 0,
+   "explain": "The issuer pays the dividend to holders shown on its books on the record date. The declaration date is when the board announces the dividend, and the payable date is when the money is sent. Because of settlement time, an investor must buy before the ex-date to be a holder on the record date."
+  },
+  {
+   "id": "sie-3-011",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.1.2",
+   "q": "A bond's yield rises from 4.25% to 4.60%. By how many basis points did it change?",
+   "options": [
+    "3.5",
+    "0.35",
+    "350",
+    "35"
+   ],
+   "answer": 3,
+   "explain": "One basis point is one hundredth of one percent (0.01%), so a change of 0.35 percentage points equals 35 basis points. The 350 answer treats one basis point as 0.001%, which is a common slip."
+  },
+  {
+   "id": "sie-3-012",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.1.4",
+   "q": "An investor owns 100 shares bought for $60 a share. The company declares a 3-for-2 stock split. What is the investor's position afterward?",
+   "options": [
+    "150 shares with a cost basis of $40 per share",
+    "150 shares with a cost basis of $60 per share",
+    "100 shares with a cost basis of $40 per share",
+    "66 shares with a cost basis of $90 per share"
+   ],
+   "answer": 0,
+   "explain": "A 3-for-2 split gives 3 shares for every 2 held: 100 x 3/2 = 150 shares. Total cost basis stays at $6,000, so the per-share basis becomes $6,000 / 150 = $40. A split is not a taxable event; it changes the number of shares and the per-share basis but not the total."
+  },
+  {
+   "id": "sie-3-013",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.1.4",
+   "q": "A company whose stock trades at $2 announces a 1-for-5 reverse split. An investor with 1,000 shares should expect to hold:",
+   "options": [
+    "5,000 shares at about $0.40",
+    "200 shares at about $10",
+    "1,000 shares at about $10",
+    "200 shares at about $2"
+   ],
+   "answer": 1,
+   "explain": "A 1-for-5 reverse split combines every 5 shares into 1: 1,000 / 5 = 200 shares, and the price should rise about fivefold to $10, so the position's value is unchanged at about $2,000. Companies often reverse split to meet minimum price listing standards."
+  },
+  {
+   "id": "sie-3-014",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.1.4",
+   "q": "A company offers to buy back its shares directly from shareholders at a fixed price above the market for a limited time. This corporate action is a:",
+   "options": [
+    "rights offering",
+    "stock split",
+    "proxy contest",
+    "tender offer"
+   ],
+   "answer": 3,
+   "explain": "A tender offer is a public offer to buy shares from holders, usually at a premium and for a limited period; under SEC rules a tender offer must stay open for at least 20 business days. A rights offering lets holders buy new shares, which is the reverse direction of money flow.",
+   "rule": "SEC Rule 14e-1"
+  },
+  {
+   "id": "sie-3-015",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.1.4",
+   "q": "A shareholder cannot attend the annual meeting but wants to vote on the election of directors. How can she vote?",
+   "options": [
+    "She cannot vote unless present",
+    "By having her broker vote however it chooses",
+    "By granting a proxy, authorizing someone else to vote her shares as instructed",
+    "By selling and repurchasing her shares"
+   ],
+   "answer": 2,
+   "explain": "A proxy is a written authorization that lets another party vote the shareholder's shares as directed; issuers solicit proxies with a proxy statement under Section 14 of the Exchange Act. Broker-dealers forward proxy materials to beneficial owners and generally may vote uninstructed shares only on routine matters.",
+   "rule": "Securities Exchange Act of 1934, Section 14"
+  },
+  {
+   "id": "sie-3-016",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F4"
+    }
+   ],
+   "ref": "3.1.3",
+   "q": "A customer buys shares of a listed stock in a regular-way trade on Monday, which is a normal business day with Tuesday also a business day. When does the trade settle?",
+   "options": [
+    "Monday",
+    "Wednesday",
+    "Thursday",
+    "Tuesday"
+   ],
+   "answer": 3,
+   "explain": "Regular-way equity trades settle on T+1, one business day after the trade date, under SEC Rule 15c6-1 as amended in 2024. A Monday trade settles Tuesday. Wednesday reflects the older T+2 cycle, and same-day settlement is a cash settlement, which must be specially arranged.",
+   "rule": "SEC Rule 15c6-1"
+  },
+  {
+   "id": "sie-3-017",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.1.3",
+   "q": "Most securities today are held in book-entry form. What does that mean?",
+   "options": [
+    "Ownership is recorded electronically and no physical certificate is issued to the investor",
+    "The investor keeps a paper certificate in a safe",
+    "The trade is recorded only in the representative's notebook",
+    "The securities cannot be transferred"
+   ],
+   "answer": 0,
+   "explain": "Book-entry securities exist as electronic records at a depository, transfer agent or broker, and transfers happen by updating those records. This makes settlement faster and safer than delivering paper certificates. Book-entry securities transfer easily, which is the point of the system."
+  },
+  {
+   "id": "sie-3-018",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F4"
+    }
+   ],
+   "ref": "3.2.1",
+   "q": "Under Regulation T, a customer buys $20,000 of marginable stock in a new margin account. Assuming the firm's minimums are met, what is the initial deposit required?",
+   "options": [
+    "$5,000",
+    "$10,000",
+    "$15,000",
+    "$20,000"
+   ],
+   "answer": 1,
+   "explain": "Regulation T sets initial margin at 50% of the purchase price of margin equity securities: 50% of $20,000 is $10,000, and the firm lends the other $10,000. The full $20,000 would be required in a cash account. The $5,000 answer applies the 25% maintenance level, which is a different requirement.",
+   "rule": "Regulation T (12 CFR 220.12)"
+  },
+  {
+   "id": "sie-3-019",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.2.1",
+   "q": "Which activity requires a margin account rather than a cash account?",
+   "options": [
+    "Buying a listed stock and paying in full",
+    "Buying a Treasury bill",
+    "Selling stock short",
+    "Buying shares of a mutual fund"
+   ],
+   "answer": 2,
+   "explain": "A short sale means borrowing and selling securities the customer does not own, which can only be done in a margin account. Purchases paid in full, such as stocks, T-bills or mutual fund shares, can be made in a cash account. Long purchases of mutual fund shares cannot be margined at the time of purchase anyway.",
+   "rule": "Regulation T"
+  },
+  {
+   "id": "sie-3-020",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    }
+   ],
+   "ref": "3.2.1",
+   "q": "Under FINRA rules, before a representative may use discretion to choose the security and quantity for a customer's trades, the firm needs:",
+   "options": [
+    "the customer's verbal permission given on a recorded line",
+    "nothing, if the representative has known the customer for years",
+    "approval from the SEC",
+    "the customer's prior written authorization and the firm's acceptance of the account in writing"
+   ],
+   "answer": 3,
+   "explain": "FINRA Rule 3260 requires prior written authorization naming the person who may exercise discretion, and the firm must accept the account in writing; discretionary trades must also be reviewed. Discretion over only the time or price of a customer-specified order is different and expires at the end of the business day unless the customer authorizes otherwise in writing.",
+   "rule": "FINRA Rule 3260"
+  },
+  {
+   "id": "sie-3-021",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    }
+   ],
+   "ref": "3.2.1",
+   "q": "A customer tells his representative: buy 500 shares of ABC sometime today when you think the price is best. What kind of authority is this?",
+   "options": [
+    "Time and price discretion, which does not need written discretionary authorization and lasts only for that day",
+    "Full discretion requiring a signed power of attorney",
+    "Unsolicited discretion valid until revoked",
+    "An illegal order"
+   ],
+   "answer": 0,
+   "explain": "The customer chose the security, the action and the quantity; the representative decides only time and price. FINRA Rule 3260 lets this happen without written discretionary authority, but it expires at the end of the business day it was granted unless the customer gives a signed, dated written instruction to the contrary.",
+   "rule": "FINRA Rule 3260(d)"
+  },
+  {
+   "id": "sie-3-022",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    }
+   ],
+   "ref": "3.2.1",
+   "q": "A customer moves a portfolio that trades only once or twice a year into a fee-based account charging an annual percentage of assets. What is the main concern?",
+   "options": [
+    "The customer could pay more in total than in a commission account, a practice called reverse churning",
+    "Fee-based accounts cannot hold stocks",
+    "Fee-based accounts are not allowed under FINRA rules",
+    "The customer will pay commissions twice"
+   ],
+   "answer": 0,
+   "explain": "For an investor who trades rarely, an annual asset-based fee can cost much more than occasional commissions; placing such customers in fee-based accounts without a sound reason raises reverse churning and best interest concerns. Fee-based accounts are legitimate and can hold stocks; the issue is whether the fee structure fits the customer.",
+   "rule": "Regulation Best Interest"
+  },
+  {
+   "id": "sie-3-023",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    },
+    {
+     "exam": "s6",
+     "section": "F2"
+    }
+   ],
+   "ref": "3.2.2",
+   "q": "Two brothers own an account as joint tenants with right of survivorship (JTWROS). One brother dies. What happens to his share?",
+   "options": [
+    "It passes to his estate under his will",
+    "It is split between his estate and his brother",
+    "It passes automatically to the surviving brother",
+    "The account is frozen until the IRS approves the transfer"
+   ],
+   "answer": 2,
+   "explain": "With JTWROS, each owner has an undivided interest and the deceased owner's share passes directly to the surviving tenant, outside the estate. Passing the share to the estate is how tenants in common works, which is the common confusion. Firms still need documents such as a death certificate to retitle the account."
+  },
+  {
+   "id": "sie-3-024",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    },
+    {
+     "exam": "s6",
+     "section": "F2"
+    }
+   ],
+   "ref": "3.2.2",
+   "q": "Which statement about an account opened under the Uniform Transfers to Minors Act (UTMA) is accurate?",
+   "options": [
+    "It may have two minors as beneficial owners",
+    "The custodian owns the assets for tax purposes",
+    "Gifts to the account can be taken back by the donor",
+    "Assets belong to the minor, there is one custodian and one minor, and the minor's Social Security number is used"
+   ],
+   "answer": 3,
+   "explain": "An UTMA account has one custodian for one minor; gifts are irrevocable and the property belongs to the minor, whose Social Security number goes on the account. The custodian manages the assets for the minor's benefit until the age of transfer under state law, but does not own them."
+  },
+  {
+   "id": "sie-3-025",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    }
+   ],
+   "ref": "3.2.2",
+   "q": "To open an account for a corporation, which document identifies the individuals authorized to trade on the corporation's behalf?",
+   "options": [
+    "A corporate resolution",
+    "The corporation's annual report",
+    "The trust agreement",
+    "Form U4"
+   ],
+   "answer": 0,
+   "explain": "A corporate resolution, adopted by the board, authorizes the account and names the officers who may give instructions. Margin accounts for corporations may also require a review of the charter to confirm margin borrowing is allowed. A trust agreement serves the same purpose for trust accounts, and Form U4 is for registered persons.",
+   "rule": "FINRA Rule 4512"
+  },
+  {
+   "id": "sie-3-026",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    },
+    {
+     "exam": "s6",
+     "section": "F2"
+    }
+   ],
+   "ref": "3.2.2",
+   "q": "Which statement about a Roth IRA is accurate?",
+   "options": [
+    "Contributions are tax deductible, and all withdrawals are taxed",
+    "Qualified distributions, taken after the five-year period and after age 59½ (or another qualifying event), are tax free",
+    "The owner must start required minimum distributions at retirement",
+    "Roth IRAs can be opened only through an employer"
+   ],
+   "answer": 1,
+   "explain": "Roth contributions are made with after-tax money, and qualified distributions, including earnings, are free of federal income tax. Unlike traditional IRAs, a Roth IRA does not require minimum distributions while the original owner is alive. Deductible contributions with taxable withdrawals describes a traditional IRA.",
+   "rule": "Internal Revenue Code Section 408A"
+  },
+  {
+   "id": "sie-3-027",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    },
+    {
+     "exam": "s6",
+     "section": "F2"
+    }
+   ],
+   "ref": "3.2.2",
+   "q": "A 45-year-old withdraws $20,000 from a traditional IRA funded entirely with deductible contributions, for a purpose not covered by any exception. What is the federal tax consequence?",
+   "options": [
+    "No tax, because IRAs are tax deferred",
+    "Capital gains tax on the growth only",
+    "Ordinary income tax on $20,000 plus a 10% additional tax of $2,000",
+    "A 10% additional tax only, with no income tax"
+   ],
+   "answer": 2,
+   "explain": "Distributions of deductible contributions and earnings from a traditional IRA are taxed as ordinary income, and withdrawals before age 59½ generally also trigger a 10% additional tax unless an exception applies. Here that is ordinary income on $20,000 plus $2,000. IRA withdrawals are never taxed as capital gains.",
+   "rule": "Internal Revenue Code Section 72(t)"
+  },
+  {
+   "id": "sie-3-028",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    },
+    {
+     "exam": "s6",
+     "section": "F2"
+    }
+   ],
+   "ref": "3.2.2",
+   "q": "An employee receives a check for her 401(k) balance when she changes jobs and wants to roll it into an IRA. Which statement is accurate?",
+   "options": [
+    "She has 60 days to complete the rollover, and the plan must have withheld 20% for federal tax",
+    "She has 12 months to complete the rollover with no withholding",
+    "A rollover is not allowed from a 401(k) to an IRA",
+    "She must pay a 10% additional tax even if she rolls it over in time"
+   ],
+   "answer": 0,
+   "explain": "An indirect rollover must be completed within 60 days, and plans must withhold 20% from eligible rollover distributions paid to the participant; to roll over the full amount she must replace the withheld 20% from other funds. A direct trustee-to-trustee rollover avoids withholding. Completed rollovers are not taxed or penalized.",
+   "rule": "Internal Revenue Code Section 402(c)"
+  },
+  {
+   "id": "sie-3-029",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    }
+   ],
+   "ref": "3.2.2",
+   "q": "What is the purpose of required minimum distributions (RMDs) from traditional IRAs and most employer plans?",
+   "options": [
+    "To ensure tax-deferred retirement savings are eventually withdrawn and taxed",
+    "To limit how much a person may contribute each year",
+    "To prevent withdrawals before retirement",
+    "To pay plan administration fees"
+   ],
+   "answer": 0,
+   "explain": "RMD rules require owners of tax-deferred accounts to start withdrawing a minimum amount each year once they reach the age set by law, so the deferred tax is eventually collected. Failing to take an RMD can lead to an excise tax. Contribution limits and early-withdrawal rules are separate parts of the tax code.",
+   "rule": "Internal Revenue Code Section 401(a)(9)"
+  },
+  {
+   "id": "sie-3-030",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    }
+   ],
+   "ref": "3.2.3",
+   "q": "A criminal moves illegal cash through a series of wire transfers among accounts in several countries to obscure where it came from. Which stage of money laundering is this?",
+   "options": [
+    "Placement",
+    "Integration",
+    "Structuring",
+    "Layering"
+   ],
+   "answer": 3,
+   "explain": "Layering uses multiple transactions to separate funds from their criminal source and make them hard to trace. Placement is the first entry of cash into the financial system, and integration is the final stage, when the cleaned money returns to the legitimate economy, for example as an investment. Structuring is a technique for avoiding reports at placement.",
+   "rule": "USA PATRIOT Act"
+  },
+  {
+   "id": "sie-3-031",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    },
+    {
+     "exam": "s6",
+     "section": "F2"
+    }
+   ],
+   "ref": "3.2.3",
+   "q": "A customer deposits $9,500 in currency on Monday, $9,000 on Tuesday and $9,800 on Wednesday, each time asking whether the amount will be reported. What should the firm do?",
+   "options": [
+    "Nothing, because no single deposit exceeded $10,000",
+    "Tell the customer to combine the deposits so a CTR is filed",
+    "Evaluate the pattern as possible structuring and file a SAR if it is suspicious, without telling the customer",
+    "Close the account and inform the customer that a report was filed"
+   ],
+   "answer": 2,
+   "explain": "Breaking up cash deposits to avoid the over-$10,000 currency transaction report is structuring, a crime itself. The pattern and questions about reporting are red flags, so the firm should escalate and file a Suspicious Activity Report if warranted. Firms may never tell a customer that a SAR has been or will be filed.",
+   "rule": "31 CFR 1023.320"
+  },
+  {
+   "id": "sie-3-032",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    }
+   ],
+   "ref": "3.2.3",
+   "q": "A broker-dealer must file a Currency Transaction Report (CTR) with FinCEN when a customer:",
+   "options": [
+    "deposits more than $10,000 in currency in one business day",
+    "wires any amount to a foreign country",
+    "buys more than $10,000 of stock with a personal check",
+    "opens an account with a foreign passport"
+   ],
+   "answer": 0,
+   "explain": "CTRs cover transactions in currency (cash) of more than $10,000 in a business day, including multiple cash transactions that add up. Checks and wires are not currency, though they can still be suspicious. Account opening with foreign identification falls under the customer identification program, not CTR rules.",
+   "rule": "31 CFR 1010.311"
+  },
+  {
+   "id": "sie-3-033",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    }
+   ],
+   "ref": "3.2.3",
+   "q": "Under FinCEN rules, a broker-dealer that detects a suspicious transaction of at least $5,000 generally must file a SAR within how many calendar days of initial detection?",
+   "options": [
+    "10",
+    "15",
+    "30",
+    "90"
+   ],
+   "answer": 2,
+   "explain": "A broker-dealer must file a SAR no later than 30 calendar days after first detecting facts that may require one; if no suspect is identified, it may take up to 30 more days, but never more than 60 days in total. Supporting documents must be kept for five years.",
+   "rule": "31 CFR 1023.320"
+  },
+  {
+   "id": "sie-3-034",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    },
+    {
+     "exam": "s6",
+     "section": "F2"
+    }
+   ],
+   "ref": "3.2.3",
+   "q": "Before opening an account, a firm finds that the prospective customer's name matches an entry on OFAC's Specially Designated Nationals (SDN) list. What should the firm do?",
+   "options": [
+    "Open the account but limit it to cash purchases",
+    "Not open the account, block any property as required and report to OFAC",
+    "Open the account after the customer signs a statement of innocence",
+    "Ask FINRA for permission to open the account"
+   ],
+   "answer": 1,
+   "explain": "U.S. persons, including broker-dealers, may not do business with SDNs; property of a confirmed match must be blocked and the firm must report to OFAC. Possible matches should be checked to confirm the identity before acting. FINRA cannot grant permission to deal with sanctioned persons.",
+   "rule": "Office of Foreign Assets Control regulations"
+  },
+  {
+   "id": "sie-3-035",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    },
+    {
+     "exam": "s6",
+     "section": "F2"
+    }
+   ],
+   "ref": "3.2.3",
+   "q": "Under a broker-dealer's customer identification program (CIP), what minimum information must generally be collected from an individual before opening an account?",
+   "options": [
+    "Name, date of birth, address and an identification number such as a Social Security number",
+    "Name and phone number only",
+    "Name, employer and annual income only",
+    "A credit report and two bank references"
+   ],
+   "answer": 0,
+   "explain": "Section 326 of the USA PATRIOT Act and the CIP rule require name, date of birth, residential or business street address, and an identification number (a taxpayer ID for U.S. persons). The firm must then verify identity within a reasonable time. Income and employer information are suitability (KYC) data, not CIP minimums.",
+   "rule": "USA PATRIOT Act, Section 326"
+  },
+  {
+   "id": "sie-3-036",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    },
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.2.4",
+   "q": "Under SEC Rule 17a-4, records such as the firm's blotters and general ledgers must be kept for at least how long?",
+   "options": [
+    "Three years, the first year easily accessible",
+    "Four years",
+    "Six years, the first two years in an easily accessible place",
+    "Permanently"
+   ],
+   "answer": 2,
+   "explain": "Rule 17a-4 requires blotters, ledgers and certain other core records to be preserved for at least six years, the first two in an easily accessible place. Many other records, such as order tickets and communications, must be kept for at least three years. Four years applies to FINRA's written complaint records.",
+   "rule": "SEC Rule 17a-4"
+  },
+  {
+   "id": "sie-3-037",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    },
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.2.4",
+   "q": "When must a broker-dealer send a customer a confirmation of a securities transaction?",
+   "options": [
+    "At or before the completion of the transaction",
+    "Within 30 days of the trade",
+    "Only at the end of the quarter, on the account statement",
+    "Only if the customer requests it"
+   ],
+   "answer": 0,
+   "explain": "FINRA Rule 2232 and SEC Rule 10b-10 require a written confirmation at or before completion of the transaction, which in practice means no later than settlement. Account statements are separate and are sent at least quarterly under Rule 2231.",
+   "rule": "FINRA Rule 2232; SEC Rule 10b-10"
+  },
+  {
+   "id": "sie-3-038",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F3"
+    },
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.2.4",
+   "q": "How often must a general securities member send account statements to a customer whose account had a security position, money balance or activity during the period?",
+   "options": [
+    "Monthly",
+    "Annually",
+    "Only when there is trading activity",
+    "At least once each calendar quarter"
+   ],
+   "answer": 3,
+   "explain": "FINRA Rule 2231 requires account statements at least once every calendar quarter showing positions, money balances and account activity. Many firms send monthly statements when there is activity, but the rule's minimum is quarterly, so monthly is a firm practice, not the requirement.",
+   "rule": "FINRA Rule 2231"
+  },
+  {
+   "id": "sie-3-039",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.2.4",
+   "q": "A customer leaving on a long trip asks the firm to hold her mail. Under FINRA Rule 3150, which is accurate?",
+   "options": [
+    "Firms may never hold customer mail",
+    "The firm may hold mail on written instructions; a request longer than three consecutive months must include an acceptable reason other than convenience",
+    "The firm may hold mail on the representative's verbal request",
+    "The firm must forward the mail to the representative's home"
+   ],
+   "answer": 1,
+   "explain": "Rule 3150 allows a firm to hold mail on the customer's written instructions, after telling the customer about other ways to monitor the account such as email or the website. Holds longer than three consecutive months need an acceptable reason such as safety, and convenience is not enough. The firm must also be able to show it is not hiding activity.",
+   "rule": "FINRA Rule 3150"
+  },
+  {
+   "id": "sie-3-040",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.2.4",
+   "q": "What is the main purpose of a broker-dealer's business continuity plan (BCP) under FINRA Rule 4370?",
+   "options": [
+    "To set sales targets for the coming year",
+    "To explain the firm's commission schedule",
+    "To let the firm meet its obligations to customers during a significant business disruption",
+    "To describe the firm's arbitration procedures"
+   ],
+   "answer": 2,
+   "explain": "Rule 4370 requires firms to create, maintain and review a plan for responding to emergencies or disruptions, covering items such as data backup, alternate communications and how customers can reach the firm. A summary must be disclosed to customers at account opening and posted on the firm's website.",
+   "rule": "FINRA Rule 4370"
+  },
+  {
+   "id": "sie-3-041",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    },
+    {
+     "exam": "s6",
+     "section": "F2"
+    }
+   ],
+   "ref": "3.2.4",
+   "q": "Under Regulation S-P, a broker-dealer that wants to share a customer's nonpublic personal information with a nonaffiliated third party for marketing must generally:",
+   "options": [
+    "share it freely, since the customer opened an account",
+    "obtain written consent from FINRA",
+    "delete the information after sharing",
+    "give the customer a privacy notice and a reasonable opportunity to opt out first"
+   ],
+   "answer": 3,
+   "explain": "Regulation S-P requires an initial privacy notice when the relationship starts and a chance to opt out before nonpublic personal information is shared with nonaffiliated third parties, subject to exceptions such as servicing the account. Firms must also maintain written policies to safeguard customer information.",
+   "rule": "Regulation S-P"
+  },
+  {
+   "id": "sie-3-042",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F1"
+    },
+    {
+     "exam": "s6",
+     "section": "F1"
+    }
+   ],
+   "ref": "3.2.5",
+   "q": "A registered representative emails the same market commentary to 40 retail investors over two weeks. Under FINRA Rule 2210, this is a:",
+   "options": [
+    "retail communication",
+    "piece of correspondence",
+    "institutional communication",
+    "private communication exempt from supervision"
+   ],
+   "answer": 0,
+   "explain": "Written communications distributed to more than 25 retail investors within any 30 calendar-day period are retail communications, which generally need principal approval before use. Correspondence is limited to 25 or fewer retail investors in that period. The 40 recipients over two weeks put this over the line.",
+   "rule": "FINRA Rule 2210"
+  },
+  {
+   "id": "sie-3-043",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F1"
+    },
+    {
+     "exam": "s6",
+     "section": "F1"
+    }
+   ],
+   "ref": "3.2.5",
+   "q": "Under FINRA's telemarketing rule, a representative may not make an outbound sales call to a person's home, unless an exception applies, at what times?",
+   "options": [
+    "Before 9 a.m. or after 5 p.m. of the caller's time zone",
+    "Before 8 a.m. or after 9 p.m. local time at the called person's location",
+    "On weekends only",
+    "Before noon on business days"
+   ],
+   "answer": 1,
+   "explain": "Rule 3230 bars calls to a residence before 8 a.m. or after 9 p.m. local time of the called party, unless there is an established business relationship, prior consent, or the person is a broker-dealer. The local time of the person called, not the caller, controls. Firms must also honor do-not-call lists.",
+   "rule": "FINRA Rule 3230"
+  },
+  {
+   "id": "sie-3-044",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F1"
+    },
+    {
+     "exam": "s6",
+     "section": "F1"
+    }
+   ],
+   "ref": "3.2.5",
+   "q": "A person tells a representative during a cold call not to call again. What must the firm do?",
+   "options": [
+    "Nothing, unless the person is on the national do-not-call registry",
+    "Stop calling for one week",
+    "Add the person to the firm's own do-not-call list and honor the request",
+    "Transfer the person to another representative"
+   ],
+   "answer": 2,
+   "explain": "Firms must keep a firm-specific do-not-call list and honor requests made directly to them, regardless of whether the person is on the national registry. The national registry is a separate obligation, so the first choice understates the duty.",
+   "rule": "FINRA Rule 3230"
+  },
+  {
+   "id": "sie-3-045",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    },
+    {
+     "exam": "s6",
+     "section": "F2"
+    }
+   ],
+   "ref": "3.2.5",
+   "q": "Under Regulation Best Interest, when does the care obligation apply?",
+   "options": [
+    "Whenever a broker-dealer recommends a securities transaction or investment strategy to a retail customer",
+    "Only when the customer pays a commission above 5%",
+    "Only for discretionary accounts",
+    "Only after the customer complains"
+   ],
+   "answer": 0,
+   "explain": "Reg BI applies when a broker-dealer or its associated person makes a recommendation of a securities transaction or strategy, including account type recommendations, to a retail customer. The firm must act in the customer's best interest without placing its own interest ahead. It is triggered by the recommendation, not by fees or complaints.",
+   "rule": "SEC Rule 15l-1 (Regulation Best Interest)"
+  },
+  {
+   "id": "sie-3-046",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F2"
+    },
+    {
+     "exam": "s6",
+     "section": "F2"
+    }
+   ],
+   "ref": "3.2.5",
+   "q": "FINRA Rule 2090 (Know Your Customer) requires firms to use reasonable diligence to know the essential facts about a customer:",
+   "options": [
+    "only when the customer first buys an IPO",
+    "only for customers with margin accounts",
+    "only if the customer has more than $1 million in assets",
+    "at account opening and throughout the relationship"
+   ],
+   "answer": 3,
+   "explain": "Rule 2090 applies when the account is opened and for as long as it is maintained, regardless of whether a recommendation is made. Essential facts include those needed to service the account, follow special handling instructions and know who has authority to act. Suitability (Rule 2111) adds investment profile duties when recommending.",
+   "rule": "FINRA Rule 2090"
+  },
+  {
+   "id": "sie-3-047",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F4"
+    }
+   ],
+   "ref": "3.3.1",
+   "q": "A representative learns that the firm is about to execute a large customer block sale of XYZ and sells XYZ in his own account first. This is:",
+   "options": [
+    "front running, a prohibited practice",
+    "best execution",
+    "legitimate hedging",
+    "an allowed principal trade"
+   ],
+   "answer": 0,
+   "explain": "Trading ahead of a known pending block order to profit from its expected price effect is front running, prohibited under FINRA Rule 5270. It exploits customer order information that the firm should hold in confidence. Hedging does not excuse trading on nonpublic knowledge of an imminent block.",
+   "rule": "FINRA Rule 5270"
+  },
+  {
+   "id": "sie-3-048",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.3.1",
+   "q": "A trader places a series of buy orders in the final minutes of trading to push a stock's closing price higher, improving the value of positions held. This is:",
+   "options": [
+    "backing away",
+    "marking the close",
+    "trading ahead",
+    "freeriding"
+   ],
+   "answer": 1,
+   "explain": "Marking the close means placing trades near the end of the session to influence the closing price, which is manipulative. Backing away is a market maker's failure to honor its firm quote. Freeriding is buying and selling in a cash account without paying for the purchase.",
+   "rule": "FINRA Rule 2020"
+  },
+  {
+   "id": "sie-3-049",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.3.1",
+   "q": "A group spreads false positive rumors online about a thinly traded stock it owns and sells into the resulting price spike. This scheme is called:",
+   "options": [
+    "arbitrage",
+    "a wash sale",
+    "a pump and dump",
+    "dollar-cost averaging"
+   ],
+   "answer": 2,
+   "explain": "In a pump and dump, promoters inflate the price with false or misleading claims, then sell their shares at the inflated price, leaving other investors with losses. It is fraudulent market manipulation. A wash sale in the tax sense is buying back substantially identical securities around a loss sale, a different issue.",
+   "rule": "Securities Exchange Act of 1934, Section 9(a)"
+  },
+  {
+   "id": "sie-3-050",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s7",
+     "section": "F4"
+    }
+   ],
+   "ref": "3.3.1",
+   "q": "A customer buys stock in a cash account, then sells it before paying for the purchase, using the sale proceeds to pay. What is the consequence under Regulation T?",
+   "options": [
+    "None; this is normal day trading",
+    "The customer is barred from trading for life",
+    "The firm must convert the account to a margin account",
+    "The account is frozen for 90 calendar days, during which purchases must be paid for in full in advance"
+   ],
+   "answer": 3,
+   "explain": "Selling an unpaid purchase in a cash account is freeriding. Regulation T then withdraws the privilege of delayed payment for 90 calendar days, so the customer must have funds in the account before buying. The other choices invent consequences that the regulation does not impose.",
+   "rule": "Regulation T (12 CFR 220.8(c))"
+  },
+  {
+   "id": "sie-3-051",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.3.2",
+   "q": "A company's CFO tells her brother that quarterly earnings will badly miss forecasts before the news is public, and the brother sells his shares. Who may be liable for insider trading?",
+   "options": [
+    "Only the brother, because he traded",
+    "Only the CFO, because she had the information",
+    "Both the CFO as tipper and the brother as tippee",
+    "Neither, because they are family members"
+   ],
+   "answer": 2,
+   "explain": "Insider trading liability covers anyone who trades on material nonpublic information in breach of a duty, and also the person who tips it. The CFO breached her duty by tipping, and the brother knew the information came from an insider. Family relationships do not shield either; Rule 10b5-2 even treats close family as having duties of trust.",
+   "rule": "SEC Rule 10b-5; SEC Rule 10b5-2"
+  },
+  {
+   "id": "sie-3-052",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.3.2",
+   "q": "In an SEC civil action for insider trading, the court may impose a penalty on the person who traded of up to:",
+   "options": [
+    "three times the profit gained or loss avoided",
+    "the amount of profit gained only",
+    "$5,000 per trade",
+    "ten times the profit gained"
+   ],
+   "answer": 0,
+   "explain": "Section 21A of the Exchange Act, added by ITSFEA, allows civil penalties up to three times the profit gained or loss avoided, in addition to disgorgement. Controlling persons who fail to prevent violations can face separate penalties, and criminal prosecution can bring fines and prison.",
+   "rule": "Securities Exchange Act of 1934, Section 21A"
+  },
+  {
+   "id": "sie-3-053",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.3.3",
+   "q": "A registered representative wants to buy shares of a hot equity IPO for her own account. Under FINRA Rule 5130, what is the general rule?",
+   "options": [
+    "She may buy any amount if she pays the offering price",
+    "She may buy if her branch manager approves",
+    "She may buy only through another firm",
+    "As a restricted person, she generally may not buy new issue equity shares"
+   ],
+   "answer": 3,
+   "explain": "Rule 5130 prohibits member firms from selling new issues to restricted persons, a category that includes broker-dealer personnel and certain family members, so the public offering is not diverted to insiders. Approval by a manager or using another firm does not change her restricted status.",
+   "rule": "FINRA Rule 5130"
+  },
+  {
+   "id": "sie-3-054",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.3.3",
+   "q": "A representative's longtime customer, who is not a relative or a lending institution, offers him a personal loan. Under FINRA Rule 3240, which is required?",
+   "options": [
+    "Nothing; loans between friends are private",
+    "The arrangement must fit the firm's written procedures allowing such loans, with notice to and approval by the firm as required",
+    "Only the customer's written consent",
+    "A Form U5 filing"
+   ],
+   "answer": 1,
+   "explain": "Borrowing from or lending to customers is prohibited unless the firm has written procedures allowing it and the arrangement falls into a permitted category, such as immediate family or a personal relationship outside the broker-customer relationship, with notification and approval as the rule requires. Treating it as purely private is the trap.",
+   "rule": "FINRA Rule 3240"
+  },
+  {
+   "id": "sie-3-055",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.3.3",
+   "q": "A representative tells a customer: if this stock loses money, I will personally cover your loss. Under FINRA Rule 2150, this is:",
+   "options": [
+    "allowed with written disclosure",
+    "allowed for accredited investors",
+    "prohibited, because guaranteeing a customer against loss is not permitted",
+    "allowed if a principal signs off"
+   ],
+   "answer": 2,
+   "explain": "Rule 2150 forbids members and associated persons from guaranteeing a customer against loss in a securities transaction or account. Sharing in profits and losses is allowed only in a joint account with the firm's written approval and generally in proportion to the representative's contribution, which is a different situation.",
+   "rule": "FINRA Rule 2150"
+  },
+  {
+   "id": "sie-3-056",
+   "exam": "sie",
+   "section": "3",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    },
+    {
+     "exam": "s7",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.3.3",
+   "q": "Under FINRA Rule 2165, which customer is a specified adult?",
+   "options": [
+    "Any customer with a trusted contact person",
+    "Any customer aged 60 or older",
+    "Any customer with a margin account",
+    "A customer aged 65 or older, or aged 18 or older whom the firm reasonably believes has an impairment preventing self-protection"
+   ],
+   "answer": 3,
+   "explain": "Rule 2165 defines a specified adult as a natural person 65 or older, or 18 or older with a mental or physical impairment that makes the person unable to protect his or her own interests. It lets firms place temporary holds on disbursements when financial exploitation is reasonably suspected.",
+   "rule": "FINRA Rule 2165"
+  },
+  {
+   "id": "sie-3-057",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.3.3",
+   "q": "A broker-dealer pays a referral fee, based on transactions, to an unregistered accountant who sends it brokerage customers. This violates which principle?",
+   "options": [
+    "Members may not pay transaction-based compensation to unregistered persons",
+    "Members may not accept referrals from accountants",
+    "Accountants must register with the MSRB",
+    "No rule is violated if the fee is disclosed"
+   ],
+   "answer": 0,
+   "explain": "FINRA Rule 2040 bars members from paying transaction-based compensation to persons who would have to be registered as broker-dealers or associated persons to receive it. Disclosure does not cure the problem. Accepting referrals is fine; paying the unregistered person per transaction is the issue.",
+   "rule": "FINRA Rule 2040"
+  },
+  {
+   "id": "sie-3-058",
+   "exam": "sie",
+   "section": "3",
+   "ref": "3.3.3",
+   "q": "A representative has a customer sign several blank account forms so he can fill them in later. This practice:",
+   "options": [
+    "is acceptable if the customer trusts him",
+    "creates signatures of convenience and is a prohibited falsification risk",
+    "is required for discretionary accounts",
+    "is allowed if the forms are kept in the branch"
+   ],
+   "answer": 1,
+   "explain": "Using pre-signed blank forms or signing for a customer, even with permission, creates documents that do not reflect what the customer actually approved; FINRA treats these signatures of convenience as falsifying records and a violation of high standards of commercial honor under Rule 2010.",
+   "rule": "FINRA Rule 2010"
+  },
+  {
+   "id": "sie-4-001",
+   "exam": "sie",
+   "section": "4",
+   "ref": "4.1.1",
+   "q": "Which activity may an unregistered assistant at a broker-dealer perform?",
+   "options": [
+    "Accept customer orders while the representative is out",
+    "Recommend mutual funds to customers",
+    "Solicit new accounts by cold calling and discussing specific stocks",
+    "Schedule appointments and handle clerical tasks without discussing investments"
+   ],
+   "answer": 3,
+   "explain": "Unregistered persons may do clerical and administrative work, such as scheduling and filing, but may not accept orders, recommend securities or solicit securities business. Taking orders when the representative is away is a classic violation, because order taking is a registered function.",
+   "rule": "FINRA Rule 1220"
+  },
+  {
+   "id": "sie-4-002",
+   "exam": "sie",
+   "section": "4",
+   "ref": "4.1.1",
+   "q": "Which event can cause a statutory disqualification from association with a FINRA member?",
+   "options": [
+    "A personal bankruptcy filing",
+    "A felony conviction within the past ten years",
+    "Failing the SIE exam",
+    "A customer complaint that was settled for less than $5,000"
+   ],
+   "answer": 1,
+   "explain": "Under Section 3(a)(39) of the Exchange Act, statutory disqualification includes certain felony convictions within ten years, certain misdemeanors involving securities or dishonesty, and regulatory bars. A bankruptcy must be disclosed on Form U4 but does not by itself disqualify a person. Failing an exam simply means no registration yet.",
+   "rule": "Securities Exchange Act of 1934, Section 3(a)(39)"
+  },
+  {
+   "id": "sie-4-003",
+   "exam": "sie",
+   "section": "4",
+   "ref": "4.1.1",
+   "q": "Why does a broker-dealer submit fingerprints of its associated persons?",
+   "options": [
+    "So the FBI can check criminal history records as part of the background check",
+    "To register the person with the IRS",
+    "To verify the person's exam scores",
+    "Fingerprinting is optional for all employees"
+   ],
+   "answer": 0,
+   "explain": "SEC Rule 17f-2 requires fingerprinting of most broker-dealer personnel, and the prints are submitted for an FBI criminal history check. Together with the Form U4 review, this lets the firm and FINRA identify disqualifying history. It has nothing to do with the IRS or exam results.",
+   "rule": "SEC Rule 17f-2"
+  },
+  {
+   "id": "sie-4-004",
+   "exam": "sie",
+   "section": "4",
+   "ref": "4.1.1",
+   "q": "A person passes the SIE exam but has not yet passed a representative-level exam or been registered through a member firm. Which is accurate?",
+   "options": [
+    "She may sell securities of any kind",
+    "She may sell only mutual funds",
+    "She may not act as a registered representative until she passes the qualification exam and is registered through a member firm",
+    "She may supervise registered representatives"
+   ],
+   "answer": 2,
+   "explain": "The SIE is a general knowledge co-requisite exam; passing it alone does not qualify anyone to register. A person must also pass the appropriate representative exam, such as the Series 6 or Series 7, and be registered through a FINRA member firm before doing business as a representative.",
+   "rule": "FINRA Rule 1210"
+  },
+  {
+   "id": "sie-4-005",
+   "exam": "sie",
+   "section": "4",
+   "ref": "4.1.1",
+   "q": "What is the difference between the Regulatory Element and the Firm Element of FINRA continuing education?",
+   "options": [
+    "Regulatory Element content comes from FINRA and covers rules and regulatory topics; Firm Element training is designed by each firm for its own registered persons",
+    "Both are designed by the firm",
+    "Firm Element is required only for principals",
+    "Regulatory Element is optional"
+   ],
+   "answer": 0,
+   "explain": "Under FINRA Rule 1240, the Regulatory Element is FINRA-delivered training on regulatory and compliance topics that registered persons must complete, while the Firm Element is a training program each firm develops based on its own business, products and needs assessment. Neither element is optional for covered persons.",
+   "rule": "FINRA Rule 1240"
+  },
+  {
+   "id": "sie-4-006",
+   "exam": "sie",
+   "section": "4",
+   "ref": "4.2.1",
+   "q": "A registered representative is charged with a felony. How soon must his Form U4 be amended?",
+   "options": [
+    "Within 10 days",
+    "Only after a conviction",
+    "Within 30 days of learning of the charge",
+    "At the next annual renewal"
+   ],
+   "answer": 2,
+   "explain": "Form U4 must be kept current, and amendments are due no later than 30 days after learning of the facts that require them. Felony charges are reportable when filed, not only after conviction, which is the trap in the second choice.",
+   "rule": "FINRA By-Laws, Article V"
+  },
+  {
+   "id": "sie-4-007",
+   "exam": "sie",
+   "section": "4",
+   "ref": "4.2.1",
+   "q": "A firm terminates a representative's employment. Which form must it file, and when?",
+   "options": [
+    "Form U4, within 10 days",
+    "Form U5, within 30 days of termination, with a copy to the individual",
+    "Form BD, within 60 days",
+    "No form; FINRA learns of terminations automatically"
+   ],
+   "answer": 1,
+   "explain": "The firm must file Form U5 within 30 days of terminating an associated person's registration and provide a copy to the individual; amendments are due within 30 days of learning new facts. Form U4 is for registration and updates, and Form BD is the broker-dealer's own registration form.",
+   "rule": "FINRA By-Laws, Article V, Section 3"
+  },
+  {
+   "id": "sie-4-008",
+   "exam": "sie",
+   "section": "4",
+   "ref": "4.2.1",
+   "q": "What is the consequence of knowingly filing misleading information on Form U4?",
+   "options": [
+    "None, if it is corrected later",
+    "Only a written warning",
+    "Automatic loss of the SIE exam result",
+    "It violates FINRA rules and can lead to sanctions, including a bar, and may be a statutory disqualification"
+   ],
+   "answer": 3,
+   "explain": "FINRA Rule 1122 prohibits filing incomplete or inaccurate registration information that is misleading, and willful misstatements on Form U4 can lead to fines, suspension, a bar and statutory disqualification. A later correction does not erase the original violation.",
+   "rule": "FINRA Rule 1122"
+  },
+  {
+   "id": "sie-4-009",
+   "exam": "sie",
+   "section": "4",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F4"
+    },
+    {
+     "exam": "s7",
+     "section": "F4"
+    }
+   ],
+   "ref": "4.2.1",
+   "q": "Under FINRA Rule 4513, how long must a member keep records of written customer complaints at the office of supervisory jurisdiction?",
+   "options": [
+    "One year",
+    "Two years",
+    "At least four years",
+    "Ten years"
+   ],
+   "answer": 2,
+   "explain": "Rule 4513 requires each member to keep a record of every written customer complaint for at least four years, including the complainant's name, the date, the action taken and related correspondence. The four-year figure is specific to complaints and differs from the three- and six-year periods in SEC Rule 17a-4.",
+   "rule": "FINRA Rule 4513"
+  },
+  {
+   "id": "sie-4-010",
+   "exam": "sie",
+   "section": "4",
+   "ref": "4.2.1",
+   "q": "Which situation is a red flag that a supervisor should investigate?",
+   "options": [
+    "A representative's customer has a trusted contact person on file",
+    "A customer receives quarterly statements",
+    "A representative has an outside activity disclosed and approved",
+    "A representative asks that a customer's statements be sent to the representative's home"
+   ],
+   "answer": 3,
+   "explain": "Redirecting customer mail to a representative's address can hide unauthorized trading or theft and is a well-known warning sign. Trusted contacts, approved outside activities and regular statements are signs of proper procedure, not problems.",
+   "rule": "FINRA Rule 3110"
+  },
+  {
+   "id": "sie-4-011",
+   "exam": "sie",
+   "section": "4",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F2"
+    }
+   ],
+   "ref": "4.2.2",
+   "q": "A registered representative wants to work weekends as a paid real estate agent. Under FINRA Rule 3270, what must she do?",
+   "options": [
+    "Nothing, because real estate is not securities business",
+    "Give her firm prior written notice before starting",
+    "Get approval from the SEC",
+    "Resign her registration"
+   ],
+   "answer": 1,
+   "explain": "Rule 3270 requires registered persons to provide prior written notice to their firm before engaging in outside business activities for compensation, so the firm can assess conflicts and decide whether to restrict them. That the activity involves no securities does not remove the notice duty.",
+   "rule": "FINRA Rule 3270"
+  },
+  {
+   "id": "sie-4-012",
+   "exam": "sie",
+   "section": "4",
+   "ref": "4.2.2",
+   "q": "A representative wants to help a friend's startup sell its private shares to investors and will receive a fee. Under FINRA Rule 3280, what is required?",
+   "options": [
+    "Nothing, because the shares are private",
+    "Only verbal notice to the branch manager",
+    "Written notice to the firm in advance, and the firm's written approval; the firm must then record and supervise the transactions",
+    "Registration of the startup with FINRA"
+   ],
+   "answer": 2,
+   "explain": "Rule 3280 covers private securities transactions outside the regular course of employment. Before taking part, the person must give written notice describing the deal and his role; if he is compensated, the firm must approve or disapprove in writing, and an approved transaction must be recorded and supervised as if it were the firm's own.",
+   "rule": "FINRA Rule 3280"
+  },
+  {
+   "id": "sie-4-013",
+   "exam": "sie",
+   "section": "4",
+   "ref": "4.2.2",
+   "q": "Under MSRB Rule G-37, a municipal finance professional who is entitled to vote for an issuer official may contribute, without triggering a business ban, up to:",
+   "options": [
+    "$250 per election to that official",
+    "$1,000 per year to that official",
+    "Any amount if it is reported",
+    "Nothing at all under any circumstances"
+   ],
+   "answer": 0,
+   "explain": "Rule G-37 exempts contributions of up to $250 per election by a municipal finance professional to an official he or she is entitled to vote for. Larger contributions can bar the dealer from municipal securities business with that issuer for two years. Simply reporting a contribution does not avoid the ban.",
+   "rule": "MSRB Rule G-37"
+  },
+  {
+   "id": "sie-4-014",
+   "exam": "sie",
+   "section": "4",
+   "ref": "4.2.2",
+   "q": "A dealer's municipal finance professional makes a contribution that is not exempt under MSRB Rule G-37 to an official of a city. What is the result?",
+   "options": [
+    "The professional is fined but the firm is unaffected",
+    "The city must refuse future bond issues",
+    "The dealer is generally banned from municipal securities business with that city for two years",
+    "The contribution must be returned within one year"
+   ],
+   "answer": 2,
+   "explain": "A contribution that exceeds the de minimis exemption generally bars the dealer from engaging in municipal securities business with that issuer for two years. This pay-to-play rule targets the firm's business, which is why the first choice is wrong. Prompt return of a small contribution may support exemptive relief, but it is not automatic.",
+   "rule": "MSRB Rule G-37"
+  },
+  {
+   "id": "sie-4-015",
+   "exam": "sie",
+   "section": "4",
+   "ref": "4.2.2",
+   "q": "A representative takes a client's employee, who manages the client's brokerage business, to a sporting event and attends with him. Under FINRA rules, this is generally treated as:",
+   "options": [
+    "a gift subject to the annual gift limit",
+    "business entertainment, permitted if it is not so frequent or extensive as to raise questions of propriety, under the firm's procedures",
+    "a prohibited payment in all cases",
+    "non-cash compensation that must be filed with FINRA"
+   ],
+   "answer": 1,
+   "explain": "When the representative attends with the guest, the event is business entertainment rather than a gift. It is allowed if it is reasonable and not so frequent or extensive as to raise questions of propriety, and firms must have written policies to supervise it. If the representative simply gave away the tickets, it would be treated as a gift.",
+   "rule": "FINRA Rule 3220"
+  },
+  {
+   "id": "sie-4-016",
+   "exam": "sie",
+   "section": "4",
+   "ref": "4.2.2",
+   "q": "Which of the following must be disclosed on a registered representative's Form U4?",
+   "options": [
+    "A personal bankruptcy filing",
+    "A parking ticket",
+    "A change in marital status",
+    "A home purchase"
+   ],
+   "answer": 0,
+   "explain": "Form U4 asks about bankruptcies, unsatisfied liens and judgments, criminal charges and convictions, regulatory actions, customer complaints and terminations. Minor traffic offenses, marriage and home purchases are not reportable events. A bankruptcy filing does not bar the person but must be disclosed.",
+   "rule": "FINRA By-Laws, Article V"
+  },
+  {
+   "id": "sie-4-017",
+   "exam": "sie",
+   "section": "4",
+   "ref": "4.2.2",
+   "q": "Under FINRA Rule 4530, a member must report specified events, such as certain written customer complaints alleging theft or a person being subject to a regulatory action, within how many calendar days after it knows or should have known?",
+   "options": [
+    "5",
+    "10",
+    "60",
+    "30"
+   ],
+   "answer": 3,
+   "explain": "Rule 4530(a) requires prompt reporting to FINRA, and in any event no later than 30 calendar days after the firm knows or should have known of the event. Separately, firms report statistical summaries of customer complaints quarterly, by the 15th day of the month after each calendar quarter.",
+   "rule": "FINRA Rule 4530"
+  },
+  {
+   "id": "sie-4-018",
+   "exam": "sie",
+   "section": "4",
+   "ref": "4.1.1",
+   "q": "FINRA's BrokerCheck is primarily a tool that:",
+   "options": [
+    "executes customer trades at the best price",
+    "lets the public research the background and registration history of firms and individuals",
+    "calculates margin requirements",
+    "replaces Form U4"
+   ],
+   "answer": 1,
+   "explain": "BrokerCheck draws on registration data, largely from Forms U4, U5 and BD, to show employment history, registrations and disclosure events such as customer complaints and regulatory actions. Firms must include a reference to BrokerCheck on their websites and in some communications.",
+   "rule": "FINRA Rule 2210(d)(8); FINRA Rule 8312"
+  }
+ ]
+}

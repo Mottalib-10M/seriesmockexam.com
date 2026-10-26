@@ -1,0 +1,42 @@
+# Numeric thresholds, dates and dollar figures used in src/data/questions/nasaa.json (verified 2026-10-26)
+# USA 1956 text = NASAA copy of the Uniform Securities Act (1956) with NASAA updates, read via the Wayback Machine copy of the official PDF:
+#   https://web.archive.org/web/2025/https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf
+# <figure> | <what it is> | <official URL verified on> | <question ids>
+noon of the 30th day after filing | USA 202(a): BD/agent/IA registration becomes effective absent denial order or pending proceeding | USA 1956 text (URL above) | s63-1-004
+December 31 | USA 201(e): registrations and notice filings expire unless renewed | USA 1956 text (URL above) | s63-1-005
+30 days / 1 year | USA 204(e): withdrawal effective 30 days after receipt; revocation proceeding still possible within 1 year after withdrawal | USA 1956 text (URL above) | s63-1-006
+10 years | USA 204(a)(2)(C): conviction within past ten years of securities misdemeanor or any felony | USA 1956 text (URL above) | s63-2-012
+two-thirds / 12 months | USA 414(e): publication with more than two-thirds of circulation outside the state in past 12 months is not an offer in the state | USA 1956 text (URL above) | s63-2-010
+no more than five clients / 12 months | USA 201(c): de minimis exemption for IA/IAR with no place of business in the state | USA 1956 text (URL above) | s65-4-009
+fewer than 6 clients / 12 months | Investment Advisers Act 222(d): national de minimis standard | https://www.govinfo.gov/content/pkg/COMPS-1878/pdf/COMPS-1878.pdf | s65-4-009
+one year | USA 305(i): registration statement effective one year from effective date (or longer while distribution continues) | USA 1956 text (URL above) | s63-5-005
+9 months / $50,000 / 3 highest ratings | USA 402(a)(10): commercial paper exemption | USA 1956 text (URL above) | s63-5-007
+10 offerees / 12 consecutive months | USA 402(b)(9): private placement transaction exemption | USA 1956 text (URL above) | s63-5-008
+3 years / 2 years | USA 410(f): civil suit within 3 years of sale or 2 years after discovery, whichever first | USA 1956 text (URL above) | s63-8-002
+30 days | USA 410(g): rescission offer not accepted within 30 days bars suit | USA 1956 text (URL above) | s63-8-003
+$5,000 / 3 years | USA 409(a): criminal penalty for willful violation | USA 1956 text (URL above) | s63-8-006
+60 days | USA 411(a): petition for judicial review of a final order | USA 1956 text (URL above) | s63-8-010
+$500,000 / $250,000 cash | SIPC protection limit per customer | https://www.sipc.org/for-investors/what-sipc-protects | s63-8-011
+6 years, first 2 easily accessible | SEC Rule 17a-4(a): blotters and ledgers retention | https://www.ecfr.gov/current/title-17/section-240.17a-4 | s63-4-001
+25 or fewer retail investors / 30 calendar days | FINRA Rule 2210 definition of correspondence | https://www.finra.org/rules-guidance/rulebooks/finra-rules/2210 | s63-4-002
+50% | Regulation T initial margin for margin equity securities | https://www.ecfr.gov/current/title-12/section-220.12 | s65-3-064
+25% / $2,000 | FINRA Rule 4210 maintenance margin and minimum equity | https://www.finra.org/rules-guidance/rulebooks/finra-rules/4210 | s65-3-064, s65-3-065
+6 months / 1 year / 90 days | SEC Rule 144(d): holding period for restricted securities of reporting / non-reporting issuers | https://www.ecfr.gov/current/title-17/section-230.144 | s65-2-024
+$100 million / $110 million / $90 million | SEC Rule 203A-1(a): SEC registration threshold and buffer | https://www.ecfr.gov/current/title-17/section-275.203A-1 | s65-4-006
+$100 million | Investment Advisers Act 203A(a)(2): mid-sized adviser ceiling | https://www.govinfo.gov/content/pkg/COMPS-1878/pdf/COMPS-1878.pdf | s65-4-006
+15 or more states | Investment Advisers Act 203A(a)(2)(A): multistate adviser may register with SEC | https://www.govinfo.gov/content/pkg/COMPS-1878/pdf/COMPS-1878.pdf | s65-4-008
+$150 million | Investment Advisers Act 203(m): private fund adviser exemption | https://www.govinfo.gov/content/pkg/COMPS-1878/pdf/COMPS-1878.pdf | s65-4-010
+120 days | SEC Rule 204-3(b)(2): annual brochure/summary delivery after fiscal year end if material changes | https://www.ecfr.gov/current/title-17/section-275.204-3 | s65-4-016
+90 days | SEC Rule 204-1(a): annual Form ADV updating amendment after fiscal year end | https://www.ecfr.gov/current/title-17/section-275.204-1 | s65-4-017
+3 business days | SEC Rule 206(4)-2: inadvertent receipt of client funds or securities | https://www.ecfr.gov/current/title-17/section-275.206(4)-2 | s65-4-022
+quarterly / once each calendar year | SEC Rule 206(4)-2: custodian account statements and surprise examination | https://www.ecfr.gov/current/title-17/section-275.206(4)-2 | s65-4-021
+10 business days | NASAA Model Rule 102(a)(4)-1(b): written discretionary authority after first oral-discretion trade | https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf (read via web.archive.org copy) | s65-4-023
+10 days / 30 days | SEC Rule 204A-1: initial holdings report within 10 days; quarterly transaction reports within 30 days | https://www.ecfr.gov/current/title-17/section-275.204A-1 | s65-4-026
+2 years / $350 / $150 | SEC Rule 206(4)-5: pay-to-play time-out and de minimis contributions | https://www.ecfr.gov/current/title-17/section-275.206(4)-5 | s65-4-027
+$5,000 / 30 calendar days / 60 days | FinCEN SAR rule for broker-dealers | https://www.ecfr.gov/current/title-31/section-1023.320 | s65-4-029
+more than $10,000 | FinCEN currency transaction report threshold | https://www.ecfr.gov/current/title-31/section-1010.311 | s65-4-029
+more than one year | Long-term capital gain holding period | https://www.irs.gov/taxtopics/tc409 | s65-3-025
+$3,000 ($1,500 MFS) | Annual net capital loss deduction against ordinary income | https://www.irs.gov/taxtopics/tc409 | s65-3-026
+30 days before or after | Wash sale window | https://www.irs.gov/publications/p550 | s65-3-027
+10% / age 59 1/2 | Additional tax on early IRA distributions | https://www.irs.gov/taxtopics/tc557 | s65-3-036, s65-3-037
+20% / 60 days | Mandatory withholding on eligible rollover distributions paid to participant; indirect rollover deadline | https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions | s65-3-042

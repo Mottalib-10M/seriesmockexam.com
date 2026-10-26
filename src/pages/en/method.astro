@@ -1,0 +1,39 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema, articleSchema } from '../../lib/seo';
+import { helpers } from '../../lib/helpers';
+import { displayDate } from '../../lib/format';
+import { EXAM_IDS } from '../../lib/engine/exam';
+const lang = 'en';
+const h = helpers(lang);
+const { X } = h;
+const s = (k: Parameters<typeof h.src>[0], t: string) => h.src(k, t);
+const poolRows = EXAM_IDS.map((e) => [h.label(e), X(e).sections.map((x) => `${x.code}: ${x.items}`).join(' · '), X(e).sections.map((x) => `${x.code}: ${h.inPool(e, x.code)}`).join(' · ')]);
+---
+<PageLayout title="Method: how the practice questions and mocks are built" description="How US FINRA Exams writes its practice questions from the FINRA and NASAA outlines, draws and marks a mock in the official format, and dates every fee and rule." lang={lang} jsonLd={[articleSchema({ title: 'How the questions, mocks, dates and fees are built', description: 'Method of US FINRA Exams', path: route('method', lang), lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Method', path: route('method', lang) }])]} breadcrumbs={[{ label: 'Method' }]}>
+  <header class="mb-6"><p class="kicker">Method</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">How the questions, mocks, dates and fees are built</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <p>Every page and every tool reads the same two sources: a bank of practice questions and a parameter file of formats, fees and rules read on finra.org and in the NASAA study guides on {h.date(h.P.retrieved_at)}. No passing score, fee or waiting period is typed into a page; when a rule changes, the parameter file changes and every page follows.</p>
+    <h2>1. The questions</h2>
+    <p>The bank holds {h.num(h.count)} questions. Each one is written by Radif Partners from a topic named in an official outline: the <Fragment set:html={s('finra_sie_outline', 'SIE content outline')} />, the <Fragment set:html={s('finra_s7_outline', 'Series 7 outline')} /> and the <Fragment set:html={s('finra_s6_outline', 'Series 6 outline')} /> published by FINRA, and the NASAA study guides for the <Fragment set:html={s('nasaa_s63_guide', 'Series 63')} />, <Fragment set:html={s('nasaa_s65_guide', 'Series 65')} /> and <Fragment set:html={s('nasaa_s66_guide', 'Series 66')} />. Each has four options, one right answer, an explanation and the outline point it trains; many also name the rule or statute behind the answer. A question that fits several exams (a bond yield is on the SIE, the Series 7 and the Series 65) is tagged for each of them, under the section where that exam's outline places the topic.</p>
+    <p>No question was copied from a prep provider, a book, a flash-card site or a real exam, and none is presented as a real exam question. Automated checks run on every build: unique ids and wording, four distinct options, a right answer among them, an explanation of 20 to 90 words, no run of eight words copied from an outline, and right answers spread across positions A to D. Questions whose answer depends on a figure that changes every year (contribution limits, gift limits) are left out or written so that the figure does not matter.</p>
+    <h2>2. How a mock exam is drawn</h2>
+    <p>A mock has the scored length of the real exam and takes from each outline section the number of questions the outline gives it, then shuffles them. The unscored pretest questions of the real exam are left out, since they do not count; the clock is scaled to the scored questions only, which leaves the same time per question. A seed makes every draw reproducible: the first set of each page is drawn when the site is built, and a shared link replays the same questions.</p>
+    <Fragment set:html={h.table(['Exam', 'Scored questions per section (outline)', 'Questions in our pool per section'], poolRows, 'Pools include the questions tagged from another exam.', ['l', 'l', 'l'])} />
+    <h2>3. How a mock is marked</h2>
+    <p>The Series 63, 65 and 66 are passed on a number of correct answers: {X('s63').passCorrect} of {X('s63').scored}, {X('s65').passCorrect} of {X('s65').scored} and {X('s66').passCorrect} of {X('s66').scored}. A mock of the same length uses the same figure, so the verdict is exact for that mock. The SIE, the Series 6 and the Series 7 report a scaled score, {X('sie').passScore}, {X('s6').passScore} and {X('s7').passScore}; FINRA equates the forms of each exam and publishes no conversion from correct answers. Our mock compares your share of correct answers with the same number (for example {h.need('sie')} of {X('sie').scored} on the SIE) and says that it is an approximation. The estimate of a chance to pass is a binomial calculation from your practice rate, labelled as a model.</p>
+    <h2>4. Fees, dates and rules</h2>
+    <p>Fees are those of the <Fragment set:html={s('finra_fees', 'FINRA fee adjustment schedule')} /> in force from {h.date(h.P.feeIncrease.effective)}, cross-checked with each exam page; late-change charges come from <Fragment set:html={s('finra_section4', 'Section 4 of Schedule A to the FINRA By-Laws')} />. Retake waiting periods come from <Fragment set:html={s('finra_1210', 'FINRA Rule 1210')} /> and, for changes announced but not yet in force, from <Fragment set:html={s('finra_26_18', `Regulatory Notice ${h.P.retake.finraFrom.notice}`)} />, shown as coming with its date ({h.date(h.P.retake.finraFrom.date)}). Continuing education follows <Fragment set:html={s('finra_1240', 'Rule 1240')} />. Date calculators count calendar days in UTC so that no time zone can move a day; the business-day counter skips weekends but not public holidays, and says so.</p>
+    <h2>5. Exam math</h2>
+    <p>Bond, option, margin and fund tools use the textbook formulas the outlines expect: current yield, yield to maturity solved exactly and by the classroom approximation, tax-equivalent yield, accrued interest on a 30/360 basis with T+1 settlement (<Fragment set:html={s('sec_t1', 'SEC')} />), option breakevens, Regulation T initial margin and the <Fragment set:html={s('finra_4210', 'Rule 4210')} /> maintenance level. Each formula has an automated test with a worked example.</p>
+    <h2>6. What the site does not do</h2>
+    <ul>
+      <li>It does not enroll, schedule or score anyone: that is FINRA's and the sponsoring firm's job.</li>
+      <li>It does not reproduce the outlines' text, or claim to reproduce the real exams.</li>
+      <li>It publishes no pass rate: FINRA and NASAA do not publish current ones, and an unsourced figure would mislead.</li>
+    </ul>
+    <p>Method version of <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'en-US')}</time>. A figure or an answer that looks wrong: <a href={route('contact', lang)}>contact</a>.</p>
+  </div>
+</PageLayout>

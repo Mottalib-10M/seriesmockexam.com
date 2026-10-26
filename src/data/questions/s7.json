@@ -1,0 +1,2535 @@
+{
+ "questions": [
+  {
+   "id": "s7-F1-001",
+   "exam": "s7",
+   "section": "F1",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F1"
+    }
+   ],
+   "ref": "1.1",
+   "q": "A firm wants to post a new retail communication about its brokerage services on its public website. Under FINRA Rule 2210, which approval is generally required?",
+   "options": [
+    "None, because websites are institutional communications",
+    "Approval by any registered representative",
+    "Approval by an appropriately qualified registered principal before use",
+    "Approval by the SEC before use"
+   ],
+   "answer": 2,
+   "explain": "Retail communications generally must be approved by an appropriately qualified registered principal before they are used or filed. Public websites are retail communications because anyone can view them. Neither the SEC nor FINRA approves communications in advance, and a representative cannot approve his or her own material.",
+   "rule": "FINRA Rule 2210(b)"
+  },
+  {
+   "id": "s7-F1-002",
+   "exam": "s7",
+   "section": "F1",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F1"
+    }
+   ],
+   "ref": "1.1",
+   "q": "A representative sends a market update by email only to five pension plans and two insurance companies, all institutional investors. Under FINRA Rule 2210, which is accurate?",
+   "options": [
+    "It must be approved by a principal before it is sent and filed with FINRA",
+    "It is correspondence and needs no supervision at all",
+    "It is a retail communication because it was sent electronically",
+    "It is an institutional communication: no pre-approval is required, but it is subject to the firm's written supervisory procedures"
+   ],
+   "answer": 3,
+   "explain": "Communications made available only to institutional investors are institutional communications. They do not need principal pre-approval, but firms must have written procedures to review them. If the firm has reason to believe the piece will be forwarded to retail investors, it loses institutional treatment.",
+   "rule": "FINRA Rule 2210(b)(3)"
+  },
+  {
+   "id": "s7-F1-003",
+   "exam": "s7",
+   "section": "F1",
+   "ref": "1.1",
+   "q": "Who must approve a broker-dealer's retail communications concerning options before use?",
+   "options": [
+    "A Registered Options Principal",
+    "The Options Clearing Corporation",
+    "Cboe staff",
+    "Any general securities representative"
+   ],
+   "answer": 0,
+   "explain": "Retail communications about options must be approved in advance by a Registered Options Principal (or another qualified principal designated under the rule). The OCC publishes the Options Disclosure Document but does not approve firms' marketing. Options materials also have strict rules on projections and must not be misleading about risk.",
+   "rule": "FINRA Rule 2220"
+  },
+  {
+   "id": "s7-F1-004",
+   "exam": "s7",
+   "section": "F1",
+   "ref": "1.1",
+   "q": "In a retail communication about collateralized mortgage obligations (CMOs), a firm states that its CMO is as safe as a bank CD with a higher yield. Why is this improper?",
+   "options": [
+    "CMOs may never be advertised",
+    "FINRA rules prohibit comparing a CMO to any other investment vehicle, including a CD, in retail communications",
+    "Only the issuer may advertise CMOs",
+    "CMOs pay no interest"
+   ],
+   "answer": 1,
+   "explain": "FINRA Rule 2216 forbids retail communications that compare CMOs with other investment vehicles, including certificates of deposit, because CMOs carry prepayment, extension and market risks that CDs do not. The piece must also explain that yields and average lives can change with prepayment rates.",
+   "rule": "FINRA Rule 2216"
+  },
+  {
+   "id": "s7-F1-005",
+   "exam": "s7",
+   "section": "F1",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F1"
+    }
+   ],
+   "ref": "1.1",
+   "q": "A representative will give a public seminar on retirement investing, using a slide presentation shown to the attendees. How are the slides treated under FINRA rules?",
+   "options": [
+    "As retail communications, subject to principal approval and content standards",
+    "As correspondence, reviewed after the fact",
+    "As institutional communications",
+    "As exempt, because seminars are oral"
+   ],
+   "answer": 0,
+   "explain": "Written or electronic material shown or distributed at a seminar open to retail investors is a retail communication, so it must meet content standards and generally be approved by a principal in advance. The oral remarks themselves are public appearances, which must also follow the content standards.",
+   "rule": "FINRA Rule 2210"
+  },
+  {
+   "id": "s7-F1-006",
+   "exam": "s7",
+   "section": "F1",
+   "ref": "1.2",
+   "q": "A corporate offering is priced at $20 per share and the issuer receives $18.80. The manager's fee is $0.20 and the selling concession is $0.70. How much does a syndicate member earn on shares it sells itself?",
+   "options": [
+    "$0.30",
+    "$0.70",
+    "$1.00",
+    "$1.20"
+   ],
+   "answer": 2,
+   "explain": "The total spread is $20.00 minus $18.80, or $1.20. Subtracting the manager's fee ($0.20) and the concession ($0.70) leaves an underwriting fee of $0.30. A syndicate member selling its own allotment earns the underwriting fee plus the concession: $0.30 + $0.70 = $1.00. A selling group member would earn only the $0.70 concession."
+  },
+  {
+   "id": "s7-F1-007",
+   "exam": "s7",
+   "section": "F1",
+   "ref": "1.2",
+   "q": "During a firm commitment offering, the managing underwriter places a stabilizing bid for the stock. Under Regulation M, the stabilizing bid may be placed:",
+   "options": [
+    "at any price that supports the market",
+    "above the public offering price",
+    "only after the offering is completed",
+    "at or below the public offering price"
+   ],
+   "answer": 3,
+   "explain": "Stabilization is a limited, disclosed exception to manipulation rules that lets the manager support the price during distribution. The bid may not exceed the offering price, so it cannot be used to push the price up. Stabilization must be disclosed in the offering documents.",
+   "rule": "Regulation M, Rule 104"
+  },
+  {
+   "id": "s7-F1-008",
+   "exam": "s7",
+   "section": "F1",
+   "ref": "1.2",
+   "q": "A U.S. company sells bonds only to investors outside the United States, with no directed selling efforts in the U.S. Which provision generally allows the sale without Securities Act registration?",
+   "options": [
+    "Regulation A",
+    "Rule 147",
+    "Regulation S",
+    "Rule 506(b)"
+   ],
+   "answer": 2,
+   "explain": "Regulation S provides a safe harbor for offers and sales that occur outside the United States, so they are not subject to Section 5 registration. Rule 147 is the intrastate exemption, Regulation A is a small public offering exemption with an offering circular, and Rule 506(b) is a private placement exemption.",
+   "rule": "Regulation S"
+  },
+  {
+   "id": "s7-F1-009",
+   "exam": "s7",
+   "section": "F1",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F1"
+    }
+   ],
+   "ref": "1.2",
+   "q": "How does a Regulation A offering differ from a traditional registered public offering?",
+   "options": [
+    "It uses a shorter offering statement and an offering circular for a smaller capital raise, rather than a full registration statement and prospectus",
+    "It may be sold only to qualified institutional buyers",
+    "It must be limited to residents of one state",
+    "It cannot be sold to the public"
+   ],
+   "answer": 0,
+   "explain": "Regulation A is an exemption for smaller public offerings: the issuer files an abbreviated offering statement with the SEC and gives investors an offering circular. Shares can be sold to the general public, which is what distinguishes it from private placements. Rule 144A covers resales to QIBs, and Rule 147 covers intrastate offerings.",
+   "rule": "Regulation A"
+  },
+  {
+   "id": "s7-F1-010",
+   "exam": "s7",
+   "section": "F1",
+   "ref": "1.2",
+   "q": "Before bidding in a competitive municipal underwriting, which document announces the sale and states the terms on which bids will be accepted?",
+   "options": [
+    "The official statement",
+    "The notice of sale",
+    "The legal opinion",
+    "The indenture"
+   ],
+   "answer": 1,
+   "explain": "The issuer's notice of sale, often published in The Bond Buyer, gives the date, amount, maturities, bidding basis and other terms of a competitive sale. The preliminary and final official statements are disclosure documents for investors, and the legal opinion addresses validity and tax status."
+  },
+  {
+   "id": "s7-F1-011",
+   "exam": "s7",
+   "section": "F1",
+   "ref": "1.2",
+   "q": "A municipality issues new bonds now and places the proceeds in an escrow of Treasury securities to pay off older bonds at their first call date several years away. This is called:",
+   "options": [
+    "a current refunding",
+    "a direct exchange",
+    "a crossover refunding with no escrow",
+    "an advance refunding (pre-refunding)"
+   ],
+   "answer": 3,
+   "explain": "In an advance refunding, the issuer sells new bonds well before the old bonds can be called and escrows the proceeds, usually in Treasuries, to pay the old bonds at the call date. The old bonds are then considered pre-refunded and typically carry very high credit quality. A current refunding occurs at or near the call date."
+  },
+  {
+   "id": "s7-F1-012",
+   "exam": "s7",
+   "section": "F1",
+   "ref": "1.1",
+   "q": "An investment company retail communication includes a ranking of the fund's performance. Under FINRA Rule 2212, which is required?",
+   "options": [
+    "The ranking must come from an independent ranking entity, with the category, the number of funds and the time period disclosed",
+    "Rankings may be shown only if they are first place",
+    "Rankings may cover any period the fund chooses without disclosure",
+    "Rankings are prohibited in retail communications"
+   ],
+   "answer": 0,
+   "explain": "Rule 2212 permits rankings only from entities that are independent of the fund, and the communication must disclose details such as the name of the category, the number of funds in it, the ranking entity and the period covered. Cherry-picking periods without disclosure would be misleading.",
+   "rule": "FINRA Rule 2212"
+  },
+  {
+   "id": "s7-F1-013",
+   "exam": "s7",
+   "section": "F1",
+   "ref": "1.1",
+   "q": "An options communication shows a projection that a covered call strategy will earn 25% a year going forward. What is the main problem?",
+   "options": [
+    "Projections of options returns are always required",
+    "Options retail communications may not predict or project performance, except in permitted hypothetical illustrations that meet strict conditions",
+    "Only historical returns of the stock may be shown",
+    "The communication must be filed with the SEC"
+   ],
+   "answer": 1,
+   "explain": "FINRA's options communication rule bars predictions or projections of performance, allowing only limited hypothetical illustrations of strategy mechanics that are not misleading and that disclose the risks. Promising a specific future return conflicts with the general Rule 2210 ban on projections as well.",
+   "rule": "FINRA Rule 2220"
+  },
+  {
+   "id": "s7-F1-014",
+   "exam": "s7",
+   "section": "F1",
+   "ref": "1.2",
+   "q": "In a firm commitment offering, a selling group member that is not part of the underwriting syndicate is compensated by:",
+   "options": [
+    "the full underwriting spread",
+    "the manager's fee",
+    "the selling concession only",
+    "the underwriting fee only"
+   ],
+   "answer": 2,
+   "explain": "Selling group members help distribute the issue but take no underwriting risk, so they earn only the selling concession on the shares they sell. Syndicate members also earn the underwriting fee for taking risk, and the managing underwriter keeps the manager's fee."
+  },
+  {
+   "id": "s7-F2-001",
+   "exam": "s7",
+   "section": "F2",
+   "ref": "2.1",
+   "q": "A customer is approved for options trading on Monday. Under FINRA Rule 2360, by when must the firm obtain the customer's signed options account agreement?",
+   "options": [
+    "Before the account is approved",
+    "Within 15 days after the account is approved",
+    "Within 30 days after the first trade",
+    "Only before the first uncovered trade"
+   ],
+   "answer": 1,
+   "explain": "The Options Disclosure Document must be delivered at or before approval, and the approval must be made in writing by a qualified principal. The signed written agreement, including the promise to respect position and exercise limits, must be obtained within 15 days after approval. Requiring it before approval is the trap.",
+   "rule": "FINRA Rule 2360(b)(16)"
+  },
+  {
+   "id": "s7-F2-002",
+   "exam": "s7",
+   "section": "F2",
+   "ref": "2.1",
+   "q": "Which document must a customer sign to open a margin account, giving the firm the right to pledge the customer's margin securities as collateral for a bank loan?",
+   "options": [
+    "The loan consent agreement",
+    "The trusted contact form",
+    "The hypothecation agreement (included in the margin agreement)",
+    "The options agreement"
+   ],
+   "answer": 2,
+   "explain": "Hypothecation, the pledge of customer securities to finance the debit balance, is required to open a margin account and is part of the margin agreement along with the credit agreement disclosing interest terms. The loan consent agreement, which lets the firm lend customer securities to others, is optional, which is the trap.",
+   "rule": "Regulation T; FINRA Rule 2264"
+  },
+  {
+   "id": "s7-F2-003",
+   "exam": "s7",
+   "section": "F2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F2"
+    }
+   ],
+   "ref": "2.2",
+   "q": "An employee of another FINRA member firm wants to open a brokerage account at your firm. Under FINRA Rule 3210, what is required?",
+   "options": [
+    "Nothing, as long as the employee pays commissions",
+    "Approval from FINRA",
+    "Notice to the SEC",
+    "The prior written consent of the employing member firm"
+   ],
+   "answer": 3,
+   "explain": "Rule 3210 requires associated persons to obtain their employer's prior written consent before opening an account at another firm, and the executing firm must, on request, send duplicate confirmations and statements to the employer. Neither FINRA nor the SEC approves these accounts.",
+   "rule": "FINRA Rule 3210"
+  },
+  {
+   "id": "s7-F2-004",
+   "exam": "s7",
+   "section": "F2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F2"
+    }
+   ],
+   "ref": "2.2",
+   "q": "Under FINRA Rule 4512, what must a firm do regarding a trusted contact person for a non-institutional customer?",
+   "options": [
+    "Make a reasonable effort to obtain the name and contact information of a trusted contact person, and disclose when it may contact that person",
+    "Require every customer to name a trusted contact before trading",
+    "Allow the trusted contact to place trades",
+    "Name a family member automatically"
+   ],
+   "answer": 0,
+   "explain": "Firms must make reasonable efforts to obtain trusted contact information, but customers may decline and the account can still be opened. The trusted contact has no authority to trade; the firm can contact that person about suspected exploitation, the customer's health or whereabouts, or the identity of a legal representative.",
+   "rule": "FINRA Rule 4512"
+  },
+  {
+   "id": "s7-F2-005",
+   "exam": "s7",
+   "section": "F2",
+   "ref": "2.1",
+   "q": "Which retirement plan allows only employer contributions, with each employee owning a traditional IRA that receives them?",
+   "options": [
+    "A SIMPLE IRA",
+    "A 401(k) plan",
+    "A Roth IRA",
+    "A SEP IRA"
+   ],
+   "answer": 3,
+   "explain": "In a Simplified Employee Pension, the employer contributes to SEP IRAs for eligible employees; employees do not make salary deferrals to it. SIMPLE IRAs and 401(k) plans both allow employee salary deferrals, which is the main difference from a SEP. A Roth IRA is an individual account, not an employer plan.",
+   "rule": "Internal Revenue Code Section 408(k)"
+  },
+  {
+   "id": "s7-F2-006",
+   "exam": "s7",
+   "section": "F2",
+   "ref": "2.1",
+   "q": "An executive participates in a non-qualified deferred compensation plan. Which risk is characteristic of this plan compared with a qualified plan?",
+   "options": [
+    "Deferred amounts are generally unsecured promises and can be lost to the employer's creditors in bankruptcy",
+    "Contributions are immediately taxable",
+    "The plan must cover all employees equally",
+    "ERISA guarantees the deferred amounts"
+   ],
+   "answer": 0,
+   "explain": "Non-qualified plans let selected employees defer compensation, but the deferred amounts typically remain general assets of the employer, exposed to its creditors. Qualified plans hold assets in trust for participants and must meet ERISA's coverage and nondiscrimination rules, which non-qualified plans are not required to meet.",
+   "rule": "Employee Retirement Income Security Act of 1974"
+  },
+  {
+   "id": "s7-F2-007",
+   "exam": "s7",
+   "section": "F2",
+   "ref": "2.1",
+   "q": "A 401(k) participant leaves her employer at age 56 and takes a distribution from that employer's plan. Which is accurate about the 10% additional tax?",
+   "options": [
+    "It always applies before age 59½",
+    "It applies only if she rolls the money over",
+    "It generally does not apply, because she separated from service in or after the year she turned 55",
+    "It applies at twice the normal rate"
+   ],
+   "answer": 2,
+   "explain": "For qualified employer plans, distributions after separation from service in or after the year the employee reaches 55 are an exception to the 10% additional tax. The exception does not apply to IRAs, so rolling the money to an IRA first and then withdrawing before 59½ could trigger the tax. Ordinary income tax still applies.",
+   "rule": "Internal Revenue Code Section 72(t)"
+  },
+  {
+   "id": "s7-F2-008",
+   "exam": "s7",
+   "section": "F2",
+   "ref": "2.1",
+   "q": "A married couple living in a community property state opens a joint account titled as community property. What is the key characteristic?",
+   "options": [
+    "Each spouse owns a separate, unequal share set by contribution",
+    "Assets acquired during the marriage are generally treated as owned equally by both spouses under state law",
+    "The account passes automatically to the children at death",
+    "Only one spouse may trade the account"
+   ],
+   "answer": 1,
+   "explain": "In community property states, property acquired during marriage is generally owned in equal shares by both spouses, with details set by state law. Tenants in common, by contrast, can hold unequal shares set by agreement. Survivorship and trading authority depend on the specific titling and account documents."
+  },
+  {
+   "id": "s7-F2-009",
+   "exam": "s7",
+   "section": "F2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F2"
+    }
+   ],
+   "ref": "2.3",
+   "q": "Under Regulation Best Interest, which obligation addresses whether a series of recommended transactions, even if each is reasonable alone, is excessive for the customer?",
+   "options": [
+    "The disclosure obligation",
+    "The conflict of interest obligation",
+    "The compliance obligation",
+    "The care obligation's quantitative (excessive trading) component"
+   ],
+   "answer": 3,
+   "explain": "Reg BI's care obligation requires a reasonable basis to believe that a series of recommended transactions is not excessive and is in the customer's best interest when viewed together. This is the quantitative component, which addresses churning. FINRA Rule 2111 has a parallel quantitative suitability obligation.",
+   "rule": "SEC Rule 15l-1"
+  },
+  {
+   "id": "s7-F2-010",
+   "exam": "s7",
+   "section": "F2",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F2"
+    }
+   ],
+   "ref": "2.3",
+   "q": "When must a broker-dealer deliver Form CRS (the relationship summary) to a new retail investor?",
+   "options": [
+    "Before or at the earliest of a recommendation, placing an order, or opening an account",
+    "Only after the first trade settles",
+    "Only upon request",
+    "Within 30 days of account opening"
+   ],
+   "answer": 0,
+   "explain": "Form CRS must be delivered before or at the earliest of a recommendation of an account type, a securities transaction or an investment strategy; the placing of an order; or the opening of a brokerage account. It explains the firm's services, fees, conflicts and disciplinary history in plain language.",
+   "rule": "SEC Rule 17a-14"
+  },
+  {
+   "id": "s7-F2-011",
+   "exam": "s7",
+   "section": "F2",
+   "ref": "2.3",
+   "q": "An issuer sells under Rule 506(c) and uses general advertising. What must it do regarding purchasers?",
+   "options": [
+    "Allow up to 35 non-accredited purchasers",
+    "Rely on each buyer's checkbox stating he is accredited, with no further steps",
+    "Take reasonable steps to verify that every purchaser is an accredited investor",
+    "Register the offering with FINRA"
+   ],
+   "answer": 2,
+   "explain": "Rule 506(c) permits general solicitation only if all purchasers are accredited and the issuer takes reasonable steps to verify their status, for example by reviewing tax documents or obtaining confirmation from a licensed professional. A bare self-certification is generally not enough, and non-accredited buyers are not allowed.",
+   "rule": "SEC Rule 506(c)"
+  },
+  {
+   "id": "s7-F2-012",
+   "exam": "s7",
+   "section": "F2",
+   "ref": "2.4",
+   "q": "A new customer refuses to provide information about annual income and net worth. Which is the best course of action?",
+   "options": [
+    "The firm must close the account immediately",
+    "The firm may open the account if it is otherwise satisfied, document the refusal, and recognize that it may lack a reasonable basis for some recommendations",
+    "The representative should estimate the figures and record them as provided by the customer",
+    "The account may be opened only as a margin account"
+   ],
+   "answer": 1,
+   "explain": "A customer may decline to share financial information, and the firm can decide whether to open the account, documenting the refusal. Without that information, however, it may not be able to make recommendations that satisfy best interest or suitability. Recording invented figures would falsify books and records.",
+   "rule": "FINRA Rule 4512"
+  },
+  {
+   "id": "s7-F2-013",
+   "exam": "s7",
+   "section": "F2",
+   "ref": "2.1",
+   "q": "A non-spouse beneficiary inherits a traditional IRA. Which is accurate?",
+   "options": [
+    "The beneficiary may treat the IRA as his own and make new contributions",
+    "The beneficiary may roll it into his own IRA with a 60-day rollover",
+    "Distributions are subject to the 10% additional tax if the beneficiary is under 59½",
+    "The account is kept as an inherited (beneficiary) IRA, and distributions are taxable but exempt from the 10% additional tax because they follow the owner's death"
+   ],
+   "answer": 3,
+   "explain": "Only a surviving spouse may treat an inherited IRA as his or her own. A non-spouse beneficiary keeps it as an inherited IRA, moving it only by direct trustee-to-trustee transfer, and must follow the required distribution rules. Distributions after the owner's death are exempt from the 10% additional tax, though still taxable.",
+   "rule": "Internal Revenue Code Section 408(d)"
+  },
+  {
+   "id": "s7-F3-001",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.1",
+   "q": "A company has current assets of $6 million, of which $2.5 million is inventory, and current liabilities of $2 million. What is its quick (acid-test) ratio?",
+   "options": [
+    "3.00 to 1",
+    "1.25 to 1",
+    "1.75 to 1",
+    "2.00 to 1"
+   ],
+   "answer": 2,
+   "explain": "The quick ratio removes inventory, the least liquid current asset: ($6 million minus $2.5 million) divided by $2 million equals 1.75 to 1. The 3.00 to 1 trap is the current ratio, which divides all current assets by current liabilities."
+  },
+  {
+   "id": "s7-F3-002",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.1",
+   "q": "Which transaction increases a company's working capital?",
+   "options": [
+    "Issuing long-term bonds and keeping the cash",
+    "Paying off accounts payable with cash",
+    "Buying inventory on short-term credit",
+    "Declaring a cash dividend payable next month"
+   ],
+   "answer": 0,
+   "explain": "Working capital is current assets minus current liabilities. Issuing long-term debt adds cash (a current asset) while the new liability is long term, so working capital rises. Paying payables or buying inventory on credit changes both sides equally, and declaring a dividend creates a current liability, reducing working capital."
+  },
+  {
+   "id": "s7-F3-003",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.1",
+   "q": "A company has net income of $12 million, pays $2 million of preferred dividends, and has 5 million common shares outstanding. What are its earnings per share?",
+   "options": [
+    "$2.40",
+    "$2.80",
+    "$1.60",
+    "$2.00"
+   ],
+   "answer": 3,
+   "explain": "EPS measures earnings available to common stockholders: (net income minus preferred dividends) divided by common shares outstanding = ($12 million minus $2 million) / 5 million = $2.00. The $2.40 trap forgets to subtract the preferred dividends, which must be paid before common shareholders have any claim."
+  },
+  {
+   "id": "s7-F3-004",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.1",
+   "q": "A stock trades at $30, has EPS of $2.00, and pays an annual dividend of $0.80. Which pair of figures is correct?",
+   "options": [
+    "P/E of 15 and dividend payout ratio of 40%",
+    "P/E of 37.5 and payout ratio of 2.7%",
+    "P/E of 15 and payout ratio of 2.7%",
+    "P/E of 6.7 and payout ratio of 40%"
+   ],
+   "answer": 0,
+   "explain": "P/E equals price divided by EPS: $30 / $2.00 = 15. The payout ratio equals dividends per share divided by EPS: $0.80 / $2.00 = 40%. The 2.7% figure is the current yield ($0.80 / $30), a different measure that is easy to confuse with the payout ratio."
+  },
+  {
+   "id": "s7-F3-005",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.1",
+   "q": "A company reports total assets of $100 million, including $5 million of goodwill, total liabilities of $60 million, preferred stock at a par value of $10 million, and 5 million common shares. What is its net tangible book value per common share?",
+   "options": [
+    "$8.00",
+    "$5.00",
+    "$6.00",
+    "$7.00"
+   ],
+   "answer": 1,
+   "explain": "Net tangible book value per share subtracts intangibles, liabilities and the preferred par from total assets: ($100 minus $5 minus $60 minus $10) million = $25 million, divided by 5 million shares = $5.00. The $6.00 trap keeps the goodwill, and $8.00 ignores both goodwill and the preferred claim."
+  },
+  {
+   "id": "s7-F3-006",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.1",
+   "q": "During a period of rising prices, a company that uses LIFO inventory accounting instead of FIFO will generally report:",
+   "options": [
+    "higher cost of goods sold and lower reported earnings",
+    "lower cost of goods sold and higher reported earnings",
+    "the same earnings, since the method does not matter",
+    "higher ending inventory on the balance sheet"
+   ],
+   "answer": 0,
+   "explain": "Under LIFO, the most recent and more expensive units are treated as sold first, so cost of goods sold is higher, reported profit and taxes are lower, and the older cheaper units remain in inventory. FIFO produces the opposite results when prices rise, which is the trap in the second choice."
+  },
+  {
+   "id": "s7-F3-007",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.1",
+   "q": "A company has revenue of $50 million, cost of goods sold of $30 million, selling and administrative expenses of $8 million, depreciation of $2 million and interest expense of $1 million. What is its EBITDA?",
+   "options": [
+    "$9 million",
+    "$10 million",
+    "$12 million",
+    "$20 million"
+   ],
+   "answer": 2,
+   "explain": "EBIT equals revenue minus cost of goods sold, operating expenses and depreciation: $50 minus $30 minus $8 minus $2 = $10 million. EBITDA adds back depreciation: $10 + $2 = $12 million. The $9 million figure is EBT (after interest), and $10 million is EBIT."
+  },
+  {
+   "id": "s7-F3-008",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.1",
+   "q": "A bond issuer has EBIT of $24 million and annual bond interest of $6 million. What is its bond interest coverage ratio, and what does a higher figure indicate?",
+   "options": [
+    "0.25 times; greater safety",
+    "4 times; greater safety of interest payments",
+    "4 times; greater default risk",
+    "18 times; greater default risk"
+   ],
+   "answer": 1,
+   "explain": "Interest coverage equals earnings available to pay interest (EBIT) divided by annual interest: $24 million / $6 million = 4 times. The more times earnings cover interest, the safer the bond's interest payments. Reading a high coverage ratio as more risk reverses its meaning."
+  },
+  {
+   "id": "s7-F3-009",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.1",
+   "q": "A stock has a beta of 1.4. If the overall market rises 10%, the stock would be expected to:",
+   "options": [
+    "rise about 10%",
+    "rise about 4%",
+    "fall about 14%",
+    "rise about 14%"
+   ],
+   "answer": 3,
+   "explain": "Beta measures sensitivity to market moves: a beta of 1.4 implies the stock tends to move 1.4 times the market, so about 14% in a 10% market rise, and it would be expected to fall more than the market in a decline. Beta measures systematic risk only."
+  },
+  {
+   "id": "s7-F3-010",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.1",
+   "q": "Using the Capital Asset Pricing Model, what is the expected return of a stock with a beta of 1.2 if the risk-free rate is 3% and the expected market return is 8%?",
+   "options": [
+    "9.0%",
+    "9.6%",
+    "6.0%",
+    "11.0%"
+   ],
+   "answer": 0,
+   "explain": "CAPM: expected return = risk-free rate + beta x (market return minus risk-free rate) = 3% + 1.2 x (8% minus 3%) = 3% + 6% = 9.0%. The 9.6% trap multiplies the full 8% market return by beta, forgetting that beta applies only to the market risk premium."
+  },
+  {
+   "id": "s7-F3-011",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.1",
+   "q": "A portfolio manager returned 12% in a year when, given the portfolio's beta, CAPM predicted 9%. The 3% difference is the portfolio's:",
+   "options": [
+    "beta",
+    "standard deviation",
+    "alpha",
+    "Sharpe ratio"
+   ],
+   "answer": 2,
+   "explain": "Alpha is the return above or below what the portfolio's risk (beta) would predict; positive alpha suggests the manager added value. Beta is the measure of market sensitivity used to compute the expected return in the first place, which is why it is the tempting confusion."
+  },
+  {
+   "id": "s7-F3-012",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A corporation has issued 10 million shares and holds 1 million of them as treasury stock. Which statement is accurate?",
+   "options": [
+    "Outstanding shares are 10 million, all with voting rights",
+    "Outstanding shares are 9 million; treasury shares have no vote and receive no dividends",
+    "Outstanding shares are 11 million",
+    "Treasury shares receive dividends but cannot vote"
+   ],
+   "answer": 1,
+   "explain": "Outstanding shares equal issued shares minus treasury shares: 10 million minus 1 million = 9 million. Treasury stock was issued and then reacquired by the company; while held, it carries no voting rights and receives no dividends. The company may later reissue or retire it."
+  },
+  {
+   "id": "s7-F3-013",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "Which preferred stock feature allows holders to receive dividends above the stated rate when the company has strong earnings?",
+   "options": [
+    "Cumulative",
+    "Callable",
+    "Adjustable rate",
+    "Participating"
+   ],
+   "answer": 3,
+   "explain": "Participating preferred can share in additional dividends beyond its stated rate, alongside common stockholders, when earnings permit. Cumulative preferred only protects missed dividends, adjustable-rate preferred resets the rate to a benchmark, and callable preferred gives the issuer the right to redeem."
+  },
+  {
+   "id": "s7-F3-014",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "Which type of preferred stock is likely to have the most stable market price when interest rates change?",
+   "options": [
+    "Adjustable-rate preferred",
+    "Straight noncumulative preferred",
+    "Convertible preferred",
+    "Callable fixed-rate preferred"
+   ],
+   "answer": 0,
+   "explain": "Adjustable-rate preferred resets its dividend periodically to a benchmark rate, so its yield keeps up with the market and the price stays near par. Fixed-rate preferred behaves like a long-term bond and falls when rates rise. Convertible preferred tracks the common stock, which adds volatility."
+  },
+  {
+   "id": "s7-F3-015",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A convertible bond ($1,000 par) is convertible into common stock at $40 per share. The bond trades at 110. What is the parity price of the common stock?",
+   "options": [
+    "$40.00",
+    "$36.36",
+    "$44.00",
+    "$27.50"
+   ],
+   "answer": 2,
+   "explain": "Conversion ratio = $1,000 / $40 = 25 shares. The bond's market price is 110% of par, or $1,100. Parity stock price = $1,100 / 25 = $44.00: at $44, converting gives the same value as holding the bond. The $40.00 trap is the conversion price, which is fixed by the indenture."
+  },
+  {
+   "id": "s7-F3-016",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A rights offering lets holders buy 1 new share at $44 for every 5 rights. The stock trades cum rights at $50. What is the theoretical value of one right?",
+   "options": [
+    "$1.00",
+    "$1.20",
+    "$6.00",
+    "$0.83"
+   ],
+   "answer": 0,
+   "explain": "Cum rights, the theoretical value is (market price minus subscription price) / (number of rights per share + 1) = ($50 minus $44) / (5 + 1) = $1.00. The $1.20 trap uses the ex-rights formula, which divides by the number of rights (5) without adding 1."
+  },
+  {
+   "id": "s7-F3-017",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A grandmother gives her grandson stock she bought at $20 a share. On the date of the gift it is worth $30. He later sells it at $35. What is his gain per share, assuming no gift tax adjustment?",
+   "options": [
+    "$5",
+    "$10",
+    "$35",
+    "$15"
+   ],
+   "answer": 3,
+   "explain": "When the value at the date of the gift is at least the donor's basis, the recipient takes the donor's adjusted basis ($20), a carryover basis. His gain is $35 minus $20 = $15 per share, and his holding period includes hers. Using the $30 value at the gift date, the $5 trap, is the rule for inherited property, not gifts.",
+   "rule": "Internal Revenue Code Section 1015"
+  },
+  {
+   "id": "s7-F3-018",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor inherits stock that the deceased bought at $10 a share; it was worth $40 at the date of death. Two months later the heir sells at $45. How is the sale taxed?",
+   "options": [
+    "$35 short-term gain",
+    "$5 long-term gain",
+    "$5 short-term gain",
+    "$35 long-term gain"
+   ],
+   "answer": 1,
+   "explain": "Inherited property generally receives a basis equal to fair market value at the date of death ($40), so the gain is $45 minus $40 = $5. Gains on inherited property are treated as long-term regardless of how long the heir held it. Using the decedent's $10 cost is the rule for gifts, not inheritances.",
+   "rule": "Internal Revenue Code Section 1014"
+  },
+  {
+   "id": "s7-F3-019",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor sells 100 shares at $30 that cost $40, then buys 100 shares of the same stock 20 days later at $28. What is the tax result?",
+   "options": [
+    "A $1,000 deductible loss now; new basis $28",
+    "No deductible loss now; new basis $28",
+    "No deductible loss now; the $1,000 loss is added to the new shares, for a basis of $38 per share",
+    "A $1,000 loss, deductible only against dividends"
+   ],
+   "answer": 2,
+   "explain": "Buying substantially identical stock within 30 days before or after a loss sale is a wash sale: the loss is disallowed now and added to the basis of the replacement shares, so the basis becomes $28 + $10 = $38 per share. The loss is deferred, not lost, which is the trap in the second choice.",
+   "rule": "Internal Revenue Code Section 1091"
+  },
+  {
+   "id": "s7-F3-020",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "In one year, an investor has $9,000 of short-term capital losses and $2,000 of long-term capital gains, and no other capital transactions. What may a single filer deduct against ordinary income this year, and what carries forward?",
+   "options": [
+    "$7,000 deducted, nothing carried forward",
+    "$3,000 deducted, $6,000 carried forward",
+    "$2,000 deducted, $5,000 carried forward",
+    "$3,000 deducted, $4,000 carried forward"
+   ],
+   "answer": 3,
+   "explain": "Netting gives a $7,000 net capital loss ($9,000 minus $2,000). Up to $3,000 of net capital loss can offset ordinary income each year ($1,500 if married filing separately), and the remaining $4,000 carries forward to future years. The $6,000 trap ignores the netting against the long-term gain.",
+   "rule": "Internal Revenue Code Section 1211"
+  },
+  {
+   "id": "s7-F3-021",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor holds 100 shares with a basis of $55 per share. The company pays a 10% stock dividend. What is the investor's position afterward?",
+   "options": [
+    "110 shares with a basis of $50 per share; no tax due now",
+    "110 shares with a basis of $55 per share; tax due on the 10 new shares",
+    "100 shares with a basis of $50 per share",
+    "110 shares; the 10 new shares have a basis of zero and the rest $55"
+   ],
+   "answer": 0,
+   "explain": "A regular stock dividend is generally not taxable when received; the total basis of $5,500 is spread over 110 shares, so each share's basis becomes $50. Taxing the new shares or giving them a zero basis are the usual mistakes.",
+   "rule": "Internal Revenue Code Section 305"
+  },
+  {
+   "id": "s7-F3-022",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor bought shares of the same stock at different prices over several years and now sells part of the position without telling the broker which lots to sell. Which cost basis method generally applies by default for stock?",
+   "options": [
+    "LIFO",
+    "First-in, first-out (FIFO)",
+    "Highest cost",
+    "Average cost"
+   ],
+   "answer": 1,
+   "explain": "For stock, if the investor does not adequately identify the specific shares sold, the IRS treats the earliest acquired shares as sold first (FIFO). Specific identification of high-cost lots could reduce the tax. Average cost is an option available for mutual fund shares and certain other holdings, not the default for individual stocks.",
+   "rule": "Treasury Regulation 1.1012-1"
+  },
+  {
+   "id": "s7-F3-023",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "What is a dark pool?",
+   "options": [
+    "An exchange that displays all orders publicly",
+    "A market for municipal bonds only",
+    "An alternative trading system that matches orders without publicly displaying quotes before the trade",
+    "An unregistered market for penny stocks"
+   ],
+   "answer": 2,
+   "explain": "Dark pools are alternative trading systems that let institutions trade large blocks without showing their orders before execution, reducing market impact. They operate under Regulation ATS and executed trades are still reported. ECNs, by contrast, generally display their orders.",
+   "rule": "Regulation ATS"
+  },
+  {
+   "id": "s7-F3-024",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "Before a firm effects a recommended penny stock trade for a customer under the SEC penny stock rules, which is generally required?",
+   "options": [
+    "Nothing beyond a normal confirmation",
+    "Only verbal disclosure of the commission",
+    "Approval by FINRA",
+    "Delivery of a risk disclosure document, along with other required disclosures such as quotes and compensation"
+   ],
+   "answer": 3,
+   "explain": "SEC penny stock rules require broker-dealers to give customers a standardized risk disclosure document before a first penny stock trade, and to disclose current quotations and broker and salesperson compensation, with monthly statements; non-exempt customers also need a suitability statement and written agreement before the first trade.",
+   "rule": "SEC Rules 15g-2 through 15g-9"
+  },
+  {
+   "id": "s7-F3-025",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "How are qualified dividends from a U.S. corporation generally taxed for an individual, compared with interest from a corporate bond?",
+   "options": [
+    "Both at ordinary income rates",
+    "Qualified dividends at the lower long-term capital gains rates; bond interest at ordinary income rates",
+    "Qualified dividends are tax exempt",
+    "Bond interest at capital gains rates; dividends at ordinary rates"
+   ],
+   "answer": 1,
+   "explain": "Qualified dividends, which require meeting a holding period, are taxed at the preferential long-term capital gains rates, while corporate bond interest is ordinary income. Non-qualified dividends, such as most REIT dividends, are also taxed as ordinary income. Neither is tax exempt.",
+   "rule": "Internal Revenue Code Section 1(h)(11)"
+  },
+  {
+   "id": "s7-F3-026",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A stockholder receives shares of a newly independent subsidiary that the parent company has separated and distributed to its holders. This corporate action is a:",
+   "options": [
+    "spinoff",
+    "tender offer",
+    "reverse split",
+    "rights offering"
+   ],
+   "answer": 0,
+   "explain": "In a spinoff, the parent distributes shares of a subsidiary to its own shareholders, creating a separate public company; the parent's cost basis is then allocated between the two holdings. A tender offer is a purchase offer, and a rights offering lets holders buy new shares."
+  },
+  {
+   "id": "s7-F3-027",
+   "exam": "s7",
+   "section": "F3",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.2",
+   "q": "A fund's NAV is $18.80 and its sales charge is 6% of the public offering price. What is the public offering price?",
+   "options": [
+    "$19.93",
+    "$20.00",
+    "$19.98",
+    "$20.80"
+   ],
+   "answer": 1,
+   "explain": "Because the sales charge is a percentage of the offering price, POP = NAV / (1 minus sales charge) = $18.80 / 0.94 = $20.00. The $19.93 trap adds 6% to the NAV ($18.80 x 1.06), which understates the price because the load is not calculated on NAV.",
+   "rule": "FINRA Rule 2341"
+  },
+  {
+   "id": "s7-F3-028",
+   "exam": "s7",
+   "section": "F3",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F4"
+    }
+   ],
+   "ref": "3.2",
+   "q": "A mutual fund calculates NAV once a day at the 4 p.m. Eastern close. A customer's purchase order reaches the fund at 2 p.m. What price does the customer pay?",
+   "options": [
+    "The NAV calculated at the previous day's close",
+    "The NAV at the moment the order was placed",
+    "The next day's NAV",
+    "The offering price based on the NAV calculated at that day's 4 p.m. close"
+   ],
+   "answer": 3,
+   "explain": "Rule 22c-1 requires forward pricing: orders are filled at the price based on the next NAV computed after the order is received, here that day's close. Using the prior day's NAV is the old backward-pricing practice that forward pricing was designed to eliminate.",
+   "rule": "SEC Rule 22c-1"
+  },
+  {
+   "id": "s7-F3-029",
+   "exam": "s7",
+   "section": "F3",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F4"
+    }
+   ],
+   "ref": "3.2",
+   "q": "A firm accepts a customer's mutual fund order placed at 5 p.m., after the fund's 4 p.m. pricing time, and processes it at that day's 4 p.m. NAV. This is:",
+   "options": [
+    "late trading, which is illegal",
+    "acceptable forward pricing",
+    "market timing, which is always illegal",
+    "a breakpoint sale"
+   ],
+   "answer": 0,
+   "explain": "Orders received after the pricing time must get the next day's NAV. Giving them the same day's price is late trading, which violates Rule 22c-1 and lets the investor profit from news released after the close. Market timing, frequent in-and-out trading, is not illegal in itself but may violate fund policies.",
+   "rule": "SEC Rule 22c-1"
+  },
+  {
+   "id": "s7-F3-030",
+   "exam": "s7",
+   "section": "F3",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.2",
+   "q": "A customer moves $50,000 from a stock fund to a bond fund in the same fund family under its exchange privilege, with no new sales charge. What is the tax consequence?",
+   "options": [
+    "None, because no sales charge was paid",
+    "The exchange is treated as a sale, so any gain or loss on the stock fund shares is taxable",
+    "Tax is deferred until the bond fund is sold",
+    "Only state tax applies"
+   ],
+   "answer": 1,
+   "explain": "Exchanges within a fund family usually avoid a new sales charge, but for tax purposes the investor sold one fund and bought another, so gain or loss is recognized in the year of the exchange in a taxable account. The absence of a sales charge has nothing to do with the tax result."
+  },
+  {
+   "id": "s7-F3-031",
+   "exam": "s7",
+   "section": "F3",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.2",
+   "q": "An investor bought shares of a mutual fund four months ago. The fund now pays a capital gains distribution from securities it held for three years. How is the distribution taxed to the investor?",
+   "options": [
+    "As short-term gain because the investor held the fund for four months",
+    "As ordinary dividend income",
+    "As long-term capital gain, regardless of how long the investor has held the fund",
+    "It is tax exempt"
+   ],
+   "answer": 2,
+   "explain": "Capital gain distributions are taxed as long-term capital gains based on the fund's holding period of the securities, not the shareholder's holding period in the fund. The investor's own holding period matters only when the investor later sells the fund shares.",
+   "rule": "Internal Revenue Code Section 852(b)(3)"
+  },
+  {
+   "id": "s7-F3-032",
+   "exam": "s7",
+   "section": "F3",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.2",
+   "q": "Under the conduit (pipeline) theory, a regulated investment company avoids tax on the income it distributes if it pays out at least what portion of its net investment income?",
+   "options": [
+    "50%",
+    "75%",
+    "100%",
+    "90%"
+   ],
+   "answer": 3,
+   "explain": "Subchapter M of the Internal Revenue Code lets a fund that qualifies as a regulated investment company and distributes at least 90% of its net investment income avoid tax on what it distributes; shareholders pay the tax instead. This prevents double taxation of fund income.",
+   "rule": "Internal Revenue Code Section 852"
+  },
+  {
+   "id": "s7-F3-033",
+   "exam": "s7",
+   "section": "F3",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.2",
+   "q": "What is a distinguishing feature of an interval fund?",
+   "options": [
+    "It offers to repurchase a set percentage of its shares from holders at NAV at scheduled intervals, rather than daily",
+    "It trades continuously on an exchange",
+    "It redeems shares daily like a mutual fund",
+    "It invests only in money market instruments"
+   ],
+   "answer": 0,
+   "explain": "Interval funds are closed-end funds that make periodic repurchase offers, for example quarterly, for a stated portion of their shares at NAV. Shares usually are not listed, so liquidity is limited to those windows. Daily redemption describes an open-end mutual fund.",
+   "rule": "SEC Rule 23c-3"
+  },
+  {
+   "id": "s7-F3-034",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A closed-end fund has an NAV of $15.00 per share and trades on the exchange at $13.50. Which statement is accurate?",
+   "options": [
+    "The fund must redeem shares at $15.00 on request",
+    "The fund trades at a 10% discount to NAV, and a buyer pays the $13.50 market price plus commission",
+    "The fund trades at a premium",
+    "The sales charge is $1.50"
+   ],
+   "answer": 1,
+   "explain": "Closed-end fund shares trade at prices set by supply and demand, which can be above or below NAV. Here ($15.00 minus $13.50) / $15.00 = 10% discount. The fund does not redeem shares on demand, which is the trap in the first choice, and buyers pay commissions rather than a sales charge."
+  },
+  {
+   "id": "s7-F3-035",
+   "exam": "s7",
+   "section": "F3",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.2",
+   "q": "During the payout phase of a variable annuity, which is generally fixed and which varies?",
+   "options": [
+    "The dollar amount of each payment is fixed; the number of annuity units varies",
+    "Both the payment amount and the number of units are fixed",
+    "The number of annuity units is fixed; the value of each unit, and so each payment, varies with separate account performance",
+    "Both vary every month by law"
+   ],
+   "answer": 2,
+   "explain": "At annuitization, the accumulation units are converted to a fixed number of annuity units. Each payment equals that fixed number times the current annuity unit value, which changes with subaccount performance relative to the assumed interest rate. A fixed dollar payment describes a fixed annuity."
+  },
+  {
+   "id": "s7-F3-036",
+   "exam": "s7",
+   "section": "F3",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.2",
+   "q": "A variable annuity has an assumed interest rate (AIR) of 4%. This month the separate account earned the equivalent of a 6% annual rate. Compared with last month, the annuitant's payment will:",
+   "options": [
+    "decrease",
+    "stay the same",
+    "fall to the minimum guarantee",
+    "increase"
+   ],
+   "answer": 3,
+   "explain": "When actual separate account returns exceed the AIR, annuity unit values rise and payments increase; when returns fall below the AIR, payments decrease. A common trap is to think payments fall whenever returns are lower than in an earlier period: what matters is the comparison with the AIR, not with the prior month."
+  },
+  {
+   "id": "s7-F3-037",
+   "exam": "s7",
+   "section": "F3",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.2",
+   "q": "Which annuity payout option generally provides the highest monthly payment for a given account value?",
+   "options": [
+    "Life only (straight life)",
+    "Life with 10-year period certain",
+    "Joint and last survivor",
+    "Unit refund"
+   ],
+   "answer": 0,
+   "explain": "Straight life pays only as long as the annuitant lives, with nothing to heirs, so the insurer can pay the most each month. Adding guarantees, such as a period certain, a refund or a second life, lowers each payment because the insurer may have to pay longer or pay a beneficiary."
+  },
+  {
+   "id": "s7-F3-038",
+   "exam": "s7",
+   "section": "F3",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.2",
+   "q": "A customer exchanges one variable annuity directly for another under Section 1035. Which is accurate?",
+   "options": [
+    "The gain in the old contract is taxed in the year of the exchange",
+    "The exchange is not taxable, but a new surrender period and loss of benefits may make it unsuitable",
+    "Section 1035 applies only to exchanges into mutual funds",
+    "No suitability review is required for exchanges"
+   ],
+   "answer": 1,
+   "explain": "A Section 1035 exchange of annuity contracts defers tax on the gain. FINRA Rule 2330 still requires a careful review because the new contract may restart surrender charges, raise fees or give up living or death benefits, and the firm must consider whether the customer had another exchange recently.",
+   "rule": "Internal Revenue Code Section 1035; FINRA Rule 2330"
+  },
+  {
+   "id": "s7-F3-039",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "How are ordinary dividends from a typical equity REIT generally taxed to individual shareholders?",
+   "options": [
+    "As qualified dividends at capital gains rates",
+    "As tax-exempt income",
+    "Mostly as ordinary income, because REIT dividends generally do not qualify for the lower qualified dividend rates",
+    "As return of capital in every case"
+   ],
+   "answer": 2,
+   "explain": "Because REITs avoid corporate tax on distributed income, their ordinary dividends generally do not count as qualified dividends and are taxed at ordinary income rates. Portions may be designated as capital gain distributions or return of capital, but treating all REIT dividends as qualified is the common mistake.",
+   "rule": "Internal Revenue Code Section 857(c)"
+  },
+  {
+   "id": "s7-F3-040",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "When evaluating a direct participation program, which factor should be considered first?",
+   "options": [
+    "The tax benefits offered",
+    "The general partner's commission",
+    "The number of limited partners",
+    "The economic soundness of the program"
+   ],
+   "answer": 3,
+   "explain": "A DPP should make economic sense on its own; tax benefits can disappear and do not rescue a program that loses money. Investors and representatives should look first at the program's economic viability, then at the general partner's expertise and track record and the program's objectives, with taxes as a secondary consideration.",
+   "rule": "FINRA Rule 2310"
+  },
+  {
+   "id": "s7-F3-041",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "Which tax benefit is particularly associated with oil and gas drilling programs?",
+   "options": [
+    "Deduction of intangible drilling costs, generally in the early years",
+    "Tax-exempt income",
+    "Depreciation of land",
+    "Exemption from passive activity rules for all investors"
+   ],
+   "answer": 0,
+   "explain": "Intangible drilling costs, such as labor and drilling services, can generally be deducted early, and producing programs may also take a depletion allowance. Land is not depreciable. Limited partners generally face passive activity limits, so the last choice overstates the benefits."
+  },
+  {
+   "id": "s7-F3-042",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A limited partner in a real estate program receives a $5,000 tax loss from the partnership. Under the passive activity rules, the loss may generally be used to offset:",
+   "options": [
+    "wages and salary",
+    "passive income, such as income from other passive investments",
+    "portfolio income such as dividends and interest",
+    "any type of income without limit"
+   ],
+   "answer": 1,
+   "explain": "Losses from passive activities, including most limited partnership interests, can generally offset only passive income; unused losses carry forward until there is passive income or the investment is disposed of. Using them against wages or portfolio income was curtailed by the Tax Reform Act of 1986.",
+   "rule": "Internal Revenue Code Section 469"
+  },
+  {
+   "id": "s7-F3-043",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "What is a business development company (BDC)?",
+   "options": [
+    "A government agency that lends to small businesses",
+    "A type of 529 plan",
+    "A closed-end investment company that invests in and often provides managerial help to small and developing companies",
+    "An exchange for start-up stocks"
+   ],
+   "answer": 2,
+   "explain": "BDCs are closed-end funds that elect special treatment under the Investment Company Act to invest in small and midsize private or thinly traded companies, often providing managerial assistance. They may be listed or non-listed and typically distribute most income to qualify for pass-through tax treatment.",
+   "rule": "Investment Company Act of 1940, Section 2(a)(48)"
+  },
+  {
+   "id": "s7-F3-044",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "Compared with investing in a single hedge fund, a fund of hedge funds typically involves:",
+   "options": [
+    "lower total fees",
+    "two layers of fees, one charged by the fund of funds and one by the underlying funds",
+    "guaranteed daily liquidity",
+    "no minimum investment"
+   ],
+   "answer": 1,
+   "explain": "A fund of funds diversifies across managers but adds its own management and sometimes performance fees on top of those charged by the underlying hedge funds. Liquidity is usually limited by lock-ups and redemption notice periods, and minimums still apply."
+  },
+  {
+   "id": "s7-F3-045",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor buys 1 XYZ Jan 50 call at a premium of 3. Each contract covers 100 shares. What are the breakeven point and the maximum loss?",
+   "options": [
+    "Breakeven $47; maximum loss $300",
+    "Breakeven $53; maximum loss unlimited",
+    "Breakeven $53; maximum loss $300",
+    "Breakeven $50; maximum loss $5,000"
+   ],
+   "answer": 2,
+   "explain": "For a long call, breakeven = strike + premium = $50 + $3 = $53, and the most the buyer can lose is the premium paid: $3 x 100 = $300. Unlimited loss belongs to the writer of an uncovered call, not the buyer. $47 would be the breakeven of a long 50 put at 3."
+  },
+  {
+   "id": "s7-F3-046",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor writes 1 uncovered ABC 60 call at a premium of 2. What are the maximum gain, maximum loss and breakeven?",
+   "options": [
+    "Gain $200; loss unlimited; breakeven $62",
+    "Gain unlimited; loss $200; breakeven $62",
+    "Gain $200; loss $5,800; breakeven $58",
+    "Gain $6,200; loss $200; breakeven $60"
+   ],
+   "answer": 0,
+   "explain": "The call writer keeps the $200 premium at most, if the call expires worthless. Above the strike the loss grows without limit as the stock rises. Breakeven = strike + premium = $62. The $58 breakeven and capped loss describe a short put, a common confusion."
+  },
+  {
+   "id": "s7-F3-047",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor buys 1 DEF 40 put at a premium of 4. What is the maximum potential gain?",
+   "options": [
+    "$400",
+    "Unlimited",
+    "$4,000",
+    "$3,600"
+   ],
+   "answer": 3,
+   "explain": "A long put gains most if the stock falls to zero: (strike minus premium) x 100 = ($40 minus $4) x 100 = $3,600. Breakeven is $36. Gains are not unlimited because a stock cannot fall below zero; unlimited gain is a feature of long calls."
+  },
+  {
+   "id": "s7-F3-048",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor writes 1 uncovered GHI 45 put at a premium of 3. What is the maximum loss?",
+   "options": [
+    "$300",
+    "$4,200",
+    "$4,500",
+    "Unlimited"
+   ],
+   "answer": 1,
+   "explain": "The put writer must buy the stock at $45 if assigned; the worst case is a stock price of zero, giving a loss of (strike minus premium) x 100 = ($45 minus $3) x 100 = $4,200. Breakeven is $42. The loss is large but limited, unlike an uncovered call."
+  },
+  {
+   "id": "s7-F3-049",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor buys 100 shares at $48 and writes 1 Jul 50 call at a premium of 2. What are the breakeven and the maximum gain?",
+   "options": [
+    "Breakeven $46; maximum gain $400",
+    "Breakeven $50; maximum gain $200",
+    "Breakeven $46; maximum gain unlimited",
+    "Breakeven $52; maximum gain $400"
+   ],
+   "answer": 0,
+   "explain": "For a covered call, breakeven = stock cost minus premium = $48 minus $2 = $46. Maximum gain occurs if the stock is called away at $50: ($50 minus $48 + $2) x 100 = $400. Writing the call caps the upside, so the gain is not unlimited; that is the trade-off for the premium income."
+  },
+  {
+   "id": "s7-F3-050",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor buys 100 shares at $60 and buys 1 55 put at a premium of 3 to protect the position. What are the maximum loss and the breakeven?",
+   "options": [
+    "Maximum loss $300; breakeven $57",
+    "Maximum loss $500; breakeven $63",
+    "Maximum loss $800; breakeven $63",
+    "Maximum loss $5,800; breakeven $58"
+   ],
+   "answer": 2,
+   "explain": "With a protective put, the stock can be sold at $55, so the maximum loss is (cost minus strike + premium) x 100 = ($60 minus $55 + $3) x 100 = $800. Breakeven = stock cost + premium = $63. The $500 trap forgets that the premium paid for the put is also lost."
+  },
+  {
+   "id": "s7-F3-051",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor buys 1 MNO 40 call at 5 and sells 1 MNO 45 call at 2, same expiration. What are the maximum gain and the breakeven?",
+   "options": [
+    "Maximum gain $300; breakeven $45",
+    "Maximum gain $500; breakeven $43",
+    "Maximum gain unlimited; breakeven $43",
+    "Maximum gain $200; breakeven $43"
+   ],
+   "answer": 3,
+   "explain": "This bull call spread costs a net debit of $3 ($5 minus $2). Maximum gain = difference between strikes minus the debit = ($45 minus $40 minus $3) x 100 = $200. Breakeven = lower strike + net debit = $43. The short 45 call caps the upside, so gain is not unlimited; maximum loss is the $300 debit."
+  },
+  {
+   "id": "s7-F3-052",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor sells 1 PQR 50 put at 5 and buys 1 PQR 45 put at 2, same expiration. Which describes the position?",
+   "options": [
+    "A bear put spread with a maximum gain of $200",
+    "A bull put (credit) spread with a maximum gain of $300, maximum loss of $200 and breakeven of $47",
+    "A long straddle",
+    "A debit spread with a breakeven of $53"
+   ],
+   "answer": 1,
+   "explain": "Selling the higher-priced put creates a net credit of $3, which is the maximum gain if both puts expire worthless; the investor is bullish. Maximum loss = strike difference minus credit = ($5 minus $3) x 100 = $200. Breakeven = higher strike minus credit = $47. It is not a debit spread because more premium was received than paid."
+  },
+  {
+   "id": "s7-F3-053",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor buys 1 STU 50 call at 3 and 1 STU 50 put at 2, same expiration. What are the breakeven points?",
+   "options": [
+    "$45 and $55",
+    "$47 and $52",
+    "$48 and $53",
+    "$50 only"
+   ],
+   "answer": 0,
+   "explain": "A long straddle costs the combined premiums, $3 + $2 = $5. It breaks even if the stock moves $5 either way from the strike: $50 + $5 = $55 and $50 minus $5 = $45. Maximum loss is $500 if the stock is exactly $50 at expiration. Using each premium separately gives the wrong pairs."
+  },
+  {
+   "id": "s7-F3-054",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor writes a call and a put on the same stock with the same strike and expiration. What market outlook does this short straddle reflect?",
+   "options": [
+    "Expecting a large move in either direction",
+    "Strongly bullish",
+    "Strongly bearish",
+    "Expecting the stock price to stay near the strike, with low volatility"
+   ],
+   "answer": 3,
+   "explain": "The short straddle writer collects two premiums and profits most if the stock finishes at the strike, so it is a bet on stability. The position faces unlimited risk on the upside and large risk on the downside if the stock moves sharply. Expecting a big move is the outlook of a long straddle buyer."
+  },
+  {
+   "id": "s7-F3-055",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor holds 2 ABC 60 calls. ABC declares a 2-for-1 stock split. After the OCC adjustment, the investor holds:",
+   "options": [
+    "2 ABC 30 calls, each for 200 shares",
+    "2 ABC 60 calls, each for 200 shares",
+    "4 ABC 30 calls, each for 100 shares",
+    "4 ABC 60 calls, each for 50 shares"
+   ],
+   "answer": 2,
+   "explain": "For an even split such as 2-for-1, the number of contracts is multiplied by 2 and the strike divided by 2: 2 contracts become 4, and the $60 strike becomes $30, each still covering 100 shares. Total exercise value stays the same: 2 x 100 x $60 = 4 x 100 x $30 = $12,000.",
+   "rule": "Cboe Rule 4.6"
+  },
+  {
+   "id": "s7-F3-056",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A company pays its regular quarterly cash dividend. How are listed options on its stock adjusted?",
+   "options": [
+    "The strike price is reduced by the dividend",
+    "No adjustment is made for ordinary cash dividends",
+    "The number of shares per contract increases",
+    "The options are cancelled"
+   ],
+   "answer": 1,
+   "explain": "Listed options are generally not adjusted for ordinary cash dividends, so call holders who want the dividend must exercise before the ex-date. Adjustments are made for stock splits, stock dividends and certain special distributions. Reducing the strike is the common wrong assumption.",
+   "rule": "Cboe Rule 4.6"
+  },
+  {
+   "id": "s7-F3-057",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor bought stock at $40 and wrote a 45 call at 3. The call is exercised and the stock is called away. How are the proceeds treated for tax purposes?",
+   "options": [
+    "Sale price of $48 per share, for a $8 gain per share",
+    "A $5 gain on the stock and a separate $3 gain on the option taxed as ordinary income",
+    "A $3 gain only",
+    "No gain until the premium expires"
+   ],
+   "answer": 0,
+   "explain": "When a written call is assigned, the premium is added to the strike to find the sale proceeds: $45 + $3 = $48. The gain is $48 minus $40 = $8 per share, and its holding period depends on how long the stock was held. Treating the premium as separate ordinary income is the trap."
+  },
+  {
+   "id": "s7-F3-058",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor bought a call for $400 that expires worthless. What is the tax result?",
+   "options": [
+    "No deduction, because the option was never exercised",
+    "A $400 ordinary loss deductible against wages without limit",
+    "A $400 capital loss, recognized on the expiration date",
+    "The $400 is added to the basis of the stock"
+   ],
+   "answer": 2,
+   "explain": "A purchased option that expires is treated as sold for zero on the expiration date, producing a capital loss equal to the premium; it is short- or long-term depending on how long the option was held. Adding the premium to stock basis happens only if the call is exercised."
+  },
+  {
+   "id": "s7-F3-059",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor who previously wrote a put buys back the same put to end the obligation. This trade is:",
+   "options": [
+    "an opening purchase",
+    "an opening sale",
+    "a closing sale",
+    "a closing purchase"
+   ],
+   "answer": 3,
+   "explain": "Writing the put was an opening sale. Buying back the same series ends the position, so it is a closing purchase. The order ticket must state whether a trade opens or closes a position because it affects open interest and position records."
+  },
+  {
+   "id": "s7-F3-060",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "For position limit purposes, which positions are counted on the same side of the market?",
+   "options": [
+    "Long calls and long puts",
+    "Long calls and short puts",
+    "Short calls and short puts",
+    "Long calls and short calls"
+   ],
+   "answer": 1,
+   "explain": "Position limits aggregate positions with the same market view. Long calls and short puts are both bullish, so they are combined; long puts and short calls are both bearish and combined separately. Long calls and long puts are on opposite sides, which is the trap.",
+   "rule": "FINRA Rule 2360(b)(3)"
+  },
+  {
+   "id": "s7-F3-061",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "What are LEAPS?",
+   "options": [
+    "Long-term listed options with expirations longer than standard options, often more than a year",
+    "Options on Treasury bills",
+    "Options that can be exercised only once a year",
+    "Short-term weekly options"
+   ],
+   "answer": 0,
+   "explain": "Long-term Equity AnticiPation Securities are listed options with expirations that extend well beyond the usual cycle, commonly up to about three years. Their long life means a larger time value in the premium. They can be American style like other equity options.",
+   "rule": "Cboe Rule 4.5"
+  },
+  {
+   "id": "s7-F3-062",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "How is an exercise notice assigned when a holder exercises a listed equity option?",
+   "options": [
+    "The exercising holder chooses which writer to assign",
+    "The exchange assigns the writer with the largest position",
+    "The OCC assigns the notice randomly to a clearing member account, and the firm allocates it to a customer by a fair method such as random selection or first-in, first-out",
+    "The writer who sold most recently is always assigned"
+   ],
+   "answer": 2,
+   "explain": "Exercise goes to the OCC, which assigns it randomly among clearing members with short positions in that series. Each firm then allocates the assignment to a customer using a fair method disclosed to customers, typically random or FIFO. Holders never pick their counterparty.",
+   "rule": "Cboe Rule 6.21"
+  },
+  {
+   "id": "s7-F3-063",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor wrote 1 index call with a strike of 2,000 and a $100 multiplier. It is assigned when the exercise settlement value is 2,030. What does the investor pay?",
+   "options": [
+    "$30 per share",
+    "$200,000",
+    "$203,000",
+    "$3,000 in cash"
+   ],
+   "answer": 3,
+   "explain": "Index options are cash settled: the writer pays the in-the-money amount times the multiplier, (2,030 minus 2,000) x $100 = $3,000. No securities change hands, so amounts based on the full strike value are wrong."
+  },
+  {
+   "id": "s7-F3-064",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A U.S. importer must pay euros to a European supplier in three months and fears the euro will strengthen against the dollar. Which listed option position hedges this risk?",
+   "options": [
+    "Buy euro calls",
+    "Buy euro puts",
+    "Write euro calls",
+    "Write euro puts"
+   ],
+   "answer": 0,
+   "explain": "The importer is hurt if the euro rises, so it buys calls on the euro, which gain value as the euro strengthens and cap its dollar cost. Buying puts would protect someone who will receive euros, such as a U.S. exporter, which is the mirror-image trap."
+  },
+  {
+   "id": "s7-F3-065",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor buys 1 XYZ 50 put at 6 and sells 1 XYZ 45 put at 2, same expiration. What are the maximum gain and the breakeven?",
+   "options": [
+    "Maximum gain $400; breakeven $54",
+    "Maximum gain $100; breakeven $46",
+    "Maximum gain $500; breakeven $46",
+    "Maximum gain $100; breakeven $44"
+   ],
+   "answer": 1,
+   "explain": "This bear put spread costs a net debit of $4 ($6 minus $2). Maximum gain = strike difference minus debit = ($5 minus $4) x 100 = $100. Breakeven for a put debit spread = higher strike minus debit = $50 minus $4 = $46. Maximum loss is the $400 debit."
+  },
+  {
+   "id": "s7-F3-066",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A callable bond trades at a premium. Which yield should be quoted to the customer as the yield to worst?",
+   "options": [
+    "The nominal yield",
+    "The current yield",
+    "The yield to maturity",
+    "The yield to call, because it is lower than the yield to maturity for a premium bond"
+   ],
+   "answer": 3,
+   "explain": "For a bond bought at a premium, an early call means the premium is lost sooner, so yield to call is lower than yield to maturity. Quoting the lowest yield (yield to worst) avoids overstating the return. For a discount bond, yield to maturity would be the lower, more conservative figure.",
+   "rule": "MSRB Rule G-15"
+  },
+  {
+   "id": "s7-F3-067",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A 6% corporate bond pays interest on January 1 and July 1. A trade settles on March 16. Using the 30/360 convention, how much accrued interest per $1,000 bond does the buyer pay the seller?",
+   "options": [
+    "$12.50",
+    "$12.67",
+    "$15.00",
+    "$7.50"
+   ],
+   "answer": 0,
+   "explain": "Interest accrues from the last coupon date up to, but not including, settlement: January (30 days) + February (30) + March 1 to 15 (15) = 75 days. Annual interest is $60, so $60 x 75 / 360 = $12.50, paid by the buyer to the seller. Counting the settlement day itself gives 76 days and $12.67, the trap.",
+   "rule": "FINRA Rule 11620"
+  },
+  {
+   "id": "s7-F3-068",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "Which day-count convention is used to compute accrued interest on U.S. Treasury notes and bonds?",
+   "options": [
+    "30/360",
+    "Actual/360",
+    "Actual/actual",
+    "No accrued interest is charged on Treasuries"
+   ],
+   "answer": 2,
+   "explain": "Treasury notes and bonds accrue interest on an actual days elapsed over actual days in the coupon period basis. Corporate and municipal bonds generally use 30/360. Actual/360 is typical of some money market instruments. Treasuries do carry accrued interest between coupon dates."
+  },
+  {
+   "id": "s7-F3-069",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor buys a new-issue municipal bond at an original issue discount and holds it to maturity. How is the discount treated for federal tax purposes?",
+   "options": [
+    "As a capital gain at maturity",
+    "It is accreted over the life of the bond as tax-exempt interest, increasing the investor's basis",
+    "As ordinary income at maturity",
+    "As taxable interest each year"
+   ],
+   "answer": 1,
+   "explain": "Original issue discount on a municipal bond is treated as tax-exempt interest earned over the bond's life; accretion raises the investor's cost basis toward par, so no gain is reported at maturity. A discount bought in the secondary market (market discount) is treated differently and can create taxable income.",
+   "rule": "Internal Revenue Code Section 1288"
+  },
+  {
+   "id": "s7-F3-070",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor buys a municipal bond at 104 in the secondary market and holds it to maturity at par. What is the tax result?",
+   "options": [
+    "A $40 capital loss at maturity per bond",
+    "A $40 ordinary loss",
+    "The premium is deducted all at once in the first year",
+    "The premium must be amortized, reducing basis to par by maturity, so there is no gain or deductible loss"
+   ],
+   "answer": 3,
+   "explain": "Premiums on municipal bonds must be amortized over the remaining life, which lowers the basis each year; the amortization is not deductible because the interest is tax exempt. At maturity the basis equals par, so there is no capital loss. Claiming a $40 loss is the classic trap.",
+   "rule": "Internal Revenue Code Section 171"
+  },
+  {
+   "id": "s7-F3-071",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An investor holds a corporate zero-coupon bond in a taxable account. Which is accurate?",
+   "options": [
+    "The annual accretion of the discount is taxable each year even though no cash is received",
+    "No tax is owed until the bond matures",
+    "The bond's income is tax exempt",
+    "Only a capital gain is taxed at maturity"
+   ],
+   "answer": 0,
+   "explain": "Original issue discount on taxable bonds must be included in income as it accrues, so the holder pays tax yearly on phantom income. That is why taxable zeros are often held in tax-deferred accounts such as IRAs. Deferring tax to maturity is the trap.",
+   "rule": "Internal Revenue Code Section 1272"
+  },
+  {
+   "id": "s7-F3-072",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A municipal bond yields 4.2%. What is its taxable equivalent yield for an investor in the 30% federal bracket, ignoring state taxes?",
+   "options": [
+    "2.94%",
+    "5.46%",
+    "6.00%",
+    "5.60%"
+   ],
+   "answer": 2,
+   "explain": "Taxable equivalent yield = tax-free yield / (1 minus tax rate) = 4.2% / 0.70 = 6.00%. A taxable bond would need to yield 6% to leave this investor with the same after-tax income. The 5.46% trap multiplies by 1.30 instead of dividing by 0.70."
+  },
+  {
+   "id": "s7-F3-073",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A corporate bond yields 7.0%. For an investor in the 35% federal bracket, what tax-free municipal yield would produce the same after-tax return?",
+   "options": [
+    "4.55%",
+    "10.77%",
+    "4.90%",
+    "2.45%"
+   ],
+   "answer": 0,
+   "explain": "After-tax yield on the corporate bond = 7.0% x (1 minus 0.35) = 4.55%. A municipal bond yielding 4.55% gives the same after-tax income. 10.77% is the result of dividing by 0.65, which converts in the wrong direction, and 2.45% is the tax paid."
+  },
+  {
+   "id": "s7-F3-074",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "In a collateralized mortgage obligation (CMO), how do planned amortization class (PAC) tranches compare with companion (support) tranches?",
+   "options": [
+    "PAC tranches absorb most prepayment variability",
+    "PAC tranches have more predictable cash flows, because companion tranches absorb faster or slower prepayments",
+    "Companion tranches have the lowest yields",
+    "Both have identical prepayment risk"
+   ],
+   "answer": 1,
+   "explain": "PAC tranches follow a principal schedule protected within a range of prepayment speeds; companion tranches take the excess or shortfall of principal, so they carry more prepayment and extension risk and offer higher yields in compensation. Reversing these roles is the main trap."
+  },
+  {
+   "id": "s7-F3-075",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "Which CMO tranche receives no current interest payments until earlier tranches are retired, with the accrued interest added to its principal?",
+   "options": [
+    "PAC tranche",
+    "Planned interest-only tranche",
+    "Floating-rate tranche",
+    "Z-tranche (accrual tranche)"
+   ],
+   "answer": 3,
+   "explain": "A Z-tranche accrues interest that is added to its principal balance while earlier tranches are paid; it then receives principal and interest. It behaves like a zero-coupon bond during the accrual period and is among the most volatile tranches. Interest-only strips are a different structure."
+  },
+  {
+   "id": "s7-F3-076",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "Treasury bills are quoted on a discount yield basis. Which is accurate about a T-bill quote such as 4.10 bid, 4.05 ask?",
+   "options": [
+    "The bid yield is higher than the ask yield, because a higher discount means a lower price",
+    "The ask yield must always be higher",
+    "Prices are quoted in 32nds of a point",
+    "The quote shows the coupon rate"
+   ],
+   "answer": 0,
+   "explain": "For instruments quoted by yield, a higher yield means a lower price. Dealers bid a lower price (higher discount yield) and offer at a higher price (lower yield), so the bid figure is larger than the ask. Quotes in 32nds apply to Treasury notes and bonds, and T-bills have no coupon."
+  },
+  {
+   "id": "s7-F3-077",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "An income (adjustment) bond pays interest:",
+   "options": [
+    "regardless of the issuer's earnings",
+    "only if the issuer's earnings are sufficient, as stated in the indenture",
+    "only at maturity",
+    "in shares of common stock"
+   ],
+   "answer": 1,
+   "explain": "Income bonds are typically issued in reorganizations; the issuer must repay principal at maturity, but interest is paid only if earnings permit. This makes them speculative and they usually trade at a discount. Paying interest regardless of earnings describes ordinary bonds."
+  },
+  {
+   "id": "s7-F3-078",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "Equipment trust certificates are most commonly issued by:",
+   "options": [
+    "state governments",
+    "the U.S. Treasury",
+    "transportation companies such as airlines and railroads, secured by the equipment",
+    "banks to finance mortgages"
+   ],
+   "answer": 2,
+   "explain": "Equipment trust certificates finance rolling stock, aircraft and similar movable equipment; title is held by a trustee until the certificates are paid, which secures the debt. Mortgage bonds are secured by real property, and debentures are unsecured."
+  },
+  {
+   "id": "s7-F3-079",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "In liquidation, holders of subordinated debentures are paid:",
+   "options": [
+    "before secured bondholders",
+    "before general creditors and senior debenture holders",
+    "after preferred stockholders",
+    "after secured creditors and senior unsecured creditors, but before preferred and common stockholders"
+   ],
+   "answer": 3,
+   "explain": "Subordinated debentures are unsecured debt ranking behind senior debt but still ahead of all equity, including preferred stock. The higher risk usually means a higher coupon than senior debt of the same issuer. Placing them behind preferred stock is the trap."
+  },
+  {
+   "id": "s7-F3-080",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A Eurodollar bond is best described as a bond:",
+   "options": [
+    "issued and payable in euros",
+    "denominated in U.S. dollars but issued and traded outside the United States",
+    "issued by the European Central Bank",
+    "denominated in dollars and registered with the SEC"
+   ],
+   "answer": 1,
+   "explain": "Eurodollar bonds are U.S. dollar denominated bonds issued outside the U.S., often by foreign or multinational issuers, and generally not registered with the SEC. The euro prefix refers to the offshore market, not the euro currency, which is the trap in the first choice."
+  },
+  {
+   "id": "s7-F3-081",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A customer buys a five-year brokered CD and needs to sell it after two years when rates have risen. What risk does she face?",
+   "options": [
+    "She can always redeem at par with the issuing bank",
+    "The FDIC covers any loss in market value",
+    "She may have to sell at a loss in the secondary market, because brokered CD prices fall when rates rise",
+    "Brokered CDs cannot be sold before maturity under any circumstances"
+   ],
+   "answer": 2,
+   "explain": "Brokered CDs are traded through the broker's secondary market, and their prices move inversely to rates, so selling early can mean a loss of principal. FDIC insurance covers the bank's failure within its limits, not market losses. Early redemption at par is usually available only in limited cases such as the holder's death."
+  },
+  {
+   "id": "s7-F3-082",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A municipal issue in which a portion of the principal matures each year over a span of years has which maturity structure?",
+   "options": [
+    "Serial",
+    "Term",
+    "Balloon only",
+    "Perpetual"
+   ],
+   "answer": 0,
+   "explain": "Serial bonds mature in installments over several years, which suits GO issuers whose tax revenue arrives steadily; serial maturities are usually quoted on a yield basis. A term issue has all bonds maturing on one date, often with a sinking fund, and term bonds are often quoted in dollar prices."
+  },
+  {
+   "id": "s7-F3-083",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "What is the purpose of the legal opinion on a new municipal issue?",
+   "options": [
+    "To rate the issuer's credit quality",
+    "To guarantee timely payment",
+    "To recommend the bonds to investors",
+    "To confirm that the bonds are a valid and binding obligation and to address the tax-exempt status of the interest"
+   ],
+   "answer": 3,
+   "explain": "Bond counsel's legal opinion states that the issue is legally valid and binding and addresses the tax treatment of interest. An unqualified opinion is issued without reservations. Ratings come from rating agencies and guarantees from insurers or banks, not from the legal opinion."
+  },
+  {
+   "id": "s7-F3-084",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A city issues short-term notes now, to be repaid when a bond issue it plans to sell next year is completed. These notes are:",
+   "options": [
+    "tax anticipation notes",
+    "bond anticipation notes",
+    "revenue anticipation notes",
+    "grant anticipation notes"
+   ],
+   "answer": 1,
+   "explain": "Bond anticipation notes provide interim financing that will be repaid from the proceeds of a future long-term bond sale. Tax anticipation notes are repaid from expected tax collections, revenue anticipation notes from other expected revenues, and grant anticipation notes from expected government grants."
+  },
+  {
+   "id": "s7-F3-085",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "What does a moral obligation bond add for investors?",
+   "options": [
+    "A legal requirement that the state pay any shortfall",
+    "A guarantee from the U.S. Treasury",
+    "A nonbinding commitment that the state legislature may appropriate funds to cover a shortfall in the issuer's revenues",
+    "Insurance from a bond insurer"
+   ],
+   "answer": 2,
+   "explain": "A moral obligation bond is typically a revenue bond backed by the state's pledge to consider appropriating money to fill a reserve deficiency. The legislature is not legally bound to appropriate, which is the trap in the first choice. A double-barreled bond, by contrast, carries a legally binding taxing pledge as backup."
+  },
+  {
+   "id": "s7-F3-086",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A double-barreled municipal bond is backed by:",
+   "options": [
+    "revenue from a specific facility and also the full faith and credit (taxing power) of a government",
+    "two different bond insurers",
+    "two separate states",
+    "federal and state grants"
+   ],
+   "answer": 0,
+   "explain": "A double-barreled bond is primarily paid from revenue of a facility but is also backed by the issuer's general taxing power, so it is often analyzed as a GO bond. A moral obligation bond has only a nonbinding legislative pledge as backup."
+  },
+  {
+   "id": "s7-F3-087",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "Why do pre-refunded (escrowed) municipal bonds usually trade at very high credit quality?",
+   "options": [
+    "The issuer's tax base has grown",
+    "They are insured by the FDIC",
+    "They become general obligations of the federal government",
+    "They are backed by an escrow of U.S. Treasury securities set aside to pay them"
+   ],
+   "answer": 3,
+   "explain": "In an advance refunding, the proceeds of a new issue are invested in Treasuries held in escrow to pay principal and interest on the old bonds to their call or maturity date. The escrow, not the original pledge, now secures them. They do not become federal obligations; the escrow just holds government securities."
+  },
+  {
+   "id": "s7-F3-088",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "Before issuing revenue bonds for a new toll bridge, an issuer commissions a study projecting traffic, toll revenue and costs. This is a:",
+   "options": [
+    "legal opinion",
+    "feasibility study",
+    "notice of sale",
+    "official statement"
+   ],
+   "answer": 1,
+   "explain": "A feasibility study, prepared by engineers and consultants, analyzes whether the project can generate enough revenue to cover operating costs and debt service. It is a key part of revenue bond analysis. The official statement may include it, but the study itself is the feasibility analysis."
+  },
+  {
+   "id": "s7-F3-089",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A water system revenue bond has a net revenue pledge. Gross revenues are $10 million, operating and maintenance expenses are $4 million, and annual debt service is $4 million. What is the debt service coverage ratio?",
+   "options": [
+    "2.5 times",
+    "1.0 times",
+    "1.5 times",
+    "0.6 times"
+   ],
+   "answer": 2,
+   "explain": "Under a net revenue pledge, operating and maintenance costs are paid first. Net revenue = $10 million minus $4 million = $6 million, and coverage = $6 million / $4 million debt service = 1.5 times. The 2.5 times trap uses gross revenue, which describes a gross revenue pledge."
+  },
+  {
+   "id": "s7-F3-090",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "When analyzing a city's general obligation bonds, why does overlapping debt matter?",
+   "options": [
+    "It shows the bond's call schedule",
+    "It measures the city's sales tax rate",
+    "It measures water system revenue",
+    "It shows debt of other issuers, such as school or county districts, that the same taxpayers must also support"
+   ],
+   "answer": 3,
+   "explain": "Overlapping debt is the share of debt issued by other governments covering the same property, such as school districts or counties. Because the same taxpayers support all of it, analysts add it to the city's direct debt when measuring the burden per capita or relative to property values."
+  },
+  {
+   "id": "s7-F3-091",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "Which statement about Build America Bonds is accurate?",
+   "options": [
+    "Their interest is taxable at the federal level",
+    "Their interest is exempt from all taxes",
+    "They are issued by the U.S. Treasury",
+    "They are equity securities"
+   ],
+   "answer": 0,
+   "explain": "Build America Bonds were taxable municipal bonds issued in 2009 and 2010 under the American Recovery and Reinvestment Act, with a federal subsidy to issuers or a tax credit to holders. They are municipal securities, but their interest is federally taxable, which made them attractive to investors who do not benefit from tax exemption."
+  },
+  {
+   "id": "s7-F3-092",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "Interest on certain private activity municipal bonds is tax exempt for regular federal income tax but may be:",
+   "options": [
+    "subject to Social Security tax",
+    "a preference item for the individual alternative minimum tax",
+    "taxed as a capital gain",
+    "non-taxable under the AMT in all cases"
+   ],
+   "answer": 1,
+   "explain": "Interest on many private activity bonds, such as those financing facilities used by private businesses, is a tax preference item for the alternative minimum tax. Investors subject to AMT may owe tax on it, so these bonds often yield slightly more than comparable non-AMT municipals.",
+   "rule": "Internal Revenue Code Section 57(a)(5)"
+  },
+  {
+   "id": "s7-F3-093",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A municipal bond indenture permits the issuer to redeem bonds before maturity if the financed facility is destroyed by a natural disaster. This is:",
+   "options": [
+    "an optional call",
+    "a sinking fund call",
+    "an extraordinary (catastrophe) call",
+    "a make-whole call"
+   ],
+   "answer": 2,
+   "explain": "An extraordinary call is triggered by a specific event outside the normal call schedule, such as destruction of the facility or loss of the revenue source. Optional calls are at the issuer's choice on set dates, sinking fund calls retire bonds on a schedule, and make-whole calls pay a price based on remaining cash flows."
+  },
+  {
+   "id": "s7-F3-094",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.3",
+   "q": "The Bond Buyer 20-Bond Index is best described as:",
+   "options": [
+    "an index of 20 corporate bonds",
+    "the average price of 20 Treasury bonds",
+    "an index of 20 municipal revenue bonds",
+    "an index of yields on a group of general obligation municipal bonds maturing in about 20 years"
+   ],
+   "answer": 3,
+   "explain": "The Bond Buyer 20-Bond GO Index tracks average yields on 20 general obligation municipal bonds with roughly 20-year maturities; the 11-Bond Index uses a higher-rated subset. Revenue bonds are tracked by a separate revenue bond index. These indexes help investors follow the municipal market's yield level."
+  },
+  {
+   "id": "s7-F3-095",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "How are Ginnie Mae pass-through certificates typically paid?",
+   "options": [
+    "Monthly payments that include both interest and principal",
+    "Semiannual interest only",
+    "A single payment at maturity",
+    "Quarterly dividends"
+   ],
+   "answer": 0,
+   "explain": "Mortgage pass-throughs pass monthly mortgage payments from homeowners to investors, so each monthly check includes interest and some return of principal, including prepayments. Because principal returns over time, part of each payment is not income. Semiannual interest is typical of Treasury notes and most corporate bonds."
+  },
+  {
+   "id": "s7-F3-096",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.3",
+   "q": "A technical analyst sees a head-and-shoulders top pattern complete when the price breaks below the neckline. This is usually interpreted as:",
+   "options": [
+    "a bullish continuation signal",
+    "a sign of consolidation with no direction",
+    "a bearish reversal signal",
+    "a buy signal for long-term investors"
+   ],
+   "answer": 2,
+   "explain": "A head-and-shoulders top, three peaks with the middle highest, followed by a break below the neckline, typically signals that an uptrend is reversing downward. An inverted head-and-shoulders (at a market bottom) is the bullish reversal pattern, which is the mirror-image trap."
+  },
+  {
+   "id": "s7-F3-097",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.3",
+   "q": "A stock has fallen to about $40 several times and each time buyers stepped in and it rebounded. Technical analysts call $40 the:",
+   "options": [
+    "resistance level",
+    "support level",
+    "moving average",
+    "breakout point"
+   ],
+   "answer": 1,
+   "explain": "Support is a price level where buying demand has repeatedly stopped declines. Resistance is the opposite, a level where selling has repeatedly stopped advances. A fall below support is a bearish breakout that technicians watch closely."
+  },
+  {
+   "id": "s7-F3-098",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.3",
+   "q": "Some analysts consider a high level of short interest in a stock to be potentially bullish. Why?",
+   "options": [
+    "Short sellers must eventually buy the shares back to close their positions, creating future demand",
+    "Short sellers are usually wrong by law",
+    "Short interest reduces the number of shares outstanding",
+    "The company must buy back the shares"
+   ],
+   "answer": 0,
+   "explain": "Every short position must eventually be covered by a purchase, so heavy short interest represents built-in future buying that can push prices up, especially in a short squeeze. Short sales do not change shares outstanding, and the issuer has no duty to buy back shorted shares."
+  },
+  {
+   "id": "s7-F3-099",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.3",
+   "q": "Contrarian analysts often view an unusually high put/call ratio as:",
+   "options": [
+    "a bearish sign, since many investors expect declines",
+    "irrelevant to market analysis",
+    "a sign that options volume will fall",
+    "a bullish sign, since widespread pessimism may mean selling is near its end"
+   ],
+   "answer": 3,
+   "explain": "The put/call ratio compares put volume with call volume. Contrarians treat extreme readings as signals of crowd sentiment that is about to reverse: heavy put buying shows widespread pessimism, which they read as bullish. A non-contrarian reading would treat it as bearish, which is the trap."
+  },
+  {
+   "id": "s7-F3-100",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.3",
+   "q": "An investment adviser directs client brokerage to a broker-dealer that also provides research the adviser uses in managing accounts. Under Section 28(e) of the Exchange Act, this soft dollar arrangement is permitted if:",
+   "options": [
+    "the commissions are the lowest available",
+    "the adviser determines in good faith that the commissions are reasonable relative to the value of the brokerage and research services received",
+    "the research is used only for personal accounts",
+    "the arrangement is kept confidential from clients"
+   ],
+   "answer": 1,
+   "explain": "Section 28(e) provides a safe harbor so an adviser does not breach its duty merely by paying more than the lowest commission, if it determines in good faith that the commission is reasonable for the brokerage and research provided. Soft dollar arrangements must be disclosed to clients, not hidden.",
+   "rule": "Securities Exchange Act of 1934, Section 28(e)"
+  },
+  {
+   "id": "s7-F3-101",
+   "exam": "s7",
+   "section": "F3",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.3",
+   "q": "A fund distributes $1.00 per share designated as return of capital. How does this affect an investor in a taxable account?",
+   "options": [
+    "It is taxed as ordinary income",
+    "It is taxed as a long-term capital gain",
+    "It is generally not taxed when received but reduces the investor's cost basis",
+    "It increases the investor's cost basis"
+   ],
+   "answer": 2,
+   "explain": "A return of capital gives back part of the investor's own money, so it is generally not taxable when received; instead it lowers cost basis, which increases the gain (or reduces the loss) when the shares are sold. Once basis reaches zero, further return of capital is taxed as capital gain.",
+   "rule": "Internal Revenue Code Section 301(c)"
+  },
+  {
+   "id": "s7-F3-102",
+   "exam": "s7",
+   "section": "F3",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F3"
+    }
+   ],
+   "ref": "3.3",
+   "q": "A mutual fund's statement of additional information (SAI) is:",
+   "options": [
+    "a document available on request that provides more detail than the prospectus, such as the fund's history and policies",
+    "the same as the summary prospectus",
+    "delivered automatically with every confirmation",
+    "a sales brochure"
+   ],
+   "answer": 0,
+   "explain": "The SAI is part of the registration statement and supplements the prospectus with details such as fund history, officers and directors, and certain policies and financial statements. It must be provided on request, free of charge, but is not required to be delivered with the prospectus.",
+   "rule": "Investment Company Act of 1940"
+  },
+  {
+   "id": "s7-F3-103",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.4",
+   "q": "A customer wants to move her account from Firm A to Firm B through ACATS. Who initiates the transfer?",
+   "options": [
+    "Firm A, the delivering firm",
+    "The customer's state regulator",
+    "FINRA",
+    "Firm B, the receiving firm, after the customer signs a transfer instruction"
+   ],
+   "answer": 3,
+   "explain": "Under FINRA Rule 11870, the customer gives a signed transfer instruction to the receiving firm, which submits it through ACATS; the delivering firm must then validate and complete the transfer promptly. The delivering firm cannot hold the account hostage over unrelated disputes.",
+   "rule": "FINRA Rule 11870"
+  },
+  {
+   "id": "s7-F3-104",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.4",
+   "q": "Under Regulation FD, if a public company's CFO privately tells a group of analysts material information about next quarter's results, the company must:",
+   "options": [
+    "prevent the analysts from publishing anything",
+    "make public disclosure of the same information promptly",
+    "wait until the quarterly report is filed",
+    "notify FINRA only"
+   ],
+   "answer": 1,
+   "explain": "Regulation FD prohibits selective disclosure of material nonpublic information to market professionals or investors likely to trade on it. If an unintentional selective disclosure occurs, the issuer must promptly make the information public, for example through a press release or Form 8-K. Intentional selective disclosures require simultaneous public disclosure.",
+   "rule": "Regulation FD"
+  },
+  {
+   "id": "s7-F3-105",
+   "exam": "s7",
+   "section": "F3",
+   "ref": "3.2",
+   "q": "A Treasury note is quoted at 101.16, with the figure after the decimal in 32nds of a point. What is the dollar price of $1,000 face value?",
+   "options": [
+    "$1,015.00",
+    "$1,011.60",
+    "$1,016.00",
+    "$1,001.60"
+   ],
+   "answer": 0,
+   "explain": "Treasury notes and bonds are quoted in points and 32nds of a point, where one point is 1% of face value ($10 per $1,000). 101.16 means 101 and 16/32, or 101.5% of par, which is $1,015.00. Reading the quote as a decimal (101.16% = $1,011.60) is the trap."
+  },
+  {
+   "id": "s7-F4-001",
+   "exam": "s7",
+   "section": "F4",
+   "ref": "4.1",
+   "q": "A customer enters an order to buy 5,000 shares that must be filled completely and immediately, or else cancelled. Which order type is this?",
+   "options": [
+    "All-or-none (AON)",
+    "Immediate-or-cancel (IOC)",
+    "Fill-or-kill (FOK)",
+    "Not held"
+   ],
+   "answer": 2,
+   "explain": "A fill-or-kill order must be executed in full at once or cancelled entirely. An immediate-or-cancel order accepts a partial fill and cancels the rest, and an all-or-none order requires a complete fill but not an immediate one. These distinctions concern how much of the order may fill and how fast."
+  },
+  {
+   "id": "s7-F4-002",
+   "exam": "s7",
+   "section": "F4",
+   "ref": "4.1",
+   "q": "A customer's order to buy 1,000 shares is marked immediate-or-cancel (IOC). Only 600 shares are available at the limit price. What happens?",
+   "options": [
+    "The entire order is cancelled",
+    "600 shares are bought and the remaining 400 are cancelled",
+    "The order waits until all 1,000 can be filled",
+    "The order converts to a market order"
+   ],
+   "answer": 1,
+   "explain": "An IOC order executes whatever can be filled right away and cancels the unfilled balance. Cancelling the whole order because it cannot be fully filled is the behavior of a fill-or-kill order, which is the main trap."
+  },
+  {
+   "id": "s7-F4-003",
+   "exam": "s7",
+   "section": "F4",
+   "ref": "4.1",
+   "q": "A customer gives an order to buy 10,000 shares of a stock with a not-held instruction. What does that mean?",
+   "options": [
+    "The representative may not execute the order today",
+    "The order may be filled only in round lots",
+    "The customer may cancel after execution",
+    "The customer gives the floor broker or firm discretion over the time and price of execution, and the firm is not held responsible if a better price was available"
+   ],
+   "answer": 3,
+   "explain": "A not-held order lets the broker use judgment on timing and price, often to work a large order without moving the market; because of that discretion, the customer cannot hold the firm to a particular price that traded during the day. It does not give discretion over which security or how many shares."
+  },
+  {
+   "id": "s7-F4-004",
+   "exam": "s7",
+   "section": "F4",
+   "ref": "4.1",
+   "q": "Under Regulation SHO, before accepting a short sale order in an equity security for its own or a customer's account, a broker-dealer generally must:",
+   "options": [
+    "have reasonable grounds to believe the security can be borrowed for delivery by settlement (the locate requirement)",
+    "get FINRA approval",
+    "receive the customer's payment in full",
+    "wait for an uptick in all cases"
+   ],
+   "answer": 0,
+   "explain": "Rule 203(b) of Regulation SHO requires a locate: the firm must borrow the security, arrange to borrow it, or have reasonable grounds to believe it can be borrowed for delivery when due, and document this. Sale orders must also be marked long, short or short exempt. A price test applies only when a circuit breaker has been triggered.",
+   "rule": "Regulation SHO, Rule 203"
+  },
+  {
+   "id": "s7-F4-005",
+   "exam": "s7",
+   "section": "F4",
+   "ref": "4.1",
+   "q": "A market maker displays a quote of 20.10 bid, 20.15 offered, 500 by 500. What kind of quote is this, and what is the obligation?",
+   "options": [
+    "A nominal quote, given for information only",
+    "A subject quote that must be reconfirmed before any trade",
+    "A firm quote: the market maker must trade at least the displayed size at those prices",
+    "A workout quote for a large block"
+   ],
+   "answer": 2,
+   "explain": "A firm quote binds the market maker to buy or sell at least the displayed size at the quoted prices; refusing to honor it is backing away. Subject or nominal quotes are indications that must be confirmed before trading, and workout quotes are approximate prices for difficult trades.",
+   "rule": "FINRA Rule 5220"
+  },
+  {
+   "id": "s7-F4-006",
+   "exam": "s7",
+   "section": "F4",
+   "ref": "4.1",
+   "q": "Under FINRA Rule 5310, which factor is relevant in meeting best execution obligations for a customer order?",
+   "options": [
+    "The commission rate the representative will earn",
+    "The character of the market for the security, such as price, volatility and liquidity",
+    "Whether the customer has a margin account",
+    "The age of the customer"
+   ],
+   "answer": 1,
+   "explain": "Best execution requires reasonable diligence to find the best market so the customer's price is as favorable as possible under prevailing conditions. Factors include the character of the market, the size and type of transaction, the number of markets checked and accessibility of quotes. The representative's compensation is never a valid factor.",
+   "rule": "FINRA Rule 5310"
+  },
+  {
+   "id": "s7-F4-007",
+   "exam": "s7",
+   "section": "F4",
+   "ref": "4.4",
+   "q": "A customer buys 400 shares at $50 in a margin account, depositing the Regulation T requirement. The stock rises to $60. What is the account's buying power?",
+   "options": [
+    "$2,000",
+    "$4,000",
+    "$12,000",
+    "$14,000"
+   ],
+   "answer": 1,
+   "explain": "Debit = $20,000 minus $10,000 deposit = $10,000. At $60, market value is $24,000 and equity is $14,000. Reg T requirement is 50% of $24,000 = $12,000, so excess equity (credited to SMA) is $2,000. Buying power is twice the SMA at 50% margin: $4,000. The $2,000 trap stops at the SMA balance.",
+   "rule": "Regulation T"
+  },
+  {
+   "id": "s7-F4-008",
+   "exam": "s7",
+   "section": "F4",
+   "ref": "4.4",
+   "q": "A customer has a long margin account with a debit balance of $15,000. Using FINRA's 25% maintenance requirement, at what market value would the account receive a maintenance call?",
+   "options": [
+    "Below $18,750",
+    "Below $15,000",
+    "Below $30,000",
+    "Below $20,000"
+   ],
+   "answer": 3,
+   "explain": "Equity must be at least 25% of market value, so the debit can be at most 75% of it: market value = $15,000 / 0.75 = $20,000. At $20,000, equity is $5,000, exactly 25%. Below that, a maintenance call is issued. The $18,750 trap multiplies the debit by 1.25 instead of dividing by 0.75.",
+   "rule": "FINRA Rule 4210(c)"
+  },
+  {
+   "id": "s7-F4-009",
+   "exam": "s7",
+   "section": "F4",
+   "ref": "4.4",
+   "q": "A long margin account has a market value of $16,000 and a debit balance of $10,000. Which describes the account?",
+   "options": [
+    "It is restricted: equity is below the 50% Reg T level but above the 25% maintenance level, so no maintenance call is due",
+    "It has a maintenance call for $2,000",
+    "It has excess equity of $8,000",
+    "It must be liquidated immediately"
+   ],
+   "answer": 0,
+   "explain": "Equity is $16,000 minus $10,000 = $6,000, or 37.5% of market value. That is below the 50% Regulation T level, so the account is restricted, but above the 25% maintenance minimum of $4,000, so there is no maintenance call. Restricted accounts are not in violation; they simply have no excess equity.",
+   "rule": "Regulation T; FINRA Rule 4210"
+  },
+  {
+   "id": "s7-F4-010",
+   "exam": "s7",
+   "section": "F4",
+   "ref": "4.4",
+   "q": "A customer sells short 200 shares at $50 in a new margin account, depositing the 50% Regulation T requirement. The stock rises to $60. Using FINRA's 30% maintenance requirement for short stock at $5 or more, what maintenance call results?",
+   "options": [
+    "No call",
+    "$3,000",
+    "$600",
+    "$3,600"
+   ],
+   "answer": 2,
+   "explain": "Credit balance = $10,000 sale proceeds + $5,000 deposit = $15,000. At $60, the short market value is $12,000, so equity = $15,000 minus $12,000 = $3,000. Requirement = 30% x $12,000 = $3,600, so the call is $600. The $3,600 trap confuses the requirement with the amount of the call.",
+   "rule": "FINRA Rule 4210(c)(3)"
+  },
+  {
+   "id": "s7-F4-011",
+   "exam": "s7",
+   "section": "F4",
+   "ref": "4.4",
+   "q": "A new customer opens a margin account and buys $3,000 of marginable stock. How much must the customer deposit?",
+   "options": [
+    "$1,500",
+    "$750",
+    "$3,000",
+    "$2,000"
+   ],
+   "answer": 3,
+   "explain": "Regulation T alone would require $1,500, but FINRA Rule 4210 requires minimum equity of $2,000 in a margin account, except that the customer never has to deposit more than the cost of the purchase. Here $2,000 is required. If the purchase cost $1,500, the deposit would be only $1,500.",
+   "rule": "FINRA Rule 4210(b)"
+  },
+  {
+   "id": "s7-F4-012",
+   "exam": "s7",
+   "section": "F4",
+   "ref": "4.4",
+   "q": "Under Regulation T, the payment period for a regular-way purchase is defined as the number of business days in the standard settlement cycle plus two. With T+1 settlement, by when must a customer pay for a Monday purchase, assuming no holidays?",
+   "options": [
+    "Thursday",
+    "Tuesday",
+    "Wednesday",
+    "The following Monday"
+   ],
+   "answer": 0,
+   "explain": "Regulation T's payment period equals the standard settlement cycle (one business day) plus two business days, three business days in all: a Monday trade must be paid for by Thursday. Settlement itself happens Tuesday, which is the trap; the firm may request an extension from its examining authority in exceptional cases.",
+   "rule": "Regulation T (12 CFR 220.2)"
+  },
+  {
+   "id": "s7-F4-013",
+   "exam": "s7",
+   "section": "F4",
+   "ref": "4.4",
+   "q": "Which event increases the balance of a customer's special memorandum account (SMA)?",
+   "options": [
+    "A decline in the market value of long securities",
+    "Withdrawing cash from the account",
+    "Receiving a cash dividend on securities in the account",
+    "Buying additional stock with buying power"
+   ],
+   "answer": 2,
+   "explain": "SMA is a line of credit that rises with excess equity created by price increases, cash deposits, sales of securities (50% of proceeds) and receipt of dividends or interest. Once credited, SMA does not fall because the market declines. Withdrawing cash or buying stock uses SMA.",
+   "rule": "Regulation T, 12 CFR 220.5"
+  },
+  {
+   "id": "s7-F4-014",
+   "exam": "s7",
+   "section": "F4",
+   "ref": "4.2",
+   "q": "Where are secondary-market trades in corporate bonds reported to provide price transparency?",
+   "options": [
+    "TRACE (Trade Reporting and Compliance Engine)",
+    "The MSRB's RTRS",
+    "EDGAR",
+    "The Consolidated Tape for listed equities only"
+   ],
+   "answer": 0,
+   "explain": "FINRA's TRACE collects and disseminates transaction data for eligible fixed income securities, including corporate bonds and agency debt. Municipal trades are reported to the MSRB's Real-Time Transaction Reporting System and published on EMMA. EDGAR is the SEC's filing system for issuer documents.",
+   "rule": "FINRA Rule 6700 Series"
+  },
+  {
+   "id": "s7-F4-015",
+   "exam": "s7",
+   "section": "F4",
+   "ref": "4.2",
+   "q": "Where can investors find official statements, continuing disclosures and trade prices for municipal securities?",
+   "options": [
+    "TRACE",
+    "EMMA (Electronic Municipal Market Access), run by the MSRB",
+    "BrokerCheck",
+    "FINRA's Central Registration Depository"
+   ],
+   "answer": 1,
+   "explain": "EMMA is the MSRB's free public website for municipal disclosure documents, such as official statements and continuing disclosure filings under Rule 15c2-12, and trade data reported through RTRS. TRACE covers corporate and agency bonds, and BrokerCheck covers firms and representatives.",
+   "rule": "SEC Rule 15c2-12"
+  },
+  {
+   "id": "s7-F4-016",
+   "exam": "s7",
+   "section": "F4",
+   "ref": "4.2",
+   "q": "A firm receives a comparison for a trade it has no record of making. What does it send to the contra party?",
+   "options": [
+    "A due bill",
+    "A cancel and rebill",
+    "A reclamation notice",
+    "A DK (don't know) notice"
+   ],
+   "answer": 3,
+   "explain": "A DK notice tells the other firm that the trade is not recognized or its terms do not match, so the discrepancy can be resolved before settlement. A due bill passes along a distribution owed to the buyer, and reclamation is the return of a delivered security later found to be bad delivery.",
+   "rule": "FINRA Rule 11210"
+  },
+  {
+   "id": "s7-F4-017",
+   "exam": "s7",
+   "section": "F4",
+   "ref": "4.2",
+   "q": "A buyer purchases stock before the ex-dividend date, but the seller delivers the shares late, after the record date, so the dividend goes to the seller. What does the buyer's firm receive to claim the dividend?",
+   "options": [
+    "A stock power",
+    "A due bill",
+    "A proxy",
+    "A DK notice"
+   ],
+   "answer": 1,
+   "explain": "A due bill is an IOU that accompanies late delivery and entitles the buyer to the dividend or other distribution the buyer earned by trading before the ex-date. A stock power is an assignment form used to transfer certificates, and a proxy is a voting authorization.",
+   "rule": "FINRA Rule 11140"
+  },
+  {
+   "id": "s7-F4-018",
+   "exam": "s7",
+   "section": "F4",
+   "ref": "4.2",
+   "q": "A certificate registered in the name of a deceased individual is delivered to settle a sale. Is this good delivery?",
+   "options": [
+    "Yes, any registered certificate is good delivery",
+    "Yes, if the buyer agrees to accept it",
+    "No, it must first be transferred into the name of the estate's legal representative or a new owner, with the required documents",
+    "No, deceased owners' securities cannot be sold"
+   ],
+   "answer": 2,
+   "explain": "Certificates in a decedent's name are not good delivery; the executor or administrator must provide documents such as letters testamentary and an affidavit of domicile, and the shares are reregistered before they can be delivered. The estate can sell them once the paperwork is complete.",
+   "rule": "FINRA Rule 11200 Series"
+  },
+  {
+   "id": "s7-F4-019",
+   "exam": "s7",
+   "section": "F4",
+   "ref": "4.3",
+   "q": "A representative enters a buy order in the wrong customer's account. How should the error be handled?",
+   "options": [
+    "The trade should be cancelled from the wrong account and rebilled to the correct account, with principal approval and documentation",
+    "The customer whose account was used should keep the shares",
+    "The representative should ask the customer to accept the trade to avoid paperwork",
+    "No action is needed if the trade was profitable"
+   ],
+   "answer": 0,
+   "explain": "Trade errors are corrected through a cancel and rebill, approved by a principal and documented, and any loss is absorbed by the firm rather than the customer. Leaving the trade in the wrong account or persuading a customer to accept it would be unauthorized trading.",
+   "rule": "FINRA Rule 2010"
+  },
+  {
+   "id": "s7-F4-020",
+   "exam": "s7",
+   "section": "F4",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F4"
+    }
+   ],
+   "ref": "4.3",
+   "q": "A customer files a FINRA arbitration claim seeking $30,000 in damages. How will the case generally be handled?",
+   "options": [
+    "By a three-arbitrator panel after a mandatory hearing",
+    "In federal court",
+    "By simplified arbitration: a single public arbitrator decides on the written submissions unless the customer requests a hearing",
+    "By the SEC"
+   ],
+   "answer": 2,
+   "explain": "FINRA Rule 12800 provides simplified arbitration for customer claims of $50,000 or less, excluding interest and expenses: a single public arbitrator decides based on the pleadings and documents, unless the customer asks for a hearing. Larger claims generally go to three-arbitrator panels.",
+   "rule": "FINRA Rule 12800"
+  },
+  {
+   "id": "s7-F4-021",
+   "exam": "s7",
+   "section": "F4",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F4"
+    }
+   ],
+   "ref": "4.3",
+   "q": "Under the FINRA Code of Arbitration Procedure for Customer Disputes, a claim is not eligible for arbitration if how much time has passed since the occurrence or event giving rise to it?",
+   "options": [
+    "Two years",
+    "Six years",
+    "Ten years",
+    "There is no limit"
+   ],
+   "answer": 1,
+   "explain": "FINRA Rule 12206 makes claims ineligible for arbitration where six years have elapsed from the occurrence or event giving rise to the claim; the panel decides eligibility. This eligibility rule does not extend any state statute of limitations, which may be shorter.",
+   "rule": "FINRA Rule 12206"
+  },
+  {
+   "id": "s7-F4-022",
+   "exam": "s7",
+   "section": "F4",
+   "also": [
+    {
+     "exam": "s6",
+     "section": "F4"
+    }
+   ],
+   "ref": "4.3",
+   "q": "How does FINRA mediation differ from FINRA arbitration?",
+   "options": [
+    "Mediation produces a binding award that can be appealed only on narrow grounds",
+    "Mediation is mandatory before any arbitration",
+    "Mediation is handled by the SEC",
+    "Mediation is voluntary and non-binding: a mediator helps the parties negotiate a settlement but cannot impose a decision"
+   ],
+   "answer": 3,
+   "explain": "In mediation, a neutral mediator facilitates negotiation, and the result binds the parties only if they sign a settlement. Arbitration ends with an award that is final and binding, with very limited grounds for court challenge. Parties may try mediation at any time, but it is not a required first step.",
+   "rule": "FINRA Rule 14000 Series"
+  }
+ ]
+}

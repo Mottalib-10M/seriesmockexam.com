@@ -1,0 +1,50 @@
+# Figures used in sie.json, s7.json, s6.json, each checked on an official source on 2026-10-26
+# <figure> | <what it is> | <official URL verified> | <question ids>
+$500,000 total, $250,000 cash | SIPC protection limit per customer per separate capacity | https://www.sipc.org/for-investors/what-sipc-protects | sie-1-006
+more than $10,000 | Currency Transaction Report threshold (currency, per business day) | https://www.ecfr.gov/current/title-31/section-1010.311 | sie-3-031, sie-3-032
+$5,000 | broker-dealer SAR reporting threshold | https://www.ecfr.gov/current/title-31/section-1023.320 | sie-3-033
+30 calendar days (60 days max if no suspect) | SAR filing deadline after initial detection | https://www.ecfr.gov/current/title-31/section-1023.320 | sie-3-033
+five years | SAR and supporting documentation retention | https://www.ecfr.gov/current/title-31/section-1023.320 | sie-3-033
+50% | Regulation T initial margin, margin equity securities (150% for short sales) | https://www.ecfr.gov/current/title-12/section-220.12 | sie-3-018, s7-F4-007, s7-F4-009, s7-F4-010
+settlement cycle + 2 business days | Regulation T payment period | https://www.ecfr.gov/current/title-12/section-220.2 | s7-F4-012
+90 calendar days | Regulation T freeze after freeriding in a cash account | https://www.ecfr.gov/current/title-12/section-220.8 | sie-3-050
+25% | FINRA maintenance margin on long margin securities | https://www.finra.org/rules-guidance/rulebooks/finra-rules/4210 | sie-3-018, s7-F4-008, s7-F4-009
+30% or $5 per share (stocks at $5 or more) | FINRA maintenance margin on short stock | https://www.finra.org/rules-guidance/rulebooks/finra-rules/4210 | s7-F4-010
+$2,000 | FINRA minimum equity in a margin account (no more than cost of purchase) | https://www.finra.org/rules-guidance/rulebooks/finra-rules/4210 | s7-F4-011
+T+1 (compliance date May 28, 2024) | standard settlement cycle; ex-date = record date | https://www.ecfr.gov/current/title-17/section-240.15c6-1 ; https://www.sec.gov/newsroom/press-releases/2023-29 | sie-3-009, sie-3-016, s7-F4-012
+$200,000 / $300,000 income; $1,000,000 net worth excluding primary residence | accredited investor tests for natural persons | https://www.ecfr.gov/current/title-17/section-230.501 | sie-1-015
+35 purchasers in 90 days | Rule 506(b) limit on non-accredited purchasers | https://www.ecfr.gov/current/title-17/section-230.506 | sie-1-035
+six months / one year; 90 days reporting history | Rule 144 holding periods | https://www.ecfr.gov/current/title-17/section-230.144 | sie-2-009
+1% of outstanding or average weekly volume over 4 calendar weeks, per 3 months | Rule 144 affiliate volume limit | https://www.ecfr.gov/current/title-17/section-230.144 | sie-2-008
+$100 million | Rule 144A qualified institutional buyer threshold | https://www.ecfr.gov/current/title-17/section-230.144A | sie-1-036
+20 business days | minimum period a tender offer stays open (Rule 14e-1) | https://www.ecfr.gov/current/title-17/section-240.14e-1 | sie-3-014
+three times profit gained or loss avoided | insider trading civil penalty, Exchange Act Section 21A | https://www.govinfo.gov/content/pkg/USCODE-2023-title15/html/USCODE-2023-title15-chap2B-sec78u-1.htm | sie-3-052
+six years (first two easily accessible); three years | SEC Rule 17a-4 retention | https://www.ecfr.gov/current/title-17/section-240.17a-4 | sie-3-036
+four years | FINRA Rule 4513 written complaint records | https://www.finra.org/rules-guidance/rulebooks/finra-rules/4513 | sie-4-009, sie-3-036
+once every calendar quarter | FINRA Rule 2231 account statements | https://www.finra.org/rules-guidance/rulebooks/finra-rules/2231 | sie-3-038, sie-3-037
+three consecutive months | FINRA Rule 3150 mail hold without special reason | https://www.finra.org/rules-guidance/rulebooks/finra-rules/3150 | sie-3-039
+8 a.m. / 9 p.m. called party local time | FINRA Rule 3230 telemarketing time limits | https://www.finra.org/rules-guidance/rulebooks/finra-rules/3230 | sie-3-043
+25 retail investors within 30 calendar days | FINRA Rule 2210 correspondence vs retail communication | https://www.finra.org/rules-guidance/rulebooks/finra-rules/2210 | sie-3-042
+0.25% of average net assets | FINRA Rule 2341 cap on asset-based charges for a no-load label | https://www.finra.org/rules-guidance/rulebooks/finra-rules/2341 | sie-2-047
+age 65; age 18 with impairment | FINRA Rule 2165 specified adult | https://www.finra.org/rules-guidance/rulebooks/finra-rules/2165 | sie-3-056
+15 days after approval; ODD at or before approval | FINRA Rule 2360 options agreement and ODD delivery | https://www.finra.org/rules-guidance/rulebooks/finra-rules/2360 | sie-2-036, s7-F2-001
+100 shares | standard equity option contract size | https://www.finra.org/rules-guidance/rulebooks/finra-rules/2360 ; https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-63 | sie-2-034, s7-F3-045 to s7-F3-065
+30 days | Form U4 amendment and Form U5 filing deadlines | https://www.finra.org/registration-exams-ce/individuals | sie-4-006, sie-4-007
+30 calendar days; 15th day of month after quarter | FINRA Rule 4530 event reporting and quarterly complaint statistics | https://www.finra.org/rules-guidance/rulebooks/finra-rules/4530 | sie-4-017
+$250 per election; two years | MSRB Rule G-37 de minimis contribution and business ban | https://www.msrb.org/Rules-and-Interpretations/MSRB-Rules/General/Rule-G-37 | sie-4-013, sie-4-014
+$50,000 | FINRA Rule 12800 simplified arbitration | https://www.finra.org/rules-guidance/rulebooks/finra-rules/12800 | s7-F4-020
+six years | FINRA Rule 12206 arbitration eligibility | https://www.finra.org/rules-guidance/rulebooks/finra-rules/12206 | s7-F4-021
+ten years | felony look-back for statutory disqualification | https://www.govinfo.gov/content/pkg/USCODE-2023-title15/html/USCODE-2023-title15-chap2B-sec78o.htm | sie-4-002
+59½ and 10% additional tax | early distribution tax on IRAs, plans and annuities | https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-tax-on-early-distributions | sie-2-050, sie-3-027, s7-F2-007, s7-F2-013, s6-F2-001
+age 55 separation from service | exception to 10% tax for qualified plans (not IRAs) | https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-tax-on-early-distributions | s7-F2-007
+60 days; 20% mandatory withholding | indirect rollover deadline and plan withholding | https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions | sie-3-028
+5-year period; no RMDs for living Roth owner | Roth IRA qualified distribution and RMD rules | https://www.irs.gov/publications/p590b | sie-3-026
+10% additional tax on taxable earnings | 529 non-qualified withdrawals | https://www.irs.gov/publications/p970 | sie-2-053
+more than one year; $3,000 ($1,500 MFS) | long-term holding period and capital loss deduction limit | https://www.irs.gov/taxtopics/tc409 | s7-F3-020, s7-F3-018
+30 days before or after | wash sale window | https://www.irs.gov/publications/p550 | s7-F3-019
+inherited property long-term regardless of holding | holding period of inherited property | https://www.irs.gov/publications/p550 | s7-F3-018
+seven days | Investment Company Act Section 22(e) redemption payment limit | https://www.govinfo.gov/content/pkg/USCODE-2023-title15/html/USCODE-2023-title15-chap2D-subchapI-sec80a-22.htm | s6-F3-005
+90% | REIT distribution requirement (IRC 857) | https://www.govinfo.gov/content/pkg/USCODE-2023-title26/html/USCODE-2023-title26-subtitleA-chap1-subchapM-partII-sec857.htm | sie-2-062
+90% | regulated investment company distribution requirement (IRC 852) | https://www.govinfo.gov/content/pkg/USCODE-2023-title26/html/USCODE-2023-title26-subtitleA-chap1-subchapM-partI-sec852.htm | s7-F3-032
+typically 13 months | letter of intent period (fund-specific, per prospectus) | https://www.finra.org/rules-guidance/guidance/faqs/breakpoints-frequently-asked-questions | sie-2-045
+4 to 52 weeks; notes 2 to 10 years; semiannual interest | Treasury bill and note terms | https://www.treasurydirect.gov/marketable-securities/ | sie-2-014
