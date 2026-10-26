@@ -1,6 +1,6 @@
 /** Configuration centrale du site (générée par new-site.py). */
-export const SITE_URL = "https://us-finra-exams.example";
-export const SITE_NAMES: Record<string, string> = {"en": "US FINRA Exams"};
+export const SITE_URL = "https://seriesmockexam.com";
+export const SITE_NAMES: Record<string, string> = {"en": "Series Mock Exam"};
 // Partie du nom affichée en couleur dans l'en-tête (RECETTE §10.3), « » pour aucune.
 export const BRAND_ACCENT = "";
 export const LANG_TAGS: Record<string, string> = {"en": "en-US"};
@@ -18,7 +18,7 @@ export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners reads 
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
 export const KNOWS_ABOUT: Record<string, string[]> = {"en": ["Securities Industry Essentials (SIE) exam content outline", "Series 7 General Securities Representative exam", "Series 6 Investment Company and Variable Contracts Products exam", "NASAA Series 63, 65 and 66 exams", "FINRA Rule 1210 registration and retake waiting periods", "FINRA Rule 1240 continuing education and maintaining qualifications", "Securities exam math: bond yields, options, margin and mutual fund pricing"]};
-export const CONTACT_EMAIL = "contact@us-finra-exams.example";
+export const CONTACT_EMAIL = "contact@seriesmockexam.com";
 export const THEME_COLOR = '#1D4E89';
 export const LOGO_SYMBOL = 'S7';
 export const BING_VERIFY_CODE = '';

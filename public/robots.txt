@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /*?*
 
-Sitemap: https://us-finra-exams.example/sitemap-index.xml
+Sitemap: https://seriesmockexam.com/sitemap-index.xml

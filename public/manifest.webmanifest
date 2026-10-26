@@ -1,6 +1,6 @@
 {
- "name": "US FINRA Exams",
- "short_name": "US FINRA Exams",
+ "name": "Series Mock Exam",
+ "short_name": "Series Mock Exam",
  "description": "Free SIE, Series 6, 7, 63, 65 and 66 practice: questions mapped to each official outline section, timed mock exams in the real format, error review, fees and retake rules.",
  "start_url": "/en/",
  "display": "standalone",
